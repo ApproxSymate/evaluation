@@ -1,0 +1,13 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/LUScimark/lu.c
+Line: 214
+assembly.ll line: 238
+Stack: 
+	#000000238 in LU_factor (M=2, N=2, A=46552864, pivot=46552144) at /home/himeshi/Projects/workspace/LUScimark/lu.c:214
+	#100000074 in main (argc=1, argv=46485136) at /home/himeshi/Projects/workspace/LUScimark/lu.c:150
+Info: 
+	address: 12370169555311111083
+	next: object at 140522037609696 of size 1536
+		MO90[1536] (no allocation info)
+	prev: object at 47433856 of size 4
+		MO151[4] allocated at LU_factor():  %jj = alloca i32, align 4

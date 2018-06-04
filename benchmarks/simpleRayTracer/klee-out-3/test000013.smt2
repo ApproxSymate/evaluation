@@ -1,0 +1,8 @@
+(set-logic QF_AUFBV )
+(declare-fun arg0 () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(declare-fun arg1 () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(declare-fun arg3 () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(declare-fun scaling () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(assert (let ( (?B1 (select  scaling (_ bv0 32) ) ) (?B2 (concat  (select  arg0 (_ bv3 32) ) (concat  (select  arg0 (_ bv2 32) ) (concat  (select  arg0 (_ bv1 32) ) (select  arg0 (_ bv0 32) ) ) ) ) ) (?B3 (bvsub  (_ bv4294967295 32) (concat  (select  arg3 (_ bv3 32) ) (concat  (select  arg3 (_ bv2 32) ) (concat  (select  arg3 (_ bv1 32) ) (select  arg3 (_ bv0 32) ) ) ) ) ) ) ) (let ( (?B4 ((_ sign_extend 24)  ?B1 ) ) ) (let ( (?B5 (bvsdiv  ?B4 (_ bv3 32) ) ) ) (and  (and  (and  (and  (and  (and  (=  false (=  (_ bv0 8) ?B1 ) ) (=  false (bvsle  (bvmul  ?B3 ?B5 ) (_ bv0 32) ) ) ) (bvsle  (_ bv0 32) (bvsdiv  ?B3 ?B5 ) ) ) (=  false (=  (_ bv0 32) (concat  (select  arg1 (_ bv3 32) ) (concat  (select  arg1 (_ bv2 32) ) (concat  (select  arg1 (_ bv1 32) ) (select  arg1 (_ bv0 32) ) ) ) ) ) ) ) (=  false (=  (_ bv1 32) ?B2 ) ) ) (=  false (=  (_ bv2 32) ?B2 ) ) ) (=  false (bvsle  (bvmul  ?B3 (bvsdiv  ?B4 (_ bv2 32) ) ) (_ bv0 32) ) ) ) ) ) ) )
+(check-sat)
+(exit)

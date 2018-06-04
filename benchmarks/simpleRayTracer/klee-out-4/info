@@ -1,0 +1,21 @@
+/home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --scaling --max-depth=6 plane.bc
+PID: 30441
+Started: 2018-03-21 08:48:44
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-03-21 08:48:46
+Elapsed: 00:00:02
+KLEE: done: explored paths = 22
+KLEE: done: avg. constructs per query = 28
+KLEE: done: total queries = 19
+KLEE: done: valid queries = 6
+KLEE: done: invalid queries = 13
+KLEE: done: query cex = 19
+
+KLEE: done: total instructions = 5037
+KLEE: done: completed paths = 22
+KLEE: done: generated tests = 22

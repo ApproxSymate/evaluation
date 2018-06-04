@@ -1,0 +1,27 @@
+!128 Line 59 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), under_curve, 51650320
+0
+
+!129 Line 65 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), Num_samples, 51652032
+0
+
+!134 Line 73 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), count, 51650288
+0
+
+!136 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 15, 51651056
+x_err
+
+!136 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 19, 51651056
+x_err
+
+!136 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 24, 51651632
+y_err
+
+!136 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 28, 51651632
+y_err
+
+!139 Line 76 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), under_curve, 51650320
+0
+
+!140 Line 80 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), result, 51650496
+0
+

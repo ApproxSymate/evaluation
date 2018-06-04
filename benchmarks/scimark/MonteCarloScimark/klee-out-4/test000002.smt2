@@ -1,0 +1,6 @@
+(set-logic QF_AUFBV )
+(declare-fun __arr32__x () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(declare-fun __arr32__y () (Array (_ BitVec 32) (_ BitVec 8) ) )
+(assert (let ( (?B1 (concat  (select  __arr32__y (_ bv3 32) ) (concat  (select  __arr32__y (_ bv2 32) ) (concat  (select  __arr32__y (_ bv1 32) ) (select  __arr32__y (_ bv0 32) ) ) ) ) ) (?B2 (concat  (select  __arr32__x (_ bv3 32) ) (concat  (select  __arr32__x (_ bv2 32) ) (concat  (select  __arr32__x (_ bv1 32) ) (select  __arr32__x (_ bv0 32) ) ) ) ) ) ) (bvsle  (bvadd  (bvmul  ?B2 ?B2 ) (bvmul  ?B1 ?B1 ) ) (_ bv1 32) ) ) )
+(check-sat)
+(exit)

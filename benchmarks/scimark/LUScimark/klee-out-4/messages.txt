@@ -1,0 +1,4 @@
+KLEE: Using Z3 solver backend
+KLEE: ERROR: /home/himeshi/Projects/workspace/LUScimark/lu.c:214: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: halting execution, dumping remaining states

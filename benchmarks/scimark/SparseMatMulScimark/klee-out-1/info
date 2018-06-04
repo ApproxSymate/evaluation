@@ -1,0 +1,20 @@
+/home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision sparsematmul.bc
+PID: 32388
+Started: 2018-03-14 19:04:03
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-03-14 19:04:04
+Elapsed: 00:00:01
+KLEE: done: explored paths = 1
+KLEE: done: total queries = 0
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 0
+KLEE: done: query cex = 0
+
+KLEE: done: total instructions = 3092
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

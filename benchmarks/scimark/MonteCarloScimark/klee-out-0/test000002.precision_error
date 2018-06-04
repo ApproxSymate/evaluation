@@ -1,0 +1,22 @@
+Line 76 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main): 
+Path conditions with error: ((((x * x) + (y * y)) * (1 - (((((x_error + x_error) - (x_error * x_error)) * (x * x)) + (((y_error + y_error) - (y_error * y_error)) * (y * y))) / ((x * x) + (y * y))))) <= 1)
+Output Error of under_curve : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 77 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main): 
+Path conditions with error: ((((x * x) + (y * y)) * (1 - (((((x_error + x_error) - (x_error * x_error)) * (x * x)) + (((y_error + y_error) - (y_error * y_error)) * (y * y))) / ((x * x) + (y * y))))) <= 1)
+Output Error of x : x_error
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 78 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main): 
+Path conditions with error: ((((x * x) + (y * y)) * (1 - (((((x_error + x_error) - (x_error * x_error)) * (x * x)) + (((y_error + y_error) - (y_error * y_error)) * (y * y))) / ((x * x) + (y * y))))) <= 1)
+Output Error of y : y_error
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 79 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main): 
+Path conditions with error: ((((x * x) + (y * y)) * (1 - (((((x_error + x_error) - (x_error * x_error)) * (x * x)) + (((y_error + y_error) - (y_error * y_error)) * (y * y))) / ((x * x) + (y * y))))) <= 1)
+Output Error of result : 0
+Absolute Bound: 1.000000e+00

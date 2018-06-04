@@ -1,0 +1,69 @@
+!140 Line 133 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), N, 33611856
+0
+
+!140 Line 157 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), minMN, 34503040
+0
+
+!141 Line 134 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 4, 33612512
+0
+
+!141 Line 158 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 34421376
+0
+
+!142 Line 168 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 34421376
+0
+
+!142 Line 261 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 34495072
+lu_err
+
+!142 Line 261 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 34495584
+lu_err
+
+!144 Line 140 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 14, 33613088
+lu_err
+
+!144 Line 171 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), jp, 34421872
+0
+
+!145 Line 141 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 20, 33613092
+lu_err
+
+!146 Line 143 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 26, 33613096
+lu_err
+
+!146 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 24, 33613088
+lu_err
+
+!146 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), t, 34390848
+lu_err
+
+!147 Line 144 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 32, 33613100
+lu_err
+
+!147 Line 175 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), i, 34328672
+0
+
+!149 Line 176 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 40, 33613096
+lu_err
+
+!149 Line 176 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), ab, 33966624
+lu_err
+
+!153 Line 178 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), jp, 34421872
+0
+
+!155 Line 179 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), t, 34390848
+lu_err
+
+!157 Line 183 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 57, 33612368
+0
+
+!158 Line 188 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 64, 33613096
+lu_err
+
+!163 Line 213 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), count, 34329216
+0
+
+!166 Line 214 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 83, 33613088
+lu_err
+

@@ -1,0 +1,28 @@
+Line 247 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal): 
+Output Error of direction : 0
+Output Value of direction : 18446744073709551615
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 247 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal): 
+Output Error of direction : 0
+Output Value of direction : 18446744073709551615
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 247 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal): 
+Output Error of direction : 0
+Output Value of direction : 1
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 247 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal): 
+Output Error of direction : 0
+Output Value of direction : 1
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 359 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse): 
+Output Error of N : 0
+Output Value of N : 8
+Absolute Bound: 1.000000e+00
