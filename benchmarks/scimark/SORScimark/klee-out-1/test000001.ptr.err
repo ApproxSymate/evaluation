@@ -1,0 +1,14 @@
+Error: memory error: out of bound pointer
+File: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memcpy.c
+Line: 29
+assembly.ll line: 833
+Stack: 
+	#000000833 in memcpy (s1=1053859584, s2=50405584, n=16) at /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memcpy.c:29
+	#100000383 in __uClibc_main (main=50254592, argc=1, argv=50405568, app_init=0, app_fini=0, rtld_fini=0, stack_end=0) at /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:314
+	#200001194 in main (=1, =50405568)
+Info: 
+	address: 1053859584
+	next: object at 22892475098336 of size 1536
+		MO77[1536] (no allocation info)
+	prev: object at 73799360 of size 80
+		MO107[80] allocated at global:.str36
