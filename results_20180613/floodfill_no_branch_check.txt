@@ -1,0 +1,51 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/floodfill.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/klee-out-5/
+
+Selected path #:1890
+
+Input variables
+================================
+image
+targetColor
+
+Input with error
+================================
+image
+targetColor
+
+Input values
+================================
+targetColor = 0.000000
+image[0] = -2147483647.000000
+image[1] = 0.000000
+image[2] = 0.000000
+image[3] = 0.000000
+targetColor = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+image (input)
+targetColor (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+HEIGHT (__uClibc_init) (Error path not satisifed)
+y, (__uClibc_main) (Error path not satisifed)
+height (__uClibc_main) (Error path not satisifed)
+*xstack (memcpy) (Error path not satisifed)
+ (memcpy) (Error path not satisifed)
+MAX_STACK_SIZE (memset) (Error path not satisifed)
+*ystack (__uClibc_init) (Error path not satisifed)
+x (__uClibc_main) (Error path not satisifed)
+x, (__uClibc_main) (Error path not satisifed)
+stackSize (__uClibc_main) (Error path not satisifed)
+xstack, (__uClibc_main) (Error path not satisifed)
+ystack (__uClibc_main) (Error path not satisifed)
+fill(int (__uClibc_main) (Error path not satisifed)
+
+Approximability of input variables
+================================
+image : 0%
+targetColor : 0%

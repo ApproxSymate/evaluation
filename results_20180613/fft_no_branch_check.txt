@@ -1,0 +1,56 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/fft.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/klee-out-2/
+
+Selected path #:394
+
+Input variables
+================================
+x
+
+Input with error
+================================
+x
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+x[10] = 0.215104
+x[11] = 0.199715
+x[12] = 0.607476
+x[13] = 0.164032
+x[14] = 0.527088
+x[15] = 0.658019
+PI = 3.141600
+M_TAU = 6.283100
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+x (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+( (__uClibc_main) (Error path not satisifed)
+ (__uClibc_main) (Error path not satisifed)
+PI (memcpy) (Error path not satisifed)
+temp (__uClibc_main) (Error path not satisifed)
+ (memcpy) (Error path not satisifed)
+ (__uClibc_init) (Error path not satisifed)
+ (memset) (Error path not satisifed)
+n (__uClibc_main) (Error path not satisifed)
+} (__uClibc_main) (Error path not satisifed)
+int_log2(int (__uClibc_init) (Error path not satisifed)
+
+Approximability of input variables
+================================
+x : 0%

@@ -1,0 +1,50 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/plane.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/klee-out-6/
+
+Selected path #:4641
+
+Input variables
+================================
+arg0
+arg1
+arg2
+arg3
+
+Input with error
+================================
+arg0
+arg1
+arg2
+arg3
+
+Input values
+================================
+arg0 = 2.000000
+arg1 = 1.000000
+arg2 = 30.000000
+arg3 = 10.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+arg0 (input)
+arg1 (input)
+arg2 (input)
+arg3 (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+v (__uClibc_main) (Error path not satisifed)
+col (__uClibc_main) (Error path not satisifed)
+ (memcpy) (Error path not satisifed)
+<stdio.h> (memcpy) (Error path not satisifed)
+ (__uClibc_main) (Error path not satisifed)
+SYMBOLIC (memset) (Error path not satisifed)
+
+Approximability of input variables
+================================
+arg0 : 0%
+arg1 : 0%
+arg2 : 0%
+arg3 : 0%

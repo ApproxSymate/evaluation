@@ -1,0 +1,129 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/plane.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/klee-out-3/
+
+Selected path #:22
+
+Input variables
+================================
+arg0
+arg1
+arg2
+arg3
+
+Input with error
+================================
+arg0
+arg1
+arg2
+arg3
+
+Input values
+================================
+arg0 = 1.000000
+arg1 = 16843009.000000
+arg2 = 0.000000
+arg3 = -2147483647.000000
+arg0 = 2.000000
+arg1 = 1.000000
+arg2 = 30.000000
+arg3 = 10.000000
+
+Input values do not satisfy path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+arg0 (input)
+arg1 (input)
+arg2 (input)
+arg3 (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+ye (init) (Error path not satisifed)
+ze (init) (Error path not satisifed)
+xe (init): (Error path not satisifed)
+lx (init): (Error path not satisifed)
+sng (init): (Error path not satisifed)
+light (init) (Error path not satisifed)
+pixels[0] (init): (Error path not satisifed)
+nx (init): (Error path not satisifed)
+nx (init) (Error path not satisifed)
+ix (init) (Error path not satisifed)
+w (init) (Error path not satisifed)
+yd (init) (Error path not satisifed)
+col (texture1) (Error path not satisifed)
+zd (init): (Error path not satisifed)
+xd (init) (Error path not satisifed)
+z (texture1): (Error path not satisifed)
+bl (init) (Error path not satisifed)
+y (init) (Error path not satisifed)
+x (init) (Error path not satisifed)
+v (texture1): (Error path not satisifed)
+lcoff (init): (Error path not satisifed)
+k (init): (Error path not satisifed)
+texture (init): (Error path not satisifed)
+ze (init): (Error path not satisifed)
+ny (init): (Error path not satisifed)
+iz (init) (Error path not satisifed)
+lz (init): (Error path not satisifed)
+lly (init): (Error path not satisifed)
+xe (init) (Error path not satisifed)
+r (texture1): (Error path not satisifed)
+iz (init): (Error path not satisifed)
+light (init): (Error path not satisifed)
+index (init): (Error path not satisifed)
+i (isqrt) (Error path not satisifed)
+texture (init) (Error path not satisifed)
+bl (init): (Error path not satisifed)
+} (isqrt) (Error path not satisifed)
+ix (init): (Error path not satisifed)
+light (texture1) (Error path not satisifed)
+b (texture1) (Error path not satisifed)
+nz (init): (Error path not satisifed)
+lly (init) (Error path not satisifed)
+ (texture1) (Error path not satisifed)
+index (init) (Error path not satisifed)
+sng (init) (Error path not satisifed)
+lcoff (init) (Error path not satisifed)
+l (init) (Error path not satisifed)
+yd (init): (Error path not satisifed)
+ly (init): (Error path not satisifed)
+g (texture1): (Error path not satisifed)
+nz (init) (Error path not satisifed)
+pixels[index] (init) (Error path not satisifed)
+b (texture1): (Error path not satisifed)
+x (init): (Error path not satisifed)
+iy (init) (Error path not satisifed)
+texture (texture1) (Error path not satisifed)
+x (texture1): (Error path not satisifed)
+w1 (init) (Error path not satisifed)
+h (init) (Error path not satisifed)
+numIterations++ (init) (Error path not satisifed)
+numIterations (init): (Error path not satisifed)
+ly (init) (Error path not satisifed)
+h1 (init): (Error path not satisifed)
+h1 (init) (Error path not satisifed)
+ny (init) (Error path not satisifed)
+xd (init): (Error path not satisifed)
+lz (init) (Error path not satisifed)
+k (init) (Error path not satisifed)
+b (isqrt) (Error path not satisifed)
+y (texture1): (Error path not satisifed)
+w1 (init): (Error path not satisifed)
+zd (init) (Error path not satisifed)
+pixels[w (init) (Error path not satisifed)
+ye (init): (Error path not satisifed)
+n (isqrt) (Error path not satisifed)
+pixels[1] (init): (Error path not satisifed)
+arg1, (main) (Error path not satisifed)
+y (init): (Error path not satisifed)
+lx (init) (Error path not satisifed)
+iy (init): (Error path not satisifed)
+t (init) (Error path not satisifed)
+
+Approximability of input variables
+================================
+arg0 : 0%
+arg1 : 0%
+arg2 : 0%
+arg3 : 0%

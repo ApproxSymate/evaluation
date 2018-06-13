@@ -1,0 +1,76 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/sor.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/klee-out-1/
+
+Selected path #:1932
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+G[9] = 0.732883
+G[10] = 0.215104
+G[11] = 0.542027
+G[12] = 0.446400
+G[13] = 0.817093
+G[14] = 0.454654
+G[15] = 0.293732
+G[16] = 0.381812
+G[17] = 0.376492
+G[18] = 0.534128
+G[19] = 0.555239
+G[20] = 0.719550
+G[21] = 0.410326
+G[22] = 0.582775
+G[23] = 0.498918
+G[24] = 0.399163
+G[25] = 0.545064
+G[26] = 0.310721
+G[27] = 0.608808
+G[28] = 0.474210
+G[29] = 0.395262
+G[30] = 0.038862
+G[31] = 0.399229
+G[32] = 0.622922
+G[33] = 0.437852
+G[34] = 0.679907
+G[35] = 0.446997
+G[36] = 0.348575
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+N (memset) (Error path not satisifed)
+ (memcpy) (Error path not satisifed)
+SIZE (memset) (Error path not satisifed)
+cycles (memset) (Error path not satisifed)
+ (__uClibc_main) (Error path not satisifed)
+TINY_SOR_SIZE (memcpy) (Error path not satisifed)
+
+Approximability of input variables
+================================
+G : 0%
+omega : 0%

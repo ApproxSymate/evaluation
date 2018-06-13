@@ -1,0 +1,95 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/fft.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/klee-out-0/
+
+Selected path #:1
+
+Input variables
+================================
+x
+
+Input with error
+================================
+x
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+x[10] = 0.215104
+x[11] = 0.199715
+x[12] = 0.607476
+x[13] = 0.164032
+x[14] = 0.527088
+x[15] = 0.658019
+PI = 3.141600
+M_TAU = 6.283100
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+x (input)
+tmp_real (FFT_bitreverse)
+wd_real (FFT_transform_internal)
+1] (FFT_bitreverse)
+data[i] (FFT_transform_internal)
+1] (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+data[ii] (FFT_bitreverse)
+z1_real (FFT_transform_internal)
+data[jj] (FFT_bitreverse)
+z1_imag (FFT_transform_internal)
+data[i] (FFT_inverse)
+tmp_imag (FFT_bitreverse)
+data[j] (FFT_transform_internal)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+( (FFT_bitreverse)
+n (FFT_transform_internal)
+s2 (FFT_transform_internal)
+a (rrsin)
+i (FFT_bitreverse)
+j (FFT_transform_internal)
+b (FFT_transform_internal)
+w_real (FFT_transform_internal)
+s (FFT_transform_internal)
+logn (FFT_transform_internal)
+jj (FFT_bitreverse)
+n (FFT_bitreverse)
+i (rrsin)
+bit (FFT_transform_internal)
+k (int_log2)
+a (FFT_transform_internal)
+n (FFT_inverse)
+N (main)
+w_imag (FFT_transform_internal)
+j (FFT_bitreverse)
+twoN (main)
+for (int_log2)
+dual (FFT_transform_internal)
+norm (FFT_inverse)
+log (int_log2)
+ii (FFT_bitreverse)
+k (FFT_bitreverse)
+t (FFT_transform_internal)
+temp (int_log2)
+i (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+nm1 (FFT_bitreverse)
+i (FFT_inverse)
+n (sin_func)
+theta (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+
+Approximability of input variables
+================================
+x : 100%
