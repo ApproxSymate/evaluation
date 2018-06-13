@@ -1,0 +1,45 @@
+!362 Line 160 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), uid, 65272960
+0
+
+!362 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 61063568
+0
+
+!362 Line 288 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 59150912
+0
+
+!363 Line 291 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 53364480
+0
+
+!364 Line 143 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_one_fd), nullfd, 52105808
+0
+
+!364 Line 161 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), euid, 47270752
+0
+
+!364 Line 193 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 57494544
+0
+
+!364 Line 294 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 58991472
+0
+
+!365 Line 162 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), gid, 46370160
+0
+
+!365 Line 197 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 57552048
+0
+
+!366 Line 163 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), egid, 65117936
+0
+
+!371 Line 168 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), retval, 64213952
+0
+
+!371 Line 306 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 58408512
+0
+
+!373 Line 308 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 58408512
+0
+
+!386 Line 327 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 57552048
+0
+
