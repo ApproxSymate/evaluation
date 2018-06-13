@@ -1,0 +1,13 @@
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING ONCE: calling external: ioctl(0, 21505, 53260800)
+KLEE: WARNING ONCE: calling external: getuid()
+KLEE: WARNING ONCE: calling external: geteuid()
+KLEE: WARNING ONCE: calling external: getgid()
+KLEE: WARNING ONCE: calling external: getegid()
+KLEE: WARNING ONCE: calling external: fcntl(0, 1)
+KLEE: WARNING ONCE: calling external: open(54981168, 131072)
+KLEE: WARNING ONCE: calling external: fstat(0, 57113904)
