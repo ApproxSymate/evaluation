@@ -1,0 +1,20 @@
+klee -precision -no-branch-check -loop-breaking -libc=uclibc -max-time=1 ./fft.bc
+PID: 5422
+Started: 2018-06-13 09:40:08
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-06-13 09:40:09
+Elapsed: 00:00:01
+KLEE: done: explored paths = 2931
+KLEE: done: total queries = 0
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 0
+KLEE: done: query cex = 0
+
+KLEE: done: total instructions = 42893
+KLEE: done: completed paths = 2931
+KLEE: done: generated tests = 2856
