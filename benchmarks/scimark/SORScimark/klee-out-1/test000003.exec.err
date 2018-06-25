@@ -1,7 +1,0 @@
-Error: invalid function pointer
-File: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c
-Line: 371
-assembly.ll line: 496
-Stack: 
-	#000000496 in __uClibc_main (main=50254592, argc=1, argv=50405568, app_init=0, app_fini=0, rtld_fini=0, stack_end=0) at /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:371
-	#100001194 in main (=1, =50405568)

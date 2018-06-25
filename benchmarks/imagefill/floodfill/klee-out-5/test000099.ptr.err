@@ -1,0 +1,15 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/floodfill/floodfill.c
+Line: 248
+assembly.ll line: 453
+Stack: 
+	#000000453 in setPix (x=3, y=0, c) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:248
+	#100000557 in fillLine (x1=0, x2=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:278
+	#200000096 in fill (x=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:312
+	#300000057 in main () at /home/himeshi/Projects/workspace/floodfill/floodfill.c:227
+Info: 
+	address: 40437160
+	next: object at 40645072 of size 4
+		MO52[4] allocated at fill():  %1 = alloca i32, align 4
+	prev: object at 40437136 of size 24
+		MO7[24] allocated at global:image

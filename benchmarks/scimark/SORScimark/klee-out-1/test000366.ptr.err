@@ -1,0 +1,13 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/SORScimark/sor.c
+Line: 177
+assembly.ll line: 159
+Stack: 
+	#000000159 in SOR_execute (M=6, N=6, omega, G=28888352, num_iterations=1) at /home/himeshi/Projects/workspace/SORScimark/sor.c:177
+	#100000046 in main () at /home/himeshi/Projects/workspace/SORScimark/sor.c:148
+Info: 
+	address: 28888500
+	next: object at 28889504 of size 4
+		MO41[4] allocated at SOR_execute():  %2 = alloca i32, align 4
+	prev: object at 28888352 of size 144
+		MO26[144] allocated at main():  %G = alloca [6 x [6 x i32]], align 16

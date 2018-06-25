@@ -1,0 +1,13 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c
+Line: 357
+assembly.ll line: 105
+Stack: 
+	#000000105 in FFT_inverse (N=8, data=57428464) at /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:357
+	#100000043 in main () at /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:213
+Info: 
+	address: 57428496
+	next: object at 57429168 of size 4
+		MO22[4] allocated at main():  %1 = alloca i32, align 4
+	prev: object at 57428464 of size 32
+		MO25[32] allocated at main():  %x = alloca [8 x i32], align 16

@@ -1,1 +1,6 @@
-(query [] false)
+array __arr32__image[24] : w32 -> w8 = symbolic
+array targetColor[4] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq (ReadLSB w32 0 __arr32__image)
+                 (ReadLSB w32 0 targetColor)))]
+        false)

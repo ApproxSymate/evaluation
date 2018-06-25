@@ -1,0 +1,12 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/floodfill/floodfill.c
+Line: 239
+assembly.ll line: 404
+Stack: 
+	#000000404 in getPix (x=4294967295, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:239
+	#100000146 in fill (x=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:333
+	#200000057 in main () at /home/himeshi/Projects/workspace/floodfill/floodfill.c:227
+Info: 
+	address: 40437128
+	next: object at 40437136 of size 24
+		MO7[24] allocated at global:image

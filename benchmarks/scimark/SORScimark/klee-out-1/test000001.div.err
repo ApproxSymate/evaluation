@@ -1,0 +1,8 @@
+Error: divide by zero
+File: /home/himeshi/Projects/workspace/SORScimark/sor.c
+Line: 155
+assembly.ll line: 81
+Stack: 
+	#000000219 in klee_div_zero_check (z=4) at /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000081 in SOR_execute (M=6, N=6, omega, G=28888352, num_iterations=1) at /home/himeshi/Projects/workspace/SORScimark/sor.c:155
+	#200000046 in main () at /home/himeshi/Projects/workspace/SORScimark/sor.c:148

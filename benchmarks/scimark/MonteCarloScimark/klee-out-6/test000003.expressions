@@ -1,42 +1,24 @@
-!354 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 41799968
+!121 Line 59 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), under_curve, 31714704
 0
 
-!354 Line 21 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/strrchr.c (strrchr), p, 57080288
+!122 Line 65 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), Num_samples, 31716416
 0
 
-!354 Line 288 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 42496208
+!127 Line 73 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), count, 31714672
 0
 
-!355 Line 291 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 42753744
-0
+!129 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 15, 31715440
+x_err
 
-!356 Line 294 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 39290528
-0
+!129 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 19, 31715440
+x_err
 
-!362 Line 26 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/strrchr.c (strrchr), s.addr, 39511888
-0
+!129 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 24, 31716016
+y_err
 
-!363 Line 306 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 42965744
-0
+!129 Line 75 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), 28, 31716016
+y_err
 
-!365 Line 308 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 42965744
-0
-
-!378 Line 327 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 42864880
-0
-
-!386 Line 342 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__uclibc_progname, 42536288
-0
-
-!387 Line 344 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @program_invocation_name, 39290176
-0
-
-!388 Line 345 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @program_invocation_short_name, 43594128
-0
-
-!392 Line 349 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @program_invocation_short_name, 43594128
-0
-
-!393 Line 354 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 42771712
+!133 Line 80 of /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c (main), result, 31714880
 0
 

@@ -1,8 +1,0 @@
-Error: abort failure
-File: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c
-Line: 150
-assembly.ll line: 1136
-Stack: 
-	#000001136 in __check_one_fd (fd=0, mode=131072) at /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:150
-	#100000944 in __uClibc_main (main=52861856, argc=1, argv=53240448, app_init=0, app_fini=0, rtld_fini=0, stack_end=0) at /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:336
-	#200001679 in main (=1, =53240448)

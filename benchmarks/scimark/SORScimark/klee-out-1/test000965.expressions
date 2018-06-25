@@ -1,57 +1,39 @@
-!361 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 52144000
+!128 Line 137 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), N, 28887616
 0
 
-!361 Line 22 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r1, 112467184
+!128 Line 155 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), omega_over_four, 28895392
+(omega_err >> 0)
+
+!129 Line 138 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), cycles, 28887584
 0
 
-!361 Line 280 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/stdio/_stdio.c (_stdio_init), old_errno, 63395024
+!129 Line 156 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), one_minus_omega, 28895696
+((0 - (omega_err * omega)) / (1 - omega))
+
+!132 Line 162 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Mm1, 28896144
 0
 
-!361 Line 288 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 63765328
+!133 Line 163 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Nm1, 28896592
 0
 
-!361 Line 43 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), retval1, 76915152
+!134 Line 148 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), omega, 28887792
+omega_err
+
+!134 Line 171 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), p, 28896896
 0
 
-!362 Line 23 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r2, 112487648
+!136 Line 172 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), i, 28901456
 0
 
-!362 Line 291 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 66577376
+!139 Line 173 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gi, 28902352
 0
 
-!362 Line 45 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_iflag2, 57813088
+!141 Line 174 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gim1, 28902800
 0
 
-!363 Line 193 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 57879824
+!142 Line 175 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gip1, 28903296
 0
 
-!363 Line 294 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 65334816
-0
-
-!363 Line 46 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_oflag3, 57813092
-0
-
-!364 Line 197 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 66307648
-0
-
-!364 Line 47 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_cflag4, 57813096
-0
-
-!365 Line 48 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_lflag5, 57813100
-0
-
-!366 Line 49 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_line6, 57813104
-0
-
-!370 Line 306 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 53420480
-0
-
-!372 Line 308 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 53420480
-0
-
-!375 Line 312 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), auxv_entry, 52979712
-0
-
-!382 Line 316 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 53420480
+!143 Line 176 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), j, 28901904
 0
 

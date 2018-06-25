@@ -1,0 +1,15 @@
+Error: memory error: out of bound pointer
+File: /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c
+Line: 17
+assembly.ll line: 819
+Stack: 
+	#000000819 in memcpy (destaddr=41915456, srcaddr=40715696, len=4) at /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c:17
+	#100000613 in push (x=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:291
+	#200000118 in fill (x=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:322
+	#300000057 in main () at /home/himeshi/Projects/workspace/floodfill/floodfill.c:227
+Info: 
+	address: 40715700
+	next: object at 40715840 of size 4
+		MO50[4] allocated at main():  %9 = call noalias i8* @malloc(i64 %8) #4, !dbg !153
+	prev: object at 40715696 of size 4
+		MO47[4] allocated at main():  %4 = call noalias i8* @malloc(i64 %3) #4, !dbg !152

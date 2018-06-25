@@ -1,0 +1,81 @@
+!146 Line 332 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), @w, 50136928
+0
+
+!147 Line 333 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), @h, 50137456
+0
+
+!148 Line 334 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), @texture, 50132176
+arg0_err
+
+!149 Line 335 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), @light, 50131072
+arg1_err
+
+!150 Line 337 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), 5, 50185904
+0
+
+!151 Line 348 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), lly, 50203760
+arg2_err
+
+!152 Line 349 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), ye, 50188320
+arg3_err
+
+!153 Line 351 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), nx, 50188176
+0
+
+!154 Line 352 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), ny, 50192304
+0
+
+!154 Line 467 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (main), arg0, 50175744
+arg0_err
+
+!154 Line 467 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (main), arg1, 50175952
+arg1_err
+
+!154 Line 467 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (main), arg2, 50176608
+arg2_err
+
+!154 Line 467 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (main), arg3, 50177184
+arg3_err
+
+!155 Line 353 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), nz, 50192848
+0
+
+!156 Line 354 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), bl, 50204208
+0
+
+!157 Line 360 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), w1, 50205552
+0
+
+!158 Line 361 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), h1, 50206000
+0
+
+!159 Line 363 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), xe, 50187728
+0
+
+!160 Line 365 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), ze, 50188688
+0
+
+!161 Line 366 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), @k, 50137984
+0
+
+!162 Line 368 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), y, 50187280
+0
+
+!164 Line 369 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), x, 50186832
+0
+
+!167 Line 370 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), t, 50204656
+0
+
+!169 Line 371 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), xd, 50189136
+0
+
+!170 Line 372 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), yd, 50189584
+0
+
+!171 Line 373 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), zd, 50190032
+0
+
+!172 Line 374 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init), l, 50205104
+0
+

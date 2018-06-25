@@ -1,0 +1,8 @@
+Line 158 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute): 
+Output Error of num_iterations : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 159 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute): 
+Output Error of M : 0
+Absolute Bound: 1.000000e+00

@@ -1,20 +1,20 @@
-klee -precision -no-branch-check -loop-breaking -libc=uclibc -max-time=1 ./sparsematmul.bc
-PID: 5693
-Started: 2018-06-13 09:49:36
+klee -precision -no-branch-check -max-time=1 ./sparsematmul.bc
+PID: 23059
+Started: 2018-06-25 21:54:41
 BEGIN searcher description
 <InterleavedSearcher> containing 2 searchers:
 RandomPathSearcher
 WeightedRandomSearcher::CoveringNew
 </InterleavedSearcher>
 END searcher description
-Finished: 2018-06-13 09:49:38
+Finished: 2018-06-25 21:54:43
 Elapsed: 00:00:02
-KLEE: done: explored paths = 3141
+KLEE: done: explored paths = 2474
 KLEE: done: total queries = 0
 KLEE: done: valid queries = 0
 KLEE: done: invalid queries = 0
 KLEE: done: query cex = 0
 
-KLEE: done: total instructions = 46100
-KLEE: done: completed paths = 3141
-KLEE: done: generated tests = 3060
+KLEE: done: total instructions = 44598
+KLEE: done: completed paths = 2474
+KLEE: done: generated tests = 2077

@@ -1,1 +1,9 @@
-(query [] false)
+array __arr32__x[12] : w32 -> w8 = symbolic
+array __arr32__y[12] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Sle (Add w32 (Mul w32 N0:(ReadLSB w32 0 __arr32__x)
+                                    N0)
+                           (Mul w32 N1:(ReadLSB w32 0 __arr32__y)
+                                    N1))
+                  1))]
+        false)

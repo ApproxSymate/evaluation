@@ -1,9 +1,11 @@
 KLEE: Using STP solver backend
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memcpy.c:29: memory error: out of bound pointer
+KLEE: ERROR: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:97: divide by zero
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:150: abort failure
+KLEE: ERROR: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:119: divide by zero
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:371: invalid function pointer
+KLEE: ERROR: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:151: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:151: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
 KLEE: HaltTimer invoked
 KLEE: halting execution, dumping remaining states

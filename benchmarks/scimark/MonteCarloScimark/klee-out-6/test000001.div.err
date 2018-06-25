@@ -1,0 +1,7 @@
+Error: divide by zero
+File: /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c
+Line: 80
+assembly.ll line: 89
+Stack: 
+	#000000110 in klee_div_zero_check (z=3) at /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000089 in main () at /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c:80

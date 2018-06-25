@@ -1,1 +1,2 @@
-true && false && true && true && true && true && false && true && true && false && true && false
+true && true && false && true && !(4294967295 = (targetColor * (1 - targetColor_err))) && false
+!(4294967295 = targetColor)

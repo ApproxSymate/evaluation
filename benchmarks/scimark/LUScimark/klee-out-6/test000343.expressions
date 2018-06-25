@@ -1,84 +1,72 @@
-!362 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 57338464
+!133 Line 133 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), N, 36479872
 0
 
-!362 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 64135552
+!133 Line 157 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), minMN, 36954096
 0
 
-!362 Line 22 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r1, 55994320
+!134 Line 134 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 4, 36480432
 0
 
-!362 Line 22 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r1, 85684896
+!134 Line 158 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 36959104
 0
 
-!362 Line 280 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/stdio/_stdio.c (_stdio_init), old_errno, 59795280
+!135 Line 168 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 36959104
 0
 
-!362 Line 288 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 59150912
+!135 Line 261 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 36992864
+lu_err
+
+!135 Line 261 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 39072144
+lu_err
+
+!136 Line 263 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 38041136
+((0 - (lu_err * lu[7])) / (0 - lu[7]))
+
+!137 Line 140 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 14, 36480336
+lu_err
+
+!137 Line 171 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), jp, 36961776
 0
 
-!362 Line 43 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), retval1, 49227984
+!138 Line 141 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 20, 36480340
+lu_err
+
+!139 Line 143 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 26, 36480348
+lu_err
+
+!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 24, 36480336
+lu_err
+
+!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 24, 36480352
+lu_err
+
+!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), t, 36962192
+lu_err
+
+!140 Line 144 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 32, 36480352
+lu_err
+
+!140 Line 175 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), i, 36965008
 0
 
-!362 Line 43 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), retval1, 76724304
+!142 Line 176 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 40, 36480364
+lu_err
+
+!142 Line 176 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), ab, 36962832
+((0 - (lu_err * lu[7])) / (0 - lu[7]))
+
+!150 Line 183 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 57, 36478848
 0
 
-!363 Line 23 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r2, 62060688
-0
+!151 Line 188 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 64, 36480336
+lu_err
 
-!363 Line 23 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/mempcpy.c (mempcpy), r2, 90236208
-0
+!167 Line 227 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 128, 36480336
+lu_err
 
-!363 Line 282 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/stdio/_stdio.c (_stdio_init), getelementptr, 51878528
-0
+!167 Line 227 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), recp, 36963088
+((0 - lu_err) / (1 - lu_err))
 
-!363 Line 291 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 53364480
-0
-
-!363 Line 45 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_iflag2, 62708896
-0
-
-!363 Line 45 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_iflag2, 72723072
-0
-
-!364 Line 193 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 57494544
-0
-
-!364 Line 294 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 58991472
-0
-
-!364 Line 46 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_oflag3, 62708900
-0
-
-!364 Line 46 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_oflag3, 72723076
-0
-
-!365 Line 197 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 57552048
-0
-
-!365 Line 47 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_cflag4, 62708904
-0
-
-!365 Line 47 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_cflag4, 72723080
-0
-
-!366 Line 48 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_lflag5, 62708908
-0
-
-!366 Line 48 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_lflag5, 72723084
-0
-
-!367 Line 300 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 58991472
-0
-
-!367 Line 49 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_line6, 62708912
-0
-
-!367 Line 49 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_line6, 72723088
-0
-
-!371 Line 306 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 58408512
-0
-
-!373 Line 308 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 58408512
+!169 Line 229 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), k, 36966336
 0
 

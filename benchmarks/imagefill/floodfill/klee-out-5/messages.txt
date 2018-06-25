@@ -1,9 +1,15 @@
 KLEE: Using STP solver backend
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memcpy.c:29: memory error: out of bound pointer
+KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c:17: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:150: abort failure
+KLEE: ERROR: /home/himeshi/Projects/workspace/floodfill/floodfill.c:248: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c:371: invalid function pointer
+KLEE: ERROR: /home/himeshi/Projects/workspace/floodfill/floodfill.c:239: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/floodfill/floodfill.c:259: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/floodfill/floodfill.c:263: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c:17: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
 KLEE: HaltTimer invoked
 KLEE: halting execution, dumping remaining states

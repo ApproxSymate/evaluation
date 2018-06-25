@@ -1,0 +1,9 @@
+Error: divide by zero
+File: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c
+Line: 249
+assembly.ll line: 204
+Stack: 
+	#000000707 in klee_div_zero_check (z=2) at /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000204 in FFT_transform_internal (N=8, data=57428464, direction=4294967295) at /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:249
+	#200000062 in FFT_transform (N=8, data=57428464) at /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:219
+	#300000040 in main () at /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:212

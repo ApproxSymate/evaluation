@@ -1,1 +1,2 @@
-true && true && true && true && false && true && false && false && true && true
+true && !(0 <= (lu[0] * (1 - lu_err))) && false && !(0 = (lu[0] * (1 - lu_err))) && true && true && !(0 = (lu[0] * (1 - lu_err))) && false && true && true && true && false && true
+!(0 = lu[0]) && !(0 = lu[1]) && !(0 = lu[3]) && !(0 = lu[4]) && !(0 <= lu[0])

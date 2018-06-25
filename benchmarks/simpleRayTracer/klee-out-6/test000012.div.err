@@ -1,0 +1,8 @@
+Error: divide by zero
+File: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c
+Line: 399
+assembly.ll line: 565
+Stack: 
+	#000000766 in klee_div_zero_check (z=4294967295) at /home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000565 in init (arg0, arg1, arg2, arg3) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:399
+	#200000751 in main (argc=1, argv=50074432) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:467

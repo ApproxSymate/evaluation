@@ -1,39 +1,69 @@
-!374 Line 19 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 37972192
+!146 Line 286 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), @stackSize, 40690464
 0
 
-!374 Line 288 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 45044432
+!146 Line 307 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), width, 40724496
 0
 
-!375 Line 291 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 52353728
+!147 Line 308 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), height, 40725360
 0
 
-!376 Line 193 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 51570144
+!148 Line 310 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), color, 40725936
+image_err
+
+!149 Line 289 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newXStack, 41618304
 0
 
-!376 Line 28 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), 3, 49646608
+!150 Line 222 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @stackSize, 40690464
 0
 
-!376 Line 28 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), 3, 49646609
+!150 Line 273 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), t, 40779760
 0
 
-!376 Line 28 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), p, 37972192
+!150 Line 314 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), newColor, 40726336
 0
 
-!376 Line 294 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 42941504
+!151 Line 17 of /home/dcsandr/projects/fp-analysis/klee/build/runtime/Intrinsic//home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 40797360
 0
 
-!377 Line 197 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 51318576
+!151 Line 17 of /home/dcsandr/projects/fp-analysis/klee/build/runtime/Intrinsic//home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 41739872
 0
 
-!378 Line 29 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/string/memset.c (memset), n.addr, 45813920
+!151 Line 223 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @maxStackSize, 40690992
 0
 
-!383 Line 306 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 44984944
+!151 Line 235 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 40980672
 0
 
-!385 Line 308 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 44984944
+!151 Line 290 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newYStack, 41673680
 0
 
-!398 Line 327 of /home/dcsandr/projects/fp-analysis/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 51318576
+!152 Line 224 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @xstack, 40691520
+0
+
+!152 Line 239 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 23, 40437136
+image_err
+
+!152 Line 274 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 1, 40761280
+0
+
+!153 Line 225 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @ystack, 40692096
+0
+
+!153 Line 275 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 2, 40729568
+0
+
+!154 Line 240 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 40713952
+image_err
+
+!154 Line 240 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 31, 40437136
+image_err
+
+!154 Line 293 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), @xstack, 40691520
+0
+
+!155 Line 277 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), x, 40779184
+0
+
+!155 Line 321 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), @stackSize, 40690464
 0
 

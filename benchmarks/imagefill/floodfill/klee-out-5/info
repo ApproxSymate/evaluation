@@ -1,20 +1,21 @@
-klee -precision -no-branch-check -loop-breaking -libc=uclibc -max-time=1 ./floodfill.bc
-PID: 5179
-Started: 2018-06-13 09:31:50
+klee -precision -no-branch-check -max-time=1 ./floodfill.bc
+PID: 23297
+Started: 2018-06-25 22:00:35
 BEGIN searcher description
 <InterleavedSearcher> containing 2 searchers:
 RandomPathSearcher
 WeightedRandomSearcher::CoveringNew
 </InterleavedSearcher>
 END searcher description
-Finished: 2018-06-13 09:31:52
-Elapsed: 00:00:02
-KLEE: done: explored paths = 2587
-KLEE: done: total queries = 0
+Finished: 2018-06-25 22:00:36
+Elapsed: 00:00:01
+KLEE: done: explored paths = 2692
+KLEE: done: avg. constructs per query = 18
+KLEE: done: total queries = 6
 KLEE: done: valid queries = 0
-KLEE: done: invalid queries = 0
-KLEE: done: query cex = 0
+KLEE: done: invalid queries = 6
+KLEE: done: query cex = 6
 
-KLEE: done: total instructions = 37564
-KLEE: done: completed paths = 2587
-KLEE: done: generated tests = 2532
+KLEE: done: total instructions = 60023
+KLEE: done: completed paths = 2692
+KLEE: done: generated tests = 2386

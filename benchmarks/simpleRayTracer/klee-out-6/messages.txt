@@ -1,0 +1,37 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:360: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:361: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:371: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:372: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:375: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:376: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:377: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:382: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:382: Division by zero in SDiv execution
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:399: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:399: Division by zero in SDiv execution
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:403: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:280: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:278: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:309: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:313: overshift error
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:401: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

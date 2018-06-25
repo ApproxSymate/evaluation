@@ -1,1 +1,2 @@
-false && false && false && false && true && true && true && true && true && true && true && true
+true && !(0 <= (lu[0] * (1 - lu_err))) && true && !(0 <= (lu[3] * (1 - lu_err))) && (((0 - lu[0]) * (1 - ((0 - (lu_err * lu[0])) / (0 - lu[0])))) < ((0 - lu[3]) * (1 - ((0 - (lu_err * lu[3])) / (0 - lu[3]))))) && true && (0 <= (lu[6] * (1 - lu_err))) && !(((0 - lu[3]) * (1 - ((0 - (lu_err * lu[3])) / (0 - lu[3])))) < (lu[6] * (1 - lu_err))) && true && !(0 = (lu[3] * (1 - lu_err))) && false && false && false && true
+!(0 = lu[0]) && !(0 = lu[1]) && !(0 = lu[3]) && !(0 = lu[4]) && !(0 <= lu[0]) && !(0 <= lu[3]) && ((0 - lu[0]) < (0 - lu[3])) && (0 <= lu[6]) && !((0 - lu[3]) < lu[6])

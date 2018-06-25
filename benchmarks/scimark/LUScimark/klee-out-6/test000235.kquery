@@ -1,1 +1,21 @@
-(query [] false)
+array __arr32__lu[36] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0
+                 N0:(ReadLSB w32 0 __arr32__lu)))
+         (Eq false
+             (Eq 0
+                 (ReadLSB w32 4 __arr32__lu)))
+         (Eq false
+             (Eq 0
+                 N1:(ReadLSB w32 12 __arr32__lu)))
+         (Eq false
+             (Eq 0
+                 (ReadLSB w32 16 __arr32__lu)))
+         (Eq false (Sle 0 N0))
+         (Sle 0 N1)
+         (Slt (Sub w32 0 N0) N1)
+         (Sle 0
+              N2:(ReadLSB w32 24 __arr32__lu))
+         (Slt N1 N2)
+         (Eq false (Eq 0 N2))]
+        false)
