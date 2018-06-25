@@ -1,7 +1,7 @@
 Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/fft.c
 Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/klee-out-2/
 
-Selected path #:394
+Selected path #:5
 
 Input variables
 ================================
@@ -40,16 +40,15 @@ x (input)
 
 Non-approximable variables(in increasing order of sensitivity)
 ================================
-( (__uClibc_main) (Error path not satisifed)
- (__uClibc_main) (Error path not satisifed)
-PI (memcpy) (Error path not satisifed)
-temp (__uClibc_main) (Error path not satisifed)
- (memcpy) (Error path not satisifed)
- (__uClibc_init) (Error path not satisifed)
- (memset) (Error path not satisifed)
-n (__uClibc_main) (Error path not satisifed)
-} (__uClibc_main) (Error path not satisifed)
-int_log2(int (__uClibc_init) (Error path not satisifed)
+dual (FFT_transform_internal) (Error path not satisifed)
+N (main) (Error path not satisifed)
+log (int_log2) (Error path not satisifed)
+twoN (main) (Error path not satisifed)
+bit (FFT_transform_internal) (Error path not satisifed)
+k (int_log2) (Error path not satisifed)
+for (int_log2) (Error path not satisifed)
+temp (int_log2) (Error path not satisifed)
+n (FFT_transform_internal) (Error path not satisifed)
 
 Approximability of input variables
 ================================

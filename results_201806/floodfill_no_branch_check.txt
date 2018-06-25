@@ -1,0 +1,66 @@
+Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/floodfill.c
+Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/klee-out-5/
+
+Selected path #:1304
+
+Input variables
+================================
+image
+targetColor
+
+Input with error
+================================
+image
+targetColor
+
+Input values
+================================
+targetColor = 0.000000
+targetColor = 0.000000
+image[0] = -2147483647.000000
+image[1] = 0.000000
+image[2] = 0.000000
+image[3] = 0.000000
+targetColor = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables(in increasing order of sensitivity)
+================================
+image (input)
+targetColor (input)
+
+Non-approximable variables(in increasing order of sensitivity)
+================================
+width (fill) (Error path not satisifed)
+i (fill) (Error path not satisifed)
+value (popy) (Error path not satisifed)
+color (fill) (Error path not satisifed)
+image[x][y] (getPix) (Error path not satisifed)
+ystack (main) (Error path not satisifed)
+y (fill) (Error path not satisifed)
+x1 (fill) (Error path not satisifed)
+image[x][y] (setPix) (Error path not satisifed)
+x2 (fillLine) (Error path not satisifed)
+stackSize (main) (Error path not satisifed)
+1] (push) (Error path not satisifed)
+x1 (fillLine) (Error path not satisifed)
+maxStackSize (main) (Error path not satisifed)
+stackSize (fill) (Error path not satisifed)
+height (fill) (Error path not satisifed)
+xstack (main) (Error path not satisifed)
+x2 (fill) (Error path not satisifed)
+-1 (popx) (Error path not satisifed)
+// (fill) (Error path not satisifed)
+t (fillLine) (Error path not satisifed)
+-1 (getPix) (Error path not satisifed)
+stackSize++ (push) (Error path not satisifed)
+stackSize-- (popy) (Error path not satisifed)
+newColor (fill) (Error path not satisifed)
+x (fillLine) (Error path not satisifed)
+x (fill) (Error path not satisifed)
+
+Approximability of input variables
+================================
+image : 0%
+targetColor : 0%

@@ -1,7 +1,7 @@
 Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/MonteCarloScimark/montecarlo.c
 Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/MonteCarloScimark/klee-out-6/
 
-Selected path #:2341
+Selected path #:5
 
 Input variables
 ================================
@@ -18,7 +18,7 @@ Input values
 x[0] = 1.000000
 y[0] = 1073741825.000000
 
-Input values satisfies path condition without error...
+Input values do not satisfy path condition without error...
 
 Approximable variables(in increasing order of sensitivity)
 ================================
@@ -27,10 +27,11 @@ y (input)
 
 Non-approximable variables(in increasing order of sensitivity)
 ================================
-main() (memcpy) (Error path not satisifed)
- (memcpy) (Error path not satisifed)
- (__uClibc_main) (Error path not satisifed)
-MonteCarlo_integrate(int (memset) (Error path not satisifed)
+under_curve (main) (Error path not satisifed)
+result (main) (Error path not satisifed)
+Num_samples (main) (Error path not satisifed)
+y[count] (main) (Error path not satisifed)
+count (main) (Error path not satisifed)
 
 Approximability of input variables
 ================================

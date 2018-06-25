@@ -1,7 +1,7 @@
 Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/sor.c
 Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/klee-out-1/
 
-Selected path #:1932
+Selected path #:3
 
 Input variables
 ================================
@@ -15,6 +15,7 @@ omega
 
 Input values
 ================================
+omega = 0.000000
 omega = 1.250000
 G[0] = 0.335260
 G[1] = 0.697247
@@ -63,12 +64,15 @@ omega (input)
 
 Non-approximable variables(in increasing order of sensitivity)
 ================================
-N (memset) (Error path not satisifed)
- (memcpy) (Error path not satisifed)
-SIZE (memset) (Error path not satisifed)
-cycles (memset) (Error path not satisifed)
- (__uClibc_main) (Error path not satisifed)
-TINY_SOR_SIZE (memcpy) (Error path not satisifed)
+cycles (main) (Error path not satisifed)
+i (SOR_execute) (Error path not satisifed)
+N (main) (Error path not satisifed)
+omega_over_four (SOR_execute) (Error path not satisifed)
+Mm1 (SOR_execute) (Error path not satisifed)
+N, (main) (Error path not satisifed)
+one_minus_omega (SOR_execute) (Error path not satisifed)
+Nm1 (SOR_execute) (Error path not satisifed)
+p (SOR_execute) (Error path not satisifed)
 
 Approximability of input variables
 ================================

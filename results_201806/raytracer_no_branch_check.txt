@@ -1,7 +1,7 @@
 Source: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/plane.c
 Output: /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/simpleRayTracer/klee-out-6/
 
-Selected path #:4641
+Selected path #:5
 
 Input variables
 ================================
@@ -19,6 +19,10 @@ arg3
 
 Input values
 ================================
+arg0 = 0.000000
+arg1 = 0.000000
+arg2 = 0.000000
+arg3 = 0.000000
 arg0 = 2.000000
 arg1 = 1.000000
 arg2 = 30.000000
@@ -35,12 +39,25 @@ arg3 (input)
 
 Non-approximable variables(in increasing order of sensitivity)
 ================================
-v (__uClibc_main) (Error path not satisifed)
-col (__uClibc_main) (Error path not satisifed)
- (memcpy) (Error path not satisifed)
-<stdio.h> (memcpy) (Error path not satisifed)
- (__uClibc_main) (Error path not satisifed)
-SYMBOLIC (memset) (Error path not satisifed)
+x (init) (Error path not satisifed)
+k (init) (Error path not satisifed)
+t (init) (Error path not satisifed)
+xd (init) (Error path not satisifed)
+bl (init) (Error path not satisifed)
+light (init) (Error path not satisifed)
+Approx (init) (Error path not satisifed)
+ye (init) (Error path not satisifed)
+ (init) (Error path not satisifed)
+nz (init) (Error path not satisifed)
+} (main) (Error path not satisifed)
+texture (init) (Error path not satisifed)
+yd (init) (Error path not satisifed)
+l (init) (Error path not satisifed)
+index, (init) (Error path not satisifed)
+zd (init) (Error path not satisifed)
+h (init) (Error path not satisifed)
+ny (init) (Error path not satisifed)
+h1 (init) (Error path not satisifed)
 
 Approximability of input variables
 ================================
