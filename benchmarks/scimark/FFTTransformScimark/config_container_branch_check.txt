@@ -1,0 +1,4 @@
+result_path = /root/evaluation/benchmarks/scimark/FFTTransformScimark/klee-out-0/
+source_path = /root/evaluation/benchmarks/scimark/FFTTransformScimark/fft.c
+ktest_tool_path = /root/klee/build/bin/ktest-tool
+input_path = /root/evaluation/benchmarks/scimark/FFTTransformScimark/input.txt
