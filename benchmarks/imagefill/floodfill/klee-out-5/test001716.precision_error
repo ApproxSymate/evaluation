@@ -8,11 +8,6 @@ Output Error of y : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
-Line 239 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix): 
-Output Error of image[x][y] : image_err
-Absolute Bound: 1.000000e+00
-
-------------------------
 Line 270 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine): 
 Output Error of x1 : 0
 Absolute Bound: 1.000000e+00
@@ -60,9 +55,4 @@ Absolute Bound: 1.000000e+00
 ------------------------
 Line 234 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix): 
 Output Error of y : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 239 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix): 
-Output Error of image[x][y] : targetColor_err
 Absolute Bound: 1.000000e+00

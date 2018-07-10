@@ -1,150 +1,111 @@
-!138 Line 204 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (main), N, 57430848
+!138 Line 204 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (main), N, 54139136
 0
 
-!138 Line 223 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), n, 57436464
+!138 Line 223 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), n, 54144752
 0
 
-!138 Line 223 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), n, 57498048
+!138 Line 223 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), n, 54226896
 0
 
-!138 Line 296 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), k, 57645712
+!138 Line 296 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), k, 54164816
 0
 
-!138 Line 312 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), n, 57870960
+!138 Line 296 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), k, 54366080
 0
 
-!138 Line 348 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), n, 57466608
+!138 Line 312 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), n, 54686000
 0
 
-!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 59480560
+!138 Line 348 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), n, 54283904
 0
 
-!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 60256816
+!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 58751232
 0
 
-!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), xx, 60292352
+!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 65528864
 0
 
-!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), xx, 62606688
+!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), xx, 55933808
 0
 
-!138 Line 372 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (sin_func), n, 59753312
+!138 Line 365 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), xx, 67073872
 0
 
-!138 Line 372 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (sin_func), n, 61488464
+!138 Line 372 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (sin_func), n, 59852928
 0
 
-!139 Line 205 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (main), twoN, 57430816
+!138 Line 372 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (sin_func), n, 74715152
 0
 
-!139 Line 224 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 57437376
+!139 Line 205 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (main), twoN, 54139104
 0
 
-!139 Line 224 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 57501824
+!139 Line 224 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 54145664
 0
 
-!139 Line 297 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), log, 57661952
+!139 Line 224 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 54193200
 0
 
-!139 Line 313 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), nm1, 57754928
+!139 Line 297 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), log, 54217296
 0
 
-!139 Line 349 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), norm, 57451360
+!139 Line 297 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), log, 54983568
 0
 
-!139 Line 366 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), i, 58458672
+!139 Line 313 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), nm1, 55932992
 0
 
-!139 Line 366 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), i, 58922160
+!139 Line 349 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), norm, 54282064
 0
 
-!140 Line 226 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), dual, 57438352
+!139 Line 366 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), i, 58751840
 0
 
-!140 Line 226 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), dual, 57524032
+!139 Line 366 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), i, 59175584
 0
 
-!140 Line 298 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), temp, 57479904
+!140 Line 226 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), dual, 54146640
 0
 
-!140 Line 314 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), i, 57550992
+!140 Line 226 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), dual, 54242320
 0
 
-!140 Line 350 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), i, 57479408
+!140 Line 298 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), temp, 54114624
 0
 
-!141 Line 315 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), j, 57742656
+!140 Line 298 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (int_log2), temp, 55050048
 0
 
-!141 Line 367 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 59480560
+!140 Line 314 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), i, 55118192
 0
 
-!143 Line 230 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), logn, 57523120
+!140 Line 350 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_inverse), i, 54307376
 0
 
-!147 Line 240 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 57501824
+!141 Line 315 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_bitreverse), j, 56080320
 0
 
-!149 Line 241 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_real, 57524688
+!141 Line 367 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (rrsin), a, 65528864
 0
 
-!151 Line 242 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_imag, 57525136
+!143 Line 230 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), logn, 54146240
 0
 
-!152 Line 246 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), theta, 57551968
+!143 Line 230 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), logn, 54207136
 0
 
-!154 Line 248 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), s, 57490672
+!147 Line 240 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), bit, 54193200
 0
 
-!155 Line 249 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), t, 57553792
+!149 Line 241 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_real, 54207712
 0
 
-!156 Line 250 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), s2, 57465712
+!151 Line 242 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_imag, 54359968
 0
 
-!157 Line 252 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), a, 57551360
+!152 Line 246 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), theta, 54403936
 0
 
-!157 Line 252 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), b, 57552096
+!154 Line 248 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), s, 54431424
 0
-
-!168 Line 266 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), a, 57551360
-0
-
-!170 Line 269 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), tmp_real, 57513856
-0
-
-!173 Line 270 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), tmp_imag, 57511920
-0
-
-!174 Line 271 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_real, 57524688
-0
-
-!175 Line 272 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), w_imag, 57525136
-0
-
-!176 Line 274 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), b, 57552096
-0
-
-!178 Line 275 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), i1, 57515408
-0
-
-!180 Line 276 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), j2, 57515904
-0
-
-!181 Line 278 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), 147, 57428480
-x_err
-
-!181 Line 278 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), z1_real, 57480624
-x_err
-
-!182 Line 279 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), 153, 57428484
-x_err
-
-!182 Line 279 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), z1_imag, 57514960
-x_err
-
-!183 Line 281 of /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c (FFT_transform_internal), wd_real3, 57506144
-(((x_err * (x[4] * 4294967295)) - (x_err * (x[5] * 3))) / ((x[4] * 4294967295) - (x[5] * 3)))
 

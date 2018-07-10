@@ -1,21 +1,21 @@
 klee -precision -no-branch-check -max-time=1 ./plane.bc
-PID: 24048
-Started: 2018-06-25 22:14:23
+PID: 342627
+Started: 2018-07-10 11:36:01
 BEGIN searcher description
 <InterleavedSearcher> containing 2 searchers:
 RandomPathSearcher
 WeightedRandomSearcher::CoveringNew
 </InterleavedSearcher>
 END searcher description
-Finished: 2018-06-25 22:14:25
-Elapsed: 00:00:02
-KLEE: done: explored paths = 2596
+Finished: 2018-07-10 11:36:02
+Elapsed: 00:00:01
+KLEE: done: explored paths = 1955
 KLEE: done: avg. constructs per query = 17
 KLEE: done: total queries = 6
 KLEE: done: valid queries = 0
 KLEE: done: invalid queries = 6
 KLEE: done: query cex = 6
 
-KLEE: done: total instructions = 50158
-KLEE: done: completed paths = 2596
-KLEE: done: generated tests = 1161
+KLEE: done: total instructions = 37910
+KLEE: done: completed paths = 1955
+KLEE: done: generated tests = 915

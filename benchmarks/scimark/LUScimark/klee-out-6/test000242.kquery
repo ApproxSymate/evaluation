@@ -15,6 +15,5 @@ array __arr32__lu[36] : w32 -> w8 = symbolic
          (Eq false (Sle 0 N1))
          (Sle 0
               N2:(ReadLSB w32 28 __arr32__lu))
-         (Eq false
-             (Slt (Sub w32 0 N1) N2))]
+         (Slt (Sub w32 0 N1) N2)]
         false)

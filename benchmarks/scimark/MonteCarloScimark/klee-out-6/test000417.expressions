@@ -1,0 +1,42 @@
+!354 Line 160 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), uid, 38677920
+0
+
+!354 Line 19 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 38503056
+0
+
+!354 Line 288 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 61476480
+0
+
+!355 Line 291 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 61454528
+0
+
+!356 Line 161 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), euid, 49731552
+0
+
+!356 Line 294 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 61454000
+0
+
+!357 Line 162 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), gid, 39389376
+0
+
+!358 Line 163 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), egid, 50576352
+0
+
+!363 Line 168 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__check_suid), retval, 58076256
+0
+
+!363 Line 306 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+
+!365 Line 308 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+
+!378 Line 327 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 61036880
+0
+
+!386 Line 342 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__uclibc_progname, 61180208
+0
+
+!387 Line 344 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @program_invocation_name, 60941456
+0
+

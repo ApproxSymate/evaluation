@@ -4,10 +4,10 @@ Line: 403
 assembly.ll line: 597
 Stack: 
 	#000000597 in init (arg0, arg1, arg2, arg3) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:403
-	#100000751 in main (argc=1, argv=50074432) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:467
+	#100000751 in main (argc=1, argv=34114032) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:467
 Info: 
-	address: 50209056
-	next: object at 23230107243744 of size 1536
-		MO77[1536] (no allocation info)
-	prev: object at 50209040 of size 16
-		MO208[16] allocated at init():  %12 = alloca i32, i64 %11, align 16, !dbg !150
+	address: 34217856
+	next: object at 47666303511912 of size 4
+		MO23[4] (no allocation info)
+	prev: object at 34217840 of size 16
+		MO157[16] allocated at init():  %12 = alloca i32, i64 %11, align 16, !dbg !150

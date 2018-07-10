@@ -76,3 +76,13 @@ Absolute Bound: 1.000000e+00
 Line 424 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
 Output Error of yd : 0
 Absolute Bound: 1.000000e+00
+
+------------------------
+Line 425 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
+Output Error of zd : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 426 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
+Output Error of ix : 0
+Absolute Bound: 1.000000e+00

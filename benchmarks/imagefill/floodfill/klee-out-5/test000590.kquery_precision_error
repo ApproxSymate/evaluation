@@ -1,1 +1,2 @@
-true && true && true && false && true && false && false
+false && true && true && !((image[0] * (1 - image_err)) = (targetColor * (1 - targetColor_err))) && true && false && true && true && false
+!(image[0] = targetColor)

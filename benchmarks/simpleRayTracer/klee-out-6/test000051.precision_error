@@ -176,18 +176,3 @@ Absolute Bound: 1.000000e+00
 Line 436 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
 Output Error of bl : 0
 Absolute Bound: 1.000000e+00
-
-------------------------
-Line 437 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of lcoff : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 438 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of w1 : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 439 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of h1 : 0
-Absolute Bound: 1.000000e+00

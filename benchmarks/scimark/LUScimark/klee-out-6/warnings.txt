@@ -26,5 +26,3 @@ KLEE: WARNING: unable to compute initial values (invalid constraints?)!
 KLEE: WARNING: unable to get symbolic solution, losing test case
 KLEE: WARNING: unable to compute initial values (invalid constraints?)!
 KLEE: WARNING: unable to get symbolic solution, losing test case
-KLEE: WARNING: unable to compute initial values (invalid constraints?)!
-KLEE: WARNING: unable to get symbolic solution, losing test case

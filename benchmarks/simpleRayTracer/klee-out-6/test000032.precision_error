@@ -1,43 +1,3 @@
-Line 317 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of col : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 318 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of x : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 319 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of y : ((arg3_err * arg3) / arg3)
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 320 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of z : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 321 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of r : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 322 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of g : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 323 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of b : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 324 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of v : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
 Line 409 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
 Output Error of pixels[0] : 0
 Absolute Bound: 1.000000e+00
@@ -64,7 +24,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 414 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of lcoff : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Output Error of lcoff : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -129,7 +89,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 427 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of iy : ((arg3_err * arg3) / arg3)
+Output Error of iy : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -159,7 +119,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 433 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of ly : (((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3))
+Output Error of ly : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -179,7 +139,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 437 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of lcoff : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Output Error of lcoff : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------

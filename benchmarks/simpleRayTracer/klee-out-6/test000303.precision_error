@@ -19,7 +19,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 321 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of r : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Output Error of r : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -29,7 +29,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 323 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of b : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Output Error of b : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -70,44 +70,4 @@ Absolute Bound: 1.000000e+00
 ------------------------
 Line 415 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
 Output Error of sng : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 416 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of numIterations : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 417 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of index : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 418 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of x : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 419 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of y : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 420 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of xe : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 421 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of ye : arg3_err
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 422 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of ze : 0
-Absolute Bound: 1.000000e+00
-
-------------------------
-Line 423 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
-Output Error of xd : 0
 Absolute Bound: 1.000000e+00

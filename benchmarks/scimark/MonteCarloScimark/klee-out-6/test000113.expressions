@@ -1,0 +1,27 @@
+!354 Line 19 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 38503056
+0
+
+!354 Line 280 of /home/dcsandr/software/klee-uclibc/libc/stdio/_stdio.c (_stdio_init), old_errno, 63731120
+0
+
+!354 Line 288 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 61476480
+0
+
+!355 Line 291 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 61454528
+0
+
+!356 Line 193 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 61454176
+0
+
+!356 Line 294 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 61454000
+0
+
+!357 Line 197 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 61036880
+0
+
+!363 Line 306 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+
+!365 Line 308 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+

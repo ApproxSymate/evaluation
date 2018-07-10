@@ -1,5 +1,5 @@
 Line 317 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of col : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Output Error of col : 0
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -30,4 +30,9 @@ Absolute Bound: 1.000000e+00
 ------------------------
 Line 323 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
 Output Error of b : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 324 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
+Output Error of v : 0
 Absolute Bound: 1.000000e+00

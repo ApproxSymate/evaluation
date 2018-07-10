@@ -1,2 +1,1 @@
-false && true && true && !(4294967295 = (image[0] * (1 - image_err))) && true && false && true && false && true
-!(4294967295 = image[0])
+false && false && false && false && true && false && false && true && false

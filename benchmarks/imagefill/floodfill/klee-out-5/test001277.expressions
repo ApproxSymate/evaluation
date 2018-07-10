@@ -1,63 +1,66 @@
-!146 Line 286 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), @stackSize, 40690464
+!146 Line 286 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), @stackSize, 58640560
 0
 
-!146 Line 307 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), width, 40724496
+!146 Line 307 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), width, 58674480
 0
 
-!147 Line 308 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), height, 40725360
+!147 Line 308 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), height, 58675344
 0
 
-!148 Line 310 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), color, 40725936
-image_err
-
-!149 Line 289 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newXStack, 42114720
+!148 Line 310 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), color, 58675920
 0
 
-!150 Line 222 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @stackSize, 40690464
+!149 Line 289 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newXStack, 59587616
 0
 
-!150 Line 273 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), t, 40779760
+!150 Line 222 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @stackSize, 58640560
 0
 
-!150 Line 314 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), newColor, 40726336
-image_err
-
-!151 Line 17 of /home/dcsandr/projects/fp-analysis/klee/build/runtime/Intrinsic//home/dcsandr/projects/fp-analysis/klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 42806832
+!150 Line 273 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), t, 58678656
 0
 
-!151 Line 223 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @maxStackSize, 40690992
+!150 Line 314 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), newColor, 58676320
 0
 
-!151 Line 290 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newYStack, 42126848
+!151 Line 17 of /home/dcsandr/software/fp-analysis-klee/build/runtime/Intrinsic//home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 59866368
 0
 
-!152 Line 224 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @xstack, 40691520
+!151 Line 17 of /home/dcsandr/software/fp-analysis-klee/build/runtime/Intrinsic//home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 59866369
 0
 
-!152 Line 239 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 23, 40437136
-image_err
-
-!152 Line 274 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 1, 40761280
+!151 Line 17 of /home/dcsandr/software/fp-analysis-klee/build/runtime/Intrinsic//home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/memcpy.c (memcpy), dest.05, 59866370
 0
 
-!153 Line 225 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @ystack, 40692096
+!151 Line 223 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @maxStackSize, 58641088
 0
 
-!153 Line 275 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 2, 40729568
+!151 Line 235 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 58664048
 0
 
-!154 Line 240 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 40713952
-image_err
-
-!154 Line 240 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 40980672
-image_err
-
-!154 Line 240 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 31, 40437136
-image_err
-
-!155 Line 277 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), x, 40779184
+!151 Line 235 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (getPix), 1, 58730112
 0
 
-!155 Line 321 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), @stackSize, 40690464
+!151 Line 290 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), newYStack, 59183344
+0
+
+!152 Line 224 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @xstack, 58641616
+0
+
+!152 Line 274 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 1, 58686752
+0
+
+!153 Line 225 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (main), @ystack, 58642192
+0
+
+!153 Line 275 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), 2, 58704784
+0
+
+!154 Line 293 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (push), @xstack, 58641616
+0
+
+!155 Line 277 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fillLine), x, 58687280
+0
+
+!155 Line 321 of /home/himeshi/Projects/workspace/floodfill/floodfill.c (fill), @stackSize, 58640560
 0
 

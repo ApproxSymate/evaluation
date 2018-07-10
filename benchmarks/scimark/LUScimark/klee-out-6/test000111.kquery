@@ -7,16 +7,9 @@ array __arr32__lu[36] : w32 -> w8 = symbolic
                  (ReadLSB w32 4 __arr32__lu)))
          (Eq false
              (Eq 0
-                 N1:(ReadLSB w32 12 __arr32__lu)))
+                 (ReadLSB w32 12 __arr32__lu)))
          (Eq false
              (Eq 0
-                 N2:(ReadLSB w32 16 __arr32__lu)))
-         (Sle 0 N0)
-         (Eq false (Sle 0 N1))
-         (Eq false
-             (Slt N0 (Sub w32 0 N1)))
-         (Eq false (Sle 0 N2))
-         (Eq false
-             (Sle 0
-                  (ReadLSB w32 28 __arr32__lu)))]
+                 (ReadLSB w32 16 __arr32__lu)))
+         (Eq false (Sle 0 N0))]
         false)

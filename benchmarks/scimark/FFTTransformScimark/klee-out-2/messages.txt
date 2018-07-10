@@ -17,13 +17,11 @@ KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:372: div
 KLEE: NOTE: now ignoring this error at this location
 KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:357: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:249: divide by zero
-KLEE: NOTE: now ignoring this error at this location
 KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:367: divide by zero
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:330: memory error: out of bound pointer
+KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:249: divide by zero
 KLEE: NOTE: now ignoring this error at this location
-KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:256: memory error: out of bound pointer
+KLEE: ERROR: /home/himeshi/Projects/workspace/FFTTransformScimark/fft.c:330: memory error: out of bound pointer
 KLEE: NOTE: now ignoring this error at this location
 KLEE: HaltTimer invoked
 KLEE: halting execution, dumping remaining states

@@ -1,72 +1,42 @@
-!128 Line 137 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), N, 28887616
+!128 Line 137 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), N, 47525792
 0
 
-!128 Line 155 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), omega_over_four, 28895392
+!128 Line 155 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), omega_over_four, 47533424
 (omega_err >> 0)
 
-!129 Line 138 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), cycles, 28887584
+!129 Line 138 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), cycles, 47525760
 0
 
-!129 Line 156 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), one_minus_omega, 28895696
+!129 Line 156 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), one_minus_omega, 47533728
 ((0 - (omega_err * omega)) / (1 - omega))
 
-!132 Line 162 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Mm1, 28896144
+!132 Line 162 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Mm1, 47534176
 0
 
-!133 Line 163 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Nm1, 28896592
+!133 Line 163 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Nm1, 47538544
 0
 
-!134 Line 148 of /home/himeshi/Projects/workspace/SORScimark/sor.c (main), omega, 28887792
-omega_err
-
-!134 Line 171 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), p, 28896896
+!134 Line 171 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), p, 47539136
 0
 
-!136 Line 172 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), i, 28901456
+!136 Line 172 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), i, 47539504
 0
 
-!139 Line 173 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gi, 28902352
+!139 Line 173 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gi, 47540400
 0
 
-!141 Line 174 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gim1, 28902800
+!141 Line 174 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gim1, 47540848
 0
 
-!142 Line 175 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gip1, 28903296
+!142 Line 175 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), Gip1, 47541344
 0
 
-!143 Line 176 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), j, 28901904
+!143 Line 176 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), j, 47539952
 0
 
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 54, 28888380
-G_err
+!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 88, 47526556
+((((((omega_err >> 0) + (((((((((G_err * G[1]) + (G_err * G[13])) / (G[1] + G[13])) * (G[1] + G[13])) + (G_err * G[6])) / ((G[1] + G[13]) + G[6])) * ((G[1] + G[13]) + G[6])) + (G_err * G[8])) / (((G[1] + G[13]) + G[6]) + G[8]))) - ((((((((((G_err * G[1]) + (G_err * G[13])) / (G[1] + G[13])) * (G[1] + G[13])) + (G_err * G[6])) / ((G[1] + G[13]) + G[6])) * ((G[1] + G[13]) + G[6])) + (G_err * G[8])) / (((G[1] + G[13]) + G[6]) + G[8])) * (omega_err >> 0))) * ((omega / 4) * (((G[1] + G[13]) + G[6]) + G[8]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[7]))) / (((omega / 4) * (((G[1] + G[13]) + G[6]) + G[8])) + ((1 - omega) * G[7])))
 
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 54, 28888384
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 59, 28888428
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 59, 28888432
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 66, 28888400
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 73, 28888408
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 73, 28888412
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 81, 28888404
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 81, 28888408
-G_err
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 88, 28888404
-((((((omega_err >> 0) + (((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14]))) - ((((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14])) * (omega_err >> 0))) * ((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[13]))) / (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))
-
-!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 88, 28888408
-((((((omega_err >> 0) + (((((((((G_err * G[8]) + (G_err * G[20])) / (G[8] + G[20])) * (G[8] + G[20])) + (((((((omega_err >> 0) + (((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14]))) - ((((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14])) * (omega_err >> 0))) * ((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[13]))) / (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) * (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) / ((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) * ((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) + (G_err * G[15])) / (((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) + G[15]))) - ((((((((((G_err * G[8]) + (G_err * G[20])) / (G[8] + G[20])) * (G[8] + G[20])) + (((((((omega_err >> 0) + (((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14]))) - ((((((((((G_err * G[7]) + (G_err * G[19])) / (G[7] + G[19])) * (G[7] + G[19])) + (G_err * G[12])) / ((G[7] + G[19]) + G[12])) * ((G[7] + G[19]) + G[12])) + (G_err * G[14])) / (((G[7] + G[19]) + G[12]) + G[14])) * (omega_err >> 0))) * ((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[13]))) / (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) * (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) / ((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) * ((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13])))) + (G_err * G[15])) / (((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) + G[15])) * (omega_err >> 0))) * ((omega / 4) * (((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) + G[15]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[14]))) / (((omega / 4) * (((G[8] + G[20]) + (((omega / 4) * (((G[7] + G[19]) + G[12]) + G[14])) + ((1 - omega) * G[13]))) + G[15])) + ((1 - omega) * G[14])))
+!145 Line 177 of /home/himeshi/Projects/workspace/SORScimark/sor.c (SOR_execute), 88, 47526604
+((((((omega_err >> 0) + (((((((((G_err * G[13]) + (G_err * G[25])) / (G[13] + G[25])) * (G[13] + G[25])) + (G_err * G[18])) / ((G[13] + G[25]) + G[18])) * ((G[13] + G[25]) + G[18])) + (G_err * G[20])) / (((G[13] + G[25]) + G[18]) + G[20]))) - ((((((((((G_err * G[13]) + (G_err * G[25])) / (G[13] + G[25])) * (G[13] + G[25])) + (G_err * G[18])) / ((G[13] + G[25]) + G[18])) * ((G[13] + G[25]) + G[18])) + (G_err * G[20])) / (((G[13] + G[25]) + G[18]) + G[20])) * (omega_err >> 0))) * ((omega / 4) * (((G[13] + G[25]) + G[18]) + G[20]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[19]))) / (((omega / 4) * (((G[13] + G[25]) + G[18]) + G[20])) + ((1 - omega) * G[19])))
 

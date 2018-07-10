@@ -1,10 +1,8 @@
 array arg0[4] : w32 -> w8 = symbolic
 array arg1[4] : w32 -> w8 = symbolic
-(query [(Eq false
-             (Eq 0
-                 (ReadLSB w32 0 arg1)))
+(query [(Eq 0
+             (ReadLSB w32 0 arg1))
          (Eq false
              (Eq 1
-                 N0:(ReadLSB w32 0 arg0)))
-         (Eq false (Eq 2 N0))]
+                 (ReadLSB w32 0 arg0)))]
         false)

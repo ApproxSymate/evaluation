@@ -1,0 +1,13 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c
+Line: 151
+assembly.ll line: 236
+Stack: 
+	#000000236 in SparseCompRow_matmult (M=10, y=56097216, val=56097440, row=56108384, col=56061232, x=56098304, NUM_ITERATIONS=1) at /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:151
+	#100000147 in main () at /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:130
+Info: 
+	address: 18446744068106361820
+	next: object at 47273816038760 of size 4
+		MO0[4] (no allocation info)
+	prev: object at 56131152 of size 4
+		MO85[4] allocated at SparseCompRow_matmult():  %rowRp1 = alloca i32, align 4

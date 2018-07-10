@@ -19,7 +19,7 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 321 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of r : 0
+Output Error of r : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
 Absolute Bound: 1.000000e+00
 
 ------------------------
@@ -29,5 +29,25 @@ Absolute Bound: 1.000000e+00
 
 ------------------------
 Line 323 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
-Output Error of b : 0
+Output Error of b : (((((((arg2_err * arg2) - (((arg3_err * arg3) / arg3) * arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3)) * (arg2 - arg3)) / (arg2 - arg3))
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 324 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (texture1): 
+Output Error of v : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 409 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
+Output Error of pixels[0] : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 410 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
+Output Error of pixels[1] : 0
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 411 of /home/himeshi/Projects/workspace/simpleRayTracer/plane.c (init): 
+Output Error of k : 0
 Absolute Bound: 1.000000e+00

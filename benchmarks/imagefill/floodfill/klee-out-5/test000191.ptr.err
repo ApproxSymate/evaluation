@@ -1,0 +1,14 @@
+Error: memory error: out of bound pointer
+File: /home/himeshi/Projects/workspace/floodfill/floodfill.c
+Line: 263
+assembly.ll line: 503
+Stack: 
+	#000000503 in popy () at /home/himeshi/Projects/workspace/floodfill/floodfill.c:263
+	#100000142 in fill (x=0, y=0) at /home/himeshi/Projects/workspace/floodfill/floodfill.c:331
+	#200000057 in main () at /home/himeshi/Projects/workspace/floodfill/floodfill.c:227
+Info: 
+	address: 58671996
+	next: object at 58672000 of size 4
+		MO50[4] allocated at main():  %9 = call noalias i8* @malloc(i64 %8) #4, !dbg !153
+	prev: object at 58665792 of size 4
+		MO47[4] allocated at main():  %4 = call noalias i8* @malloc(i64 %3) #4, !dbg !152

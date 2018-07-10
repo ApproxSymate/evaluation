@@ -1,69 +1,45 @@
-!133 Line 133 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), N, 36479872
+!133 Line 133 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), N, 50342320
 0
 
-!133 Line 157 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), minMN, 36954096
+!133 Line 157 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), minMN, 50799520
 0
 
-!134 Line 134 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 4, 36480432
+!134 Line 134 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 4, 50342832
 0
 
-!134 Line 158 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 36959104
+!134 Line 158 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 50797664
 0
 
-!135 Line 168 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 36959104
+!135 Line 168 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), j, 50797664
 0
 
-!135 Line 261 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 36992864
-lu_err
+!136 Line 263 of /home/himeshi/Projects/workspace/LUScimark/lu.c (absolute), 1, 50832640
+((0 - (lu_err * lu[0])) / (0 - lu[0]))
 
-!137 Line 140 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 14, 36480336
-lu_err
-
-!137 Line 171 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), jp, 36961776
+!137 Line 171 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), jp, 50801616
 0
 
-!138 Line 141 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 20, 36480340
-lu_err
+!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), t, 50802064
+((0 - (lu_err * lu[0])) / (0 - lu[0]))
 
-!139 Line 143 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 26, 36480348
-lu_err
-
-!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 24, 36480336
-lu_err
-
-!139 Line 174 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), t, 36962192
-lu_err
-
-!140 Line 144 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 32, 36480352
-lu_err
-
-!140 Line 175 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), i, 36965008
+!140 Line 175 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), i, 50806256
 0
 
-!142 Line 152 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 1, 36479488
+!142 Line 152 of /home/himeshi/Projects/workspace/LUScimark/lu.c (main), 1, 50341936
 0
 
-!150 Line 183 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 57, 36478848
+!150 Line 183 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 57, 50785728
 0
 
-!151 Line 188 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 64, 36480336
-lu_err
-
-!167 Line 227 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 128, 36480336
-lu_err
-
-!167 Line 227 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), recp, 36963088
+!167 Line 227 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), recp, 50803120
 ((0 - lu_err) / (1 - lu_err))
 
-!169 Line 229 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), k, 36966336
+!169 Line 229 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), k, 50807680
 0
 
-!174 Line 240 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), ii, 36966928
-0
+!171 Line 230 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 145, 50342748
+((lu_err + ((0 - lu_err) / (1 - lu_err))) - (((0 - lu_err) / (1 - lu_err)) * lu_err))
 
-!185 Line 253 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 211, 36480336
-lu_err
-
-!187 Line 256 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 1, 36659360
+!187 Line 256 of /home/himeshi/Projects/workspace/LUScimark/lu.c (LU_factor), 1, 50318208
 0
 

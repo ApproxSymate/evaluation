@@ -1,0 +1,9 @@
+Error: overshift error
+File: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c
+Line: 313
+assembly.ll line: 308
+Stack: 
+	#000000796 in klee_overshift_check (bitWidth=32, shift=16) at /home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/klee_overshift_check.c:27
+	#100000308 in texture1 (x=0, y, z=0) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:313
+	#200000585 in init (arg0, arg1, arg2, arg3) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:401
+	#300000751 in main (argc=1, argv=34114032) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:467

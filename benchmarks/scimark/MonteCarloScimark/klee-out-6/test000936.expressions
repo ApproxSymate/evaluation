@@ -1,0 +1,36 @@
+!354 Line 19 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 38503056
+0
+
+!354 Line 21 of /home/dcsandr/software/klee-uclibc/libc/string/strrchr.c (strrchr), p, 45229952
+0
+
+!354 Line 288 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 61476480
+0
+
+!355 Line 291 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 61454528
+0
+
+!356 Line 294 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 61454000
+0
+
+!359 Line 24 of /home/dcsandr/software/klee-uclibc/libc/string/strrchr.c (strrchr), p, 45229952
+0
+
+!362 Line 26 of /home/dcsandr/software/klee-uclibc/libc/string/strrchr.c (strrchr), s.addr, 55394832
+0
+
+!363 Line 306 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+
+!365 Line 308 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+0
+
+!378 Line 327 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 61036880
+0
+
+!386 Line 342 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__uclibc_progname, 61180208
+0
+
+!387 Line 344 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @program_invocation_name, 60941456
+0
+
