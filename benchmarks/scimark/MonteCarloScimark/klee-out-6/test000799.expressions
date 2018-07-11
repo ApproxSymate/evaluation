@@ -1,30 +1,69 @@
-!354 Line 19 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 38503056
+!354 Line 19 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 33823040
 0
 
-!354 Line 288 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 61476480
+!354 Line 22 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), r1, 60931184
 0
 
-!355 Line 291 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 61454528
+!354 Line 280 of /home/dcsandr/software/klee-uclibc/libc/stdio/_stdio.c (_stdio_init), old_errno, 51668928
 0
 
-!356 Line 28 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), 3, 53922784
+!354 Line 288 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__libc_stack_end, 36507920
 0
 
-!356 Line 28 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), p, 38503056
+!354 Line 43 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), retval1, 52960688
 0
 
-!356 Line 294 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 61454000
+!355 Line 23 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), r2, 62851344
 0
 
-!358 Line 29 of /home/dcsandr/software/klee-uclibc/libc/string/memset.c (memset), n.addr, 40911504
+!355 Line 291 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), void, 35608480
 0
 
-!363 Line 306 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+!355 Line 45 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_iflag2, 32857008
 0
 
-!365 Line 308 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 38545600
+!356 Line 193 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__uClibc_init.been_there_done_that, 35656720
 0
 
-!378 Line 327 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__pagesize, 61036880
+!356 Line 294 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 35586736
+0
+
+!356 Line 46 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_oflag3, 32857012
+0
+
+!357 Line 197 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_init), @__pagesize, 35711344
+0
+
+!357 Line 31 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), 5, 32857025
+0
+
+!357 Line 31 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), 5, 32857026
+0
+
+!357 Line 31 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), r1, 60931184
+0
+
+!357 Line 31 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), r2, 62851344
+0
+
+!357 Line 47 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_cflag4, 32857016
+0
+
+!358 Line 48 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_lflag5, 32857020
+0
+
+!359 Line 300 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), @__environ, 35586736
+0
+
+!359 Line 32 of /home/dcsandr/software/klee-uclibc/libc/string/mempcpy.c (mempcpy), n.addr, 63235376
+0
+
+!359 Line 49 of /home/dcsandr/software/klee-uclibc/libc/termios/tcgetattr.c (tcgetattr), c_line6, 32857024
+0
+
+!363 Line 306 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 33386736
+0
+
+!365 Line 308 of /home/dcsandr/software/klee-uclibc/libc/misc/internals/__uClibc_main.c (__uClibc_main), aux_dat, 33386736
 0
 

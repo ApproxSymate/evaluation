@@ -1,20 +1,20 @@
-klee -precision -no-branch-check -loop-breaking -libc=uclibc -max-time=1 ./montecarlo.bc
-PID: 343180
-Started: 2018-07-10 11:53:32
+klee -precision -no-branch-check -libc=uclibc -max-time=1 ./montecarlo.bc
+PID: 356236
+Started: 2018-07-12 01:19:12
 BEGIN searcher description
 <InterleavedSearcher> containing 2 searchers:
 RandomPathSearcher
 WeightedRandomSearcher::CoveringNew
 </InterleavedSearcher>
 END searcher description
-Finished: 2018-07-10 11:53:34
-Elapsed: 00:00:02
-KLEE: done: explored paths = 2417
+Finished: 2018-07-12 01:19:13
+Elapsed: 00:00:01
+KLEE: done: explored paths = 2508
 KLEE: done: total queries = 0
 KLEE: done: valid queries = 0
 KLEE: done: invalid queries = 0
 KLEE: done: query cex = 0
 
-KLEE: done: total instructions = 35400
-KLEE: done: completed paths = 2417
-KLEE: done: generated tests = 2369
+KLEE: done: total instructions = 36490
+KLEE: done: completed paths = 2508
+KLEE: done: generated tests = 2459
