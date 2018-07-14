@@ -1,4 +1,4 @@
 result_path = /home/andrew/software/evaluation/benchmarks/imagefill/floodfill/klee-out-3/
 source_path = /home/andrew/software/evaluation/benchmarks/imagefill/floodfill/floodfill.c
 ktest_tool_path = /home/andrew/software/klee/build/bin/ktest-tool
-input_path = /home/andrew/software/evaluation/benchmarks/imagefill/floodfill/input.txt
+input_path = /home/andrew/software/evaluation/benchmarks/imagefill/floodfill/

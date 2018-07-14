@@ -1,4 +1,4 @@
 result_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/klee-out-3/
 source_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/floodfill.c
 ktest_tool_path = /home/dcsandr/projects/fp-analysis/klee/build/bin/ktest-tool
-input_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/input.txt
+input_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/imagefill/floodfill/

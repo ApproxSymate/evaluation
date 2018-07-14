@@ -1,4 +1,4 @@
 result_path = /home/himeshi/Projects/workspace/MonteCarloScimark/klee-out-4/
 source_path = /home/himeshi/Projects/workspace/MonteCarloScimark/montecarlo.c
 ktest_tool_path = /home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/ktest-tool
-input_path =  /home/himeshi/Projects/workspace/MonteCarloScimark/input.txt
+input_path =  /home/himeshi/Projects/workspace/MonteCarloScimark/
