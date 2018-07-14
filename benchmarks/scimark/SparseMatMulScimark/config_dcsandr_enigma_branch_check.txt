@@ -1,4 +1,4 @@
 result_path = /home/dcsandr/software/evaluation/benchmarks/scimark/SparseMatMulScimark/klee-out-3/
 source_path = /home/dcsandr/software/evaluation/benchmarks/scimark/SparseMatMulScimark/sparsematmul.c
 ktest_tool_path = /home/dcsandr/software/klee/build/bin/ktest-tool
-input_path = /home/dcsandr/software/evaluation/benchmarks/scimark/SparseMatMulScimark/input.txt
+input_path = /home/dcsandr/software/evaluation/benchmarks/scimark/SparseMatMulScimark/

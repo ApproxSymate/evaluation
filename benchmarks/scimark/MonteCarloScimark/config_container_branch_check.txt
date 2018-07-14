@@ -1,4 +1,4 @@
 result_path = /root/evaluation/benchmarks/scimark/MonteCarloScimark/klee-out-4/
 source_path = /root/evaluation/benchmarks/scimark/MonteCarloScimark/montecarlo.c
 ktest_tool_path = /root/klee/build/bin/ktest-tool
-input_path = /root/evaluation/benchmarks/scimark/MonteCarloScimark/input.txt
+input_path = /root/evaluation/benchmarks/scimark/MonteCarloScimark/

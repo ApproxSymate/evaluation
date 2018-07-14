@@ -1,4 +1,4 @@
 result_path = /home/andrew/software/evaluation/benchmarks/scimark/SparseMatMulScimark/klee-out-5/
 source_path = /home/andrew/software/evaluation/benchmarks/scimark/SparseMatMulScimark/sparsematmul.c
 ktest_tool_path = /home/andrew/software/klee/build/bin/ktest-tool
-input_path = /home/andrew/software/evaluation/benchmarks/scimark/SparseMatMulScimark/input.txt
+input_path = /home/andrew/software/evaluation/benchmarks/scimark/SparseMatMulScimark/
