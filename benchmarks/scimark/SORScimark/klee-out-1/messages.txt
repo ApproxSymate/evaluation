@@ -1,5 +1,0 @@
-KLEE: Using STP solver backend
-KLEE: ERROR: /home/himeshi/Projects/workspace/SORScimark/sor.c:155: divide by zero
-KLEE: NOTE: now ignoring this error at this location
-KLEE: HaltTimer invoked
-KLEE: halting execution, dumping remaining states
