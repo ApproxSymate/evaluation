@@ -1,7 +1,0 @@
-Error: Division by zero in SDiv execution
-File: /home/himeshi/Projects/workspace/simpleRayTracer/plane.c
-Line: 382
-assembly.ll line: 500
-Stack: 
-	#000000500 in init (arg0, arg1, arg2, arg3) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:382
-	#100000751 in main (argc=1, argv=34114032) at /home/himeshi/Projects/workspace/simpleRayTracer/plane.c:467

@@ -1,7 +1,0 @@
-Error: divide by zero
-File: /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c
-Line: 97
-assembly.ll line: 46
-Stack: 
-	#000000287 in klee_div_zero_check (z=10) at /home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/klee_div_zero_check.c:14
-	#100000046 in main () at /home/himeshi/Projects/workspace/SparseMatMulScimark/sparsematmul.c:97

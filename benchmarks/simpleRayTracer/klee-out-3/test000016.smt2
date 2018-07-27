@@ -1,6 +1,0 @@
-(set-logic QF_AUFBV )
-(declare-fun arg3 () (Array (_ BitVec 32) (_ BitVec 8) ) )
-(declare-fun scaling () (Array (_ BitVec 32) (_ BitVec 8) ) )
-(assert (let ( (?B1 (select  scaling (_ bv0 32) ) ) (?B2 (bvsub  (_ bv4294967295 32) (concat  (select  arg3 (_ bv3 32) ) (concat  (select  arg3 (_ bv2 32) ) (concat  (select  arg3 (_ bv1 32) ) (select  arg3 (_ bv0 32) ) ) ) ) ) ) ) (let ( (?B3 ((_ sign_extend 24)  ?B1 ) ) ) (let ( (?B4 (bvsdiv  ?B3 (_ bv3 32) ) ) ) (and  (and  (and  (=  false (=  (_ bv0 8) ?B1 ) ) (=  false (bvsle  (bvmul  ?B2 ?B4 ) (_ bv0 32) ) ) ) (=  false (bvsle  (_ bv0 32) (bvsdiv  ?B2 ?B4 ) ) ) ) (=  false (bvsle  (bvmul  ?B2 (bvsdiv  ?B3 (_ bv2 32) ) ) (_ bv0 32) ) ) ) ) ) ) )
-(check-sat)
-(exit)
