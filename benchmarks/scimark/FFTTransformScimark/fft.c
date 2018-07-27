@@ -26,8 +26,7 @@ int int_log2(int n);
 void FFT_inverse(int N, double *data);
 
 int main() {
-	//int N = 16;
-	int N = 8;
+	int N = 16;
 	int twoN = 2 * N;
 	const int RANDOM_SEED = 101010;
 

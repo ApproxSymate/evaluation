@@ -26,7 +26,7 @@ int main() {
 	double **lu;
 	int *pivot;
 
-	int N = 3;
+	int N = 100;
 	const int RANDOM_SEED = 101010;
 	Random R = new_Random_seed(RANDOM_SEED);
 
@@ -35,7 +35,7 @@ int main() {
 	pivot = (int *) malloc(N * sizeof(int));
 	Array2D_double_copy(N, N, lu, A);
 
-	printf("%f, ", lu[0][0]);
+	/*printf("%f, ", lu[0][0]);
 	printf("%f, ", lu[0][1]);
 	printf("%f, ", lu[0][2]);
 	printf("%f, ", lu[1][0]);
@@ -43,7 +43,7 @@ int main() {
 	printf("%f, ", lu[1][2]);
 	printf("%f, ", lu[2][0]);
 	printf("%f, ", lu[2][1]);
-	printf("%f, ", lu[2][2]);
+	printf("%f, ", lu[2][2]);*/
 
 	LU_factor(N, N, lu, pivot);
 
