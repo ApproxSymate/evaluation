@@ -49,7 +49,7 @@ if [ ! -e out-1.txt ] ; then
 fi
 
 if [ ! -d klee-out-2 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=5 -output-dir=klee-out-2 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=5 -max-time=1 -output-dir=klee-out-2 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-2.txt ] ; then
@@ -63,7 +63,7 @@ if [ ! -e out-2.txt ] ; then
 fi
 
 if [ ! -d klee-out-3 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=10 -output-dir=klee-out-3 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=10 -max-time=1 -output-dir=klee-out-3 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-3.txt ] ; then
@@ -77,7 +77,7 @@ if [ ! -e out-3.txt ] ; then
 fi
 
 if [ ! -d klee-out-4 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=15 -output-dir=klee-out-4 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=15 -max-time=1 -output-dir=klee-out-4 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-4.txt ] ; then
