@@ -1,4 +1,0 @@
-result_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/klee-out-1/
-source_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/sor.c
-ktest_tool_path = /home/dcsandr/projects/fp-analysis/klee/build/bin/ktest-tool
-input_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/SORScimark/
