@@ -30,7 +30,7 @@ if [ ! -e out-0.txt ] ; then
     echo "source_path = " $PROJECT_DIR/$SRC >> config.tmp
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
-    ( time python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp ) &> out-0.txt
+    ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-0.txt ) ) &> out-0-time.txt
     rm -f config.tmp
 fi
 
@@ -44,7 +44,7 @@ if [ ! -e out-1.txt ] ; then
     echo "source_path = " $PROJECT_DIR/$SRC >> config.tmp
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
-    ( time python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp ) &> out-1.txt
+    ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-1.txt ) ) &> out-1-time.txt
     rm -f config.tmp
 fi
 
@@ -58,7 +58,7 @@ if [ ! -e out-2.txt ] ; then
     echo "source_path = " $PROJECT_DIR/$SRC >> config.tmp
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
-    ( time python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp ) &> out-2.txt
+    ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-2.txt ) ) &> out-2-time.txt
     rm -f config.tmp
 fi
 
@@ -72,7 +72,7 @@ if [ ! -e out-3.txt ] ; then
     echo "source_path = " $PROJECT_DIR/$SRC >> config.tmp
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
-    ( time python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp ) &> out-3.txt
+    ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-3.txt ) ) &> out-3-time.txt
     rm -f config.tmp
 fi
 
@@ -86,7 +86,7 @@ if [ ! -e out-4.txt ] ; then
     echo "source_path = " $PROJECT_DIR/$SRC >> config.tmp
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
-    ( time python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp ) &> out-4.txt
+    ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-4.txt ) ) &> out-4-time.txt
     rm -f config.tmp
 fi
 
