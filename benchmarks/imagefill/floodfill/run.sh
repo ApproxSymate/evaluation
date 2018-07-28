@@ -35,6 +35,8 @@ if [ ! -e out-0.txt ] ; then
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
     ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-0.txt ) ) &> out-0-time.txt
+    mv -f approximable_sorted.txt approximable_sorted-0.txt
+    mv -f non_approximable_sorted.txt non_approximable_sorted-0.txt
     rm -f config.tmp
 fi
 
@@ -49,6 +51,8 @@ if [ ! -e out-1.txt ] ; then
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
     ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-1.txt ) ) &> out-1-time.txt
+    mv -f approximable_sorted.txt approximable_sorted-1.txt
+    mv -f non_approximable_sorted.txt non_approximable_sorted-1.txt
     rm -f config.tmp
 fi
 
@@ -63,6 +67,8 @@ if [ ! -e out-2.txt ] ; then
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
     ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-2.txt ) ) &> out-2-time.txt
+    mv -f approximable_sorted.txt approximable_sorted-2.txt
+    mv -f non_approximable_sorted.txt non_approximable_sorted-2.txt
     rm -f config.tmp
 fi
 
@@ -77,6 +83,8 @@ if [ ! -e out-3.txt ] ; then
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
     ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-3.txt ) ) &> out-3-time.txt
+    mv -f approximable_sorted.txt approximable_sorted-3.txt
+    mv -f non_approximable_sorted.txt non_approximable_sorted-3.txt
     rm -f config.tmp
 fi
 
@@ -91,6 +99,8 @@ if [ ! -e out-4.txt ] ; then
     echo "ktest_tool_path = " $KLEE_DIR/bin/ktest-tool >> config.tmp
     echo "input_path = " $PROJECT_DIR >> config.tmp
     ( time ( python3 $APPROXIMABILITY_DIR/find_approx.py --single-path-approximation config.tmp &> out-4.txt ) ) &> out-4-time.txt
+    mv -f approximable_sorted.txt approximable_sorted-4.txt
+    mv -f non_approximable_sorted.txt non_approximable_sorted-4.txt
     rm -f config.tmp
 fi
 
