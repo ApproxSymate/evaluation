@@ -19,7 +19,7 @@ if [ ! -x $KLEE_DIR/bin/klee ] ; then
     echo $KLEE_DIR/bin/klee not found. Have you specified KLEE_DIR correctly?
     exit 1
 fi
-if [ x$IMEOUT = x ] ; then
+if [ x$TIMEOUT = x ] ; then
     echo Default KLEE timeout is 1 second
     TIMEOUT=1
 fi
