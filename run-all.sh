@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Timeout of 60 seconds
+TIMEOUT=60
 CURRENT_DIR=`pwd`
 RELATIVE_SCRIPT_DIR=`dirname $0`
 SCRIPT_DIR="$CURRENT_DIR/$RELATIVE_SCRIPT_DIR"
@@ -28,6 +30,7 @@ fi
 
 export APPROXIMABILITY_DIR="$APPOXIMABILITY_DIR"
 export KLEE_DIR="$KLEE_DIR"
+export TIMEOUT="$TIMEOUT"
 for BENCHMARK in $BENCHMARK_DIRS ; do
     pushd $SCRIPT_DIR/$BENCHMARK > /dev/null
     ./run-clean.sh

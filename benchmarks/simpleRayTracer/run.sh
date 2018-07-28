@@ -19,9 +19,13 @@ if [ ! -x $KLEE_DIR/bin/klee ] ; then
     echo $KLEE_DIR/bin/klee not found. Have you specified KLEE_DIR correctly?
     exit 1
 fi
+if [ x$IMEOUT = x ] ; then
+    echo Default KLEE timeout is 1 second
+    TIMEOUT=1
+fi
 
 if [ ! -d klee-out-0 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision -output-dir=klee-out-0 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision -max-time=$TIMEOUT -output-dir=klee-out-0 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-0.txt ] ; then
@@ -49,7 +53,7 @@ if [ ! -e out-1.txt ] ; then
 fi
 
 if [ ! -d klee-out-2 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=5 -max-time=1 -output-dir=klee-out-2 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=5 -max-time=$TIMEOUT -output-dir=klee-out-2 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-2.txt ] ; then
@@ -63,7 +67,7 @@ if [ ! -e out-2.txt ] ; then
 fi
 
 if [ ! -d klee-out-3 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=10 -max-time=1 -output-dir=klee-out-3 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=10 -max-time=$TIMEOUT -output-dir=klee-out-3 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-3.txt ] ; then
@@ -77,7 +81,7 @@ if [ ! -e out-3.txt ] ; then
 fi
 
 if [ ! -d klee-out-4 ] ; then
-    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=15 -max-time=1 -output-dir=klee-out-4 $BITCODE
+    $KLEE_DIR/bin/klee $EXTRA_OPTIONS --precision --loop-breaking -default-trip-count=15 -max-time=$TIMEOUT -output-dir=klee-out-4 $BITCODE
     rm -f klee-last
 fi
 if [ ! -e out-4.txt ] ; then
