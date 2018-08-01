@@ -1,4 +1,0 @@
-result_path = /home/dcsandr/software/evaluation/benchmarks/scimark/MonteCarloScimark/klee-out-4/
-source_path = /home/dcsandr/software/evaluation/benchmarks/scimark/MonteCarloScimark/montecarlo.c
-ktest_tool_path = /home/dcsandr/software/klee/build/bin/ktest-tool
-input_path = /home/dcsandr/software/evaluation/benchmarks/scimark/MonteCarloScimark/

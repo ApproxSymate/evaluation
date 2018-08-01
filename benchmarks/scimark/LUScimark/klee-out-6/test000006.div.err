@@ -1,8 +1,0 @@
-Error: divide by zero
-File: /home/himeshi/Projects/workspace/LUScimark/lu.c
-Line: 227
-assembly.ll line: 295
-Stack: 
-	#000000464 in klee_div_zero_check (z) at /home/dcsandr/software/fp-analysis-klee/runtime/Intrinsic/klee_div_zero_check.c:14
-	#100000295 in LU_factor (M=3, N=3, A=50342736, pivot=50785728) at /home/himeshi/Projects/workspace/LUScimark/lu.c:227
-	#200000075 in main (argc=1, argv=50728224) at /home/himeshi/Projects/workspace/LUScimark/lu.c:150

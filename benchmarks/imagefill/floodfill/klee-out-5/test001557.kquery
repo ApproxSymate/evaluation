@@ -1,5 +1,0 @@
-array __arr32__image[24] : w32 -> w8 = symbolic
-(query [(Eq false
-             (Eq 4294967295
-                 (ReadLSB w32 0 __arr32__image)))]
-        false)

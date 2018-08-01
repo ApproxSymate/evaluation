@@ -1,6 +1,0 @@
-(set-logic QF_AUFBV )
-(declare-fun __arr32__image () (Array (_ BitVec 32) (_ BitVec 8) ) )
-(declare-fun targetColor () (Array (_ BitVec 32) (_ BitVec 8) ) )
-(assert (=  (concat  (select  __arr32__image (_ bv3 32) ) (concat  (select  __arr32__image (_ bv2 32) ) (concat  (select  __arr32__image (_ bv1 32) ) (select  __arr32__image (_ bv0 32) ) ) ) ) (concat  (select  targetColor (_ bv3 32) ) (concat  (select  targetColor (_ bv2 32) ) (concat  (select  targetColor (_ bv1 32) ) (select  targetColor (_ bv0 32) ) ) ) ) ) )
-(check-sat)
-(exit)

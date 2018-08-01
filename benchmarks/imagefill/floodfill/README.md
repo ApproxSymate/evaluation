@@ -1,4 +1,2 @@
-`klee-out-5` was created by the following run:
-```
-klee -precision -no-branch-check -max-time=1 ./floodfill.bc
-```
+Use `run.sh` to run all experiments and `run-clean.sh` to remove the results.
+

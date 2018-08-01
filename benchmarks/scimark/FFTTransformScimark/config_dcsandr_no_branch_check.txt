@@ -1,4 +1,0 @@
-result_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/klee-out-2/
-source_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/fft.c
-ktest_tool_path = /home/dcsandr/projects/fp-analysis/klee/build/bin/ktest-tool
-input_path = /home/dcsandr/projects/fp-analysis/evaluation/benchmarks/scimark/FFTTransformScimark/
