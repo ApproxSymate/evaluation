@@ -1,8 +1,8 @@
 /*
  * fft-symbolic.c
  *
- * Compile with: /home/himeshi/Projects/Approx/llvm/build/bin/clang -I /home/himeshi/Projects/Approx/klee/klee/include -emit-llvm -c -g fft-symbolic.c
- * Run with: /home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --math-calls --scaling fft-symbolic.bc
+ * Compile with: clang -I klee/include -emit-llvm -c -g fft-symbolic.c
+ * Run with: klee --write-kqueries --precision --math-calls --scaling fft-symbolic.bc
  *
  *  Created on: Jul 19, 2018
  *      Author: himeshi

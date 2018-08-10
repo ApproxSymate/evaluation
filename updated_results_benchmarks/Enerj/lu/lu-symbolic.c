@@ -1,9 +1,8 @@
 /*
  * lu-symbolic.c
  *
- * Compile with: /home/himeshi/Projects/Approx/llvm/build/bin/clang -I /home/himeshi/Projects/Approx/klee/klee/include -emit-llvm -c -g lu-symbolic.c
- * Note: run without --posix-runtime --allow-external-sym-calls
- * Run with: /home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --scaling --math-calls --approximate-pointers lu-symbolic.bc
+ * Compile with: clang -I klee/include -emit-llvm -c -g lu-symbolic.c
+ * Run with: klee --write-kqueries --precision --scaling --math-calls --approximate-pointers lu-symbolic.bc
  *
  * Note - To avoid errors due to differences in language, we replaced array swaps using pointers to memcpy calls
  *

@@ -1,8 +1,8 @@
 /*
  * raytracer-symbolic.c
  *
- * Compile with: /home/himeshi/Projects/Approx/llvm/build/bin/clang -I /home/himeshi/Projects/Approx/klee/klee/include -emit-llvm -c -g raytracer-symbolic.c
- * Run with: /home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --math-calls --scaling raytracer-symbolic.bc
+ * Compile with: clang -I klee/include -emit-llvm -c -g raytracer-symbolic.c
+ * Run with: klee --write-kqueries --precision --math-calls --scaling raytracer-symbolic.bc
  *
  *  Created on: Aug 2, 2018
  *      Author: himeshi
