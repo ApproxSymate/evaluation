@@ -1,0 +1,102 @@
+Source: /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/Projects/workspace/Enerj/imagej/klee-out-0/
+
+Selected path #:18
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = -1.000000
+pixels[1] = -1.000000
+pixels[2] = 0.000000
+pixels[3] = -1.000000
+pixels[4] = -1.000000
+pixels[5] = -1.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+returnVal (getPix)
+newXStack (push)
+color (fill)
+c (setPix)
+newYStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+
+stackSize (fill)
+x2 (fillLine)
+stackSize-- (popy)
+y (setPix)
+pixels (setPix)
+x (push)
+inScanLine (fill)
+x (fill)
+xstack (push)
+maxStackSize (push)
+newColor (fill)
+y (fill)
+x2-- (fill)
+stackSize (main)
+*newYStack (push)
+y (push)
+x (fillLine)
+value (popy)
+returnVal (getPix)
+ystack (main)
+y (fillLine)
+newYStack (push)
+i (fill)
+height (fill)
+targetColor (main)
+x (setPix)
+ystack (push)
+returnVal (popx)
+*newXStack (push)
+width (fill)
+y (getPix)
+xstack (main)
+c (setPix)
+x1++ (fill)
+x (getPix)
+maxStackSize (main)
+stackSize++ (push)
+newXStack (push)
+x1 (fillLine)
+
+Approximability of input variables
+================================
+pixels : 0%
+xstack : 100%
+ystack : 100%
+targetColor : 100%

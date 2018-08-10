@@ -1,0 +1,22 @@
+array __arr32__A[16] : w32 -> w8 = symbolic
+array fabs_1[8] : w32 -> w8 = symbolic
+array fabs_2[8] : w32 -> w8 = symbolic
+array scaling[8] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0 (Read w8 0 scaling)))
+         (Eq false
+             (Slt (Concat w32 171
+                              (Concat w24 171
+                                          (Concat w16 171 (Read w8 0 fabs_1))))
+                  (Concat w32 171
+                              (Concat w24 171
+                                          (Concat w16 171 (Read w8 0 fabs_2))))))
+         (Eq false
+             (Eq 0
+                 N0:(ReadLSB w32 0 __arr32__A)))
+         (Eq 0
+             (Sub w32 (ReadLSB w32 12 __arr32__A)
+                      (Mul w32 (Mul w32 (ReadLSB w32 8 __arr32__A)
+                                        (SDiv w32 1 N0))
+                               (ReadLSB w32 4 __arr32__A))))]
+        false)

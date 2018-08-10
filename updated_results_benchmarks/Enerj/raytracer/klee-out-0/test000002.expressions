@@ -1,0 +1,93 @@
+!143 Line 29 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (main), args1, 46552416
+0
+
+!144 Line 30 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (main), args2, 46552624
+0
+
+4 Line 0 of unknown/unknown (init), args1, 47036016
+0
+
+!150 Line 55 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), nx, 47079680
+0
+
+!201 Line 106 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @numIterations, 47088880
+0
+
+!143 Line 41 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @w, 47100240
+0
+
+!144 Line 42 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @h, 47100816
+0
+
+!145 Line 43 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @texture, 47101344
+0
+
+!146 Line 44 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @light, 47101872
+0
+
+!158 Line 68 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @k, 47102448
+0
+
+4 Line 0 of unknown/unknown (init), args3, 47131200
+arg3_err
+
+4 Line 0 of unknown/unknown (init), args2, 47131232
+0
+
+4 Line 0 of unknown/unknown (init), args4, 47131728
+arg4_err
+
+!180 Line 87 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), index, 47133168
+0
+
+!161 Line 71 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), x, 47133568
+0
+
+!159 Line 70 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), y, 47134016
+0
+
+!156 Line 65 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), xe, 47134464
+0
+
+!149 Line 53 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ye, 47134912
+arg4_err
+
+!157 Line 67 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ze, 47135280
+0
+
+!170 Line 77 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), xd, 47135728
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!171 Line 78 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), yd, 47136176
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!172 Line 79 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), zd, 47143456
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!151 Line 56 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ny, 47145824
+0
+
+!152 Line 57 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), nz, 47146320
+0
+
+!148 Line 52 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), lly, 47148112
+arg3_err
+
+!153 Line 58 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), bl, 47148560
+0
+
+!175 Line 82 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), t, 47149008
+0
+
+!169 Line 76 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), l, 47149456
+(((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))
+
+!154 Line 62 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), w1, 47149904
+0
+
+!155 Line 63 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), h1, 47150352
+0
+
+!199 Line 104 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), 150, 47154720
+0
+

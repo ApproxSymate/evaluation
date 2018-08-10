@@ -1,0 +1,2 @@
+!(0 = scaling) && !((((x * x) + (y * y)) * (1 - (((((x_err + x_err) - (x_err * x_err)) * (x * x)) + (((y_err + y_err) - (y_err * y_err)) * (y * y))) / ((x * x) + (y * y))))) <= 1)
+!(0 = scaling) && !(((x * x) + (y * y)) <= 1)

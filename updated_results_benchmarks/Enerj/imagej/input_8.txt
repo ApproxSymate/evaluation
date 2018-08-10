@@ -1,0 +1,17 @@
+targetColor = 2
+xstack[0] = 0
+xstack[1] = 0
+xstack[2] = 0
+xstack[3] = 0
+xstack[4] = 0
+ystack[0] = 0
+ystack[1] = 0
+ystack[2] = 0
+ystack[3] = 0
+ystack[4] = 0
+pixels[0] = 0
+pixels[1] = 0
+pixels[2] = 1
+pixels[3] = 0
+pixels[4] = 0
+pixels[5] = 0

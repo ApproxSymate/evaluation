@@ -1,0 +1,57 @@
+4 Line 0 of unknown/unknown (SOR_execute), M, 28879376
+0
+
+!139 Line 22 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (main), cycles, 28907744
+0
+
+!138 Line 21 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (main), N, 28907776
+0
+
+4 Line 0 of unknown/unknown (SOR_execute), omega, 28911040
+omega_err
+
+4 Line 0 of unknown/unknown (SOR_execute), N, 28913264
+0
+
+8 Line 0 of unknown/unknown (SOR_execute), G, 28913728
+0
+
+4 Line 0 of unknown/unknown (SOR_execute), num_iterations, 28914592
+0
+
+!138 Line 40 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), omega_over_four, 28915168
+(omega_err >> 0)
+
+!139 Line 41 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), one_minus_omega, 28915568
+((0 - (omega_err * omega)) / (1 - omega))
+
+!141 Line 47 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), Mm1, 28916016
+0
+
+!142 Line 48 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), Nm1, 28920288
+0
+
+!143 Line 56 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), p, 28920880
+0
+
+!145 Line 57 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), i, 28921248
+0
+
+!152 Line 61 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), j, 28921696
+0
+
+!154 Line 62 of /home/himeshi/Projects/workspace/Enerj/sor/sor-symbolic.c (SOR_execute), 88, 28922144
+((((((omega_err >> 0) + (((((((((G_err * G[1]) + (G_err * G[7])) / (G[1] + G[7])) * (G[1] + G[7])) + (G_err * G[3])) / ((G[1] + G[7]) + G[3])) * ((G[1] + G[7]) + G[3])) + (G_err * G[5])) / (((G[1] + G[7]) + G[3]) + G[5]))) - ((((((((((G_err * G[1]) + (G_err * G[7])) / (G[1] + G[7])) * (G[1] + G[7])) + (G_err * G[3])) / ((G[1] + G[7]) + G[3])) * ((G[1] + G[7]) + G[3])) + (G_err * G[5])) / (((G[1] + G[7]) + G[3]) + G[5])) * (omega_err >> 0))) * ((omega / 4) * (((G[1] + G[7]) + G[3]) + G[5]))) + (((((0 - (omega_err * omega)) / (1 - omega)) + G_err) - (G_err * ((0 - (omega_err * omega)) / (1 - omega)))) * ((1 - omega) * G[4]))) / (((omega / 4) * (((G[1] + G[7]) + G[3]) + G[5])) + ((1 - omega) * G[4])))
+
+!143 Line 58 of /home/himeshi/Projects/Approx/klee/klee/runtime/Intrinsic/memcpy.c (SOR_execute), dest.02, 28922144
+G_err
+
+!143 Line 59 of /home/himeshi/Projects/Approx/klee/klee/runtime/Intrinsic/memcpy.c (SOR_execute), dest.02, 28922640
+G_err
+
+!143 Line 60 of /home/himeshi/Projects/Approx/klee/klee/runtime/Intrinsic/memcpy.c (SOR_execute), dest.02, 28923088
+G_err
+
+4 Line 0 of unknown/unknown (SOR_execute), G, 28913264
+G_err
+

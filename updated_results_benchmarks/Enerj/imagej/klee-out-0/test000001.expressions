@@ -1,0 +1,87 @@
+4 Line 0 of unknown/unknown (fillLine), x2, 43780640
+0
+
+4 Line 0 of unknown/unknown (fill), x, 43781184
+0
+
+!161 Line 132 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fill), -1, 44053184
+0
+
+!153 Line 39 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (main), @targetColor, 44476368
+0
+
+!154 Line 40 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (main), @stackSize, 44476848
+0
+
+!155 Line 41 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (main), @maxStackSize, 44477424
+0
+
+!156 Line 42 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (main), @xstack, 44477952
+0
+
+!157 Line 43 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (main), @ystack, 44478528
+0
+
+!155 Line 78 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (setPix), 19, 44479056
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 44498736
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 44774112
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 44774112
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 44851040
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 44851040
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 45162464
+0
+
+4 Line 0 of unknown/unknown (fill), y, 45270176
+0
+
+!157 Line 128 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fill), newColor, 45317040
+0
+
+!156 Line 70 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 45328672
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 45329840
+0
+
+4 Line 0 of unknown/unknown (fillLine), x1, 45335840
+0
+
+!155 Line 126 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fill), color, 45341600
+0
+
+!153 Line 124 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fill), width, 45342416
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 45342592
+0
+
+!154 Line 125 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fill), height, 45343376
+0
+
+!160 Line 104 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (fillLine), x, 45352640
+0
+
+!156 Line 70 of /home/himeshi/Projects/workspace/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 45352640
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 45439296
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 45441008
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 45441008
+0
+
