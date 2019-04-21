@@ -1,0 +1,5 @@
+result_path = /home/approxsymate/benchmarks/Enerj/sor/klee-last/
+source_path = /home/approxsymate/benchmarks/Enerj/sor/sor.c
+ktest_tool_path = /home/approxsymate/klee/Release+Asserts/bin/ktest-tool
+input_path =  /home/approxsymate/benchmarks/Enerj/sor/
+

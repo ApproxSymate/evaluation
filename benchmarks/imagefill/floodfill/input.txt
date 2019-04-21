@@ -1,6 +1,0 @@
-targetColor = 0.000000
-image[0] = -2147483647.000000
-image[1] = 0.000000
-image[2] = 0.000000
-image[3] = 0.000000
-targetColor = 0.000000

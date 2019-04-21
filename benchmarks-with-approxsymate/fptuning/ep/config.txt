@@ -1,0 +1,5 @@
+result_path = /home/approxsymate/benchmarks/fptuning/ep/klee-last/
+source_path = /home/approxsymate/benchmarks/fptuning/ep/ep.c
+ktest_tool_path = /home/approxsymate/klee/Release+Asserts/bin/ktest-tool
+input_path =  /home/approxsymate/benchmarks/fptuning/ep
+
