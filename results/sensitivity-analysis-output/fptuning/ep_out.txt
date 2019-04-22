@@ -1,0 +1,77 @@
+Config path: /home/himeshi/Projects/workspace/fptuning/ep/config.txt
+Source: /home/himeshi/Projects/workspace/fptuning/ep/ep-symbolic.c
+Output: /home/himeshi/Projects/workspace/fptuning/ep/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+dum
+r23
+t23
+
+Input with error
+================================
+dum
+r23
+t23
+
+Input values
+================================
+r23 = 0.100000
+t23 = 8388608.000000
+dum[0] = 1.000000
+dum[1] = 1.000000
+dum[2] = 1.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+dum (input)
+r23 (input)
+t23 (input)
+t2 (vranlc)
+t1 (vranlc)
+a2 (vranlc)
+x2 (vranlc)
+x2 (randlc)
+a1 (vranlc)
+x1 (vranlc)
+x1 (randlc)
+t46 (vranlc)
+t46 (randlc)
+r46 (vranlc)
+r46 (randlc)
+a (vranlc)
+a_temp (vranlc)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+t2 (randlc)
+t1 (randlc)
+a2 (randlc)
+a1 (randlc)
+y (vranlc)
+y_temp (vranlc)
+a_temp (randlc)
+a (randlc)
+*x (vranlc)
+star_x_temp (vranlc)
+t4 (vranlc)
+t3 (vranlc)
+z (vranlc)
+n (vranlc)
+x (randlc)
+i (main)
+x (vranlc)
+i (vranlc)
+z (randlc)
+t3 (randlc)
+
+Approximability of input variables
+================================
+dum : 100.000000%
+r23 : 100.000000%
+t23 : 100.000000%

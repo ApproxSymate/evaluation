@@ -1,0 +1,69 @@
+Config path: /home/himeshi/Projects/workspace/Enerj/lu/klee-out-1/config.txt
+Source: /home/himeshi/Projects/workspace/Enerj/lu/lu-symbolic.c
+Output: /home/himeshi/Projects/workspace/Enerj/lu/klee-out-1/
+input error repeat = 10
+
+Selected path #:24
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.500000
+A[1] = 1.500000
+A[2] = 1.000000
+A[3] = 1.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+A (LU_factor)
+A (Array2D_double_copy)
+*Aj (LU_factor)
+x (abs)
+ab (LU_factor)
+tA (LU_factor)
+Aii (LU_factor)
+t (LU_factor)
+AiiJ (LU_factor)
+*Aii (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (Array2D_double_copy)
+N (Array2D_double_copy)
+N (main)
+cycles (main)
+pivot (LU_factor)
+i (main)
+
+B (Array2D_double_copy)
+N (LU_factor)
+remainder (Array2D_double_copy)
+jp (LU_factor)
+i (LU_factor)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+jj (LU_factor)
+M (LU_factor)
+minMN (LU_factor)
+j (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%

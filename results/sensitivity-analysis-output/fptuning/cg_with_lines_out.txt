@@ -1,0 +1,113 @@
+Config path: /home/himeshi/Projects/workspace/fptuning/cg/config.txt
+Source: /home/himeshi/Projects/workspace/fptuning/cg/cg-symbolic.c
+Output: /home/himeshi/Projects/workspace/fptuning/cg/klee-out-0/
+input error repeat = 3
+
+Selected path #:1
+
+Input variables
+================================
+a
+aelt
+
+Input with error
+================================
+a
+aelt
+
+Input values
+================================
+a[0] = -0.302974
+a[1] = 0.220877
+a[2] = 0.434533
+a[3] = 0.220877
+a[4] = -0.759415
+a[5] = 0.434533
+a[6] = -0.036446
+a[7] = 0.097950
+a[8] = 0.097950
+a[9] = -0.807066
+a[10] = 0.000000
+a[11] = 0.000000
+a[12] = 0.097950
+a[13] = -0.807066
+a[14] = 0.000000
+a[15] = 0.000000
+aelt[0] = 0.869065
+aelt[1] = 0.500000
+aelt[2] = 0.785563
+aelt[3] = 0.500000
+aelt[4] = 0.391531
+aelt[5] = 0.500000
+aelt[6] = 0.405377
+aelt[7] = 0.500000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+a (input)
+aelt (input)
+241 *rnorm (conj_grad)
+160 temp (main)
+196 q (conj_grad)
+238 sum (conj_grad)
+223 p (conj_grad)
+216 rho (conj_grad)
+220 beta (conj_grad)
+237 d (conj_grad)
+233 r (conj_grad)
+212 r (conj_grad)
+205 alpha (conj_grad)
+211 z (conj_grad)
+156 norm_temp1 (main)
+161 norm_temp2 (main)
+164 x (main)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+colidx (conj_grad)
+a (conj_grad)
+p (conj_grad)
+q (conj_grad)
+r (conj_grad)
+rnorm (conj_grad)
+236 j (conj_grad)
+230 k (conj_grad)
+190 cgit (conj_grad)
+174 cgitmax (conj_grad)
+75 firstrow (main)
+76 lastrow (main)
+77 firstcol (main)
+78 lastcol (main)
+80 naa (main)
+81 nzz (main)
+87 rowstr (main)
+133 colidx (main)
+104 colidx (main)
+118 acol (main)
+109 arow (main)
+123 iv (main)
+138 x (main)
+180 q (conj_grad)
+141 q (main)
+181 z (conj_grad)
+142 z (main)
+182 r (conj_grad)
+143 r (main)
+183 p (conj_grad)
+144 p (main)
+137 i (main)
+163 j (main)
+132 k (main)
+149 it (main)
+147 zeta (main)
+x (conj_grad)
+z (conj_grad)
+rowstr (conj_grad)
+207 rho0 (conj_grad)
+
+Approximability of input variables
+================================
+a : 100.000000%
+aelt : 100.000000%

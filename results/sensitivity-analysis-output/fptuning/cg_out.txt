@@ -1,0 +1,107 @@
+Config path: /home/himeshi/Projects/workspace/fptuning/cg/config.txt
+Source: /home/himeshi/Projects/workspace/fptuning/cg/cg-symbolic.c
+Output: /home/himeshi/Projects/workspace/fptuning/cg/klee-out-0/
+input error repeat = 3
+
+Selected path #:1
+
+Input variables
+================================
+a
+aelt
+
+Input with error
+================================
+a
+aelt
+
+Input values
+================================
+a[0] = -0.302974
+a[1] = 0.220877
+a[2] = 0.434533
+a[3] = 0.220877
+a[4] = -0.759415
+a[5] = 0.434533
+a[6] = -0.036446
+a[7] = 0.097950
+a[8] = 0.097950
+a[9] = -0.807066
+a[10] = 0.000000
+a[11] = 0.000000
+a[12] = 0.097950
+a[13] = -0.807066
+a[14] = 0.000000
+a[15] = 0.000000
+aelt[0] = 0.869065
+aelt[1] = 0.500000
+aelt[2] = 0.785563
+aelt[3] = 0.500000
+aelt[4] = 0.391531
+aelt[5] = 0.500000
+aelt[6] = 0.405377
+aelt[7] = 0.500000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+a (input)
+aelt (input)
+*rnorm (conj_grad)
+temp (main)
+q (conj_grad)
+sum (conj_grad)
+p (conj_grad)
+rho (conj_grad)
+beta (conj_grad)
+d (conj_grad)
+r (conj_grad)
+alpha (conj_grad)
+z (conj_grad)
+norm_temp1 (main)
+norm_temp2 (main)
+x (main)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+colidx (conj_grad)
+a (conj_grad)
+p (conj_grad)
+q (conj_grad)
+r (conj_grad)
+rnorm (conj_grad)
+j (conj_grad)
+k (conj_grad)
+cgit (conj_grad)
+cgitmax (conj_grad)
+firstrow (main)
+lastrow (main)
+firstcol (main)
+lastcol (main)
+naa (main)
+nzz (main)
+rowstr (main)
+colidx (main)
+acol (main)
+arow (main)
+iv (main)
+x (main)
+q (main)
+z (conj_grad)
+z (main)
+r (main)
+p (main)
+i (main)
+j (main)
+k (main)
+it (main)
+zeta (main)
+x (conj_grad)
+rowstr (conj_grad)
+rho0 (conj_grad)
+
+Approximability of input variables
+================================
+a : 100.000000%
+aelt : 100.000000%

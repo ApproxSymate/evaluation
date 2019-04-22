@@ -1,0 +1,41 @@
+Config path: /home/himeshi/Projects/workspace/Enerj/montecarlo/klee-out-0/config.txt
+Source: /home/himeshi/Projects/workspace/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/Projects/workspace/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+Num_samples (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%

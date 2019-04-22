@@ -1,0 +1,103 @@
+Config path: /home/himeshi/Projects/workspace/Enerj/raytracer/config2.txt
+Source: /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/Projects/workspace/Enerj/raytracer/klee-out-1/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+lz (init)
+z (texture1)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+args3 (init)
+lly (init)
+ly (init)
+xd (init)
+yd (init)
+zd (init)
+iy (init)
+l (init)
+y (texture1)
+r (texture1)
+col (texture1)
+b (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (main)
+args1 (init)
+numIterations++ (init)
+w (init)
+h (init)
+texture (init)
+light (init)
+k (init)
+args2 (main)
+args2 (init)
+index (init)
+x (init)
+y (init)
+bl (init)
+t (init)
+w1 (init)
+h1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%

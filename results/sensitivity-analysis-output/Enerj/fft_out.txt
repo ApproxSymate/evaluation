@@ -1,0 +1,95 @@
+Config path: /home/himeshi/Projects/workspace/Enerj/fft/klee-out-0/config.txt
+Source: /home/himeshi/Projects/workspace/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/Projects/workspace/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+
+twoN (main)
+N (main)
+N (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+data (FFT_transform_internal)
+n (FFT_transform_internal)
+direction (FFT_transform_internal)
+bit (FFT_transform_internal)
+dual (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
