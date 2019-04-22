@@ -1,0 +1,4 @@
+result_path = /home/himeshi/approx/fptuning-timing/sensitivity/fptuning/dct/klee-out-0/
+source_path = /home/himeshi/approx/fptuning-timing/sensitivity/fptuning/dct/dct-symbolic.c
+ktest_tool_path = /home/himeshi/approx/klee/klee/Release+Asserts/bin/ktest-tool
+input_path =  /home/himeshi/approx/fptuning-timing/sensitivity/fptuning/dct/klee-out-0/

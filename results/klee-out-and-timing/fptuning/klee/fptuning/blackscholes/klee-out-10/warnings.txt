@@ -1,0 +1,4 @@
+KLEE: WARNING: undefined reference to function: exp
+KLEE: WARNING: undefined reference to function: log
+KLEE: WARNING: undefined reference to function: sqrt
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.

@@ -1,0 +1,11 @@
+array __arr32__A[16] : w32 -> w8 = symbolic
+array scaling[8] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0 (Read w8 0 scaling)))
+         (Eq false
+             (Slt N0:(ReadLSB w32 8 __arr32__A)
+                  0))
+         (Eq false (Slt 0 N0))
+         (Eq 0
+             (ReadLSB w32 0 __arr32__A))]
+        false)

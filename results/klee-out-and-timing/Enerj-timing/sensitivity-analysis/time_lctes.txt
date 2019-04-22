@@ -1,0 +1,6077 @@
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x (fill)
+x2 (fillLine)
+returnVal (popx)
+*newYStack (push)
+*newXStack (push)
+x (getPix)
+y (getPix)
+
+stackSize (main)
+targetColor (main)
+stackSize (fill)
+stackSize++ (push)
+stackSize-- (popy)
+maxStackSize (main)
+maxStackSize (push)
+xstack (main)
+ystack (push)
+xstack (push)
+ystack (main)
+pixels (setPix)
+value (popy)
+newYStack (push)
+y (setPix)
+c (setPix)
+x (push)
+newXStack (push)
+y (fillLine)
+x1++ (fill)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+width (fill)
+color (fill)
+height (fill)
+x2-- (fill)
+inScanLine (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+y (getPix)
+x (fill)
+returnVal (popx)
+*newYStack (push)
+*newXStack (push)
+x (getPix)
+
+maxStackSize (main)
+targetColor (main)
+stackSize++ (push)
+stackSize (fill)
+stackSize (main)
+stackSize-- (popy)
+maxStackSize (push)
+xstack (main)
+ystack (main)
+xstack (push)
+ystack (push)
+value (popy)
+pixels (setPix)
+newYStack (push)
+x (push)
+c (setPix)
+y (setPix)
+newXStack (push)
+y (fillLine)
+x1++ (fill)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+height (fill)
+width (fill)
+x2-- (fill)
+inScanLine (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+x (fill)
+returnVal (popx)
+*newYStack (push)
+x (getPix)
+*newXStack (push)
+y (getPix)
+
+targetColor (main)
+stackSize (fill)
+stackSize (main)
+stackSize-- (popy)
+maxStackSize (push)
+maxStackSize (main)
+stackSize++ (push)
+xstack (main)
+xstack (push)
+pixels (setPix)
+ystack (push)
+ystack (main)
+value (popy)
+newYStack (push)
+x (push)
+y (setPix)
+c (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+i (fill)
+returnVal (getPix)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+width (fill)
+height (fill)
+x2-- (fill)
+y (push)
+inScanLine (fill)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x (fill)
+x2 (fillLine)
+returnVal (popx)
+*newYStack (push)
+*newXStack (push)
+x (getPix)
+y (getPix)
+
+stackSize (fill)
+targetColor (main)
+stackSize-- (popy)
+stackSize++ (push)
+maxStackSize (main)
+stackSize (main)
+xstack (main)
+xstack (push)
+maxStackSize (push)
+ystack (main)
+pixels (setPix)
+ystack (push)
+value (popy)
+newYStack (push)
+x (push)
+y (setPix)
+c (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+width (fill)
+height (fill)
+x2-- (fill)
+y (push)
+inScanLine (fill)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+returnVal (popx)
+x2 (fillLine)
+*newYStack (push)
+x (fill)
+y (getPix)
+*newXStack (push)
+x (getPix)
+stackSize (fill)
+
+targetColor (main)
+stackSize-- (popy)
+maxStackSize (push)
+stackSize++ (push)
+stackSize (main)
+maxStackSize (main)
+xstack (push)
+ystack (main)
+xstack (main)
+pixels (setPix)
+ystack (push)
+value (popy)
+newYStack (push)
+x (push)
+y (setPix)
+c (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+width (fill)
+height (fill)
+inScanLine (fill)
+x2-- (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+x (fill)
+returnVal (popx)
+*newYStack (push)
+y (getPix)
+*newXStack (push)
+x (getPix)
+stackSize (main)
+stackSize (fill)
+
+targetColor (main)
+stackSize-- (popy)
+xstack (main)
+stackSize++ (push)
+maxStackSize (main)
+ystack (main)
+maxStackSize (push)
+ystack (push)
+xstack (push)
+pixels (setPix)
+value (popy)
+newYStack (push)
+y (setPix)
+x (push)
+c (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+x (setPix)
+i (fill)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+height (fill)
+width (fill)
+x2-- (fill)
+y (push)
+inScanLine (fill)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+x (fill)
+returnVal (popx)
+*newYStack (push)
+*newXStack (push)
+x (getPix)
+y (getPix)
+
+targetColor (main)
+stackSize (fill)
+stackSize (main)
+maxStackSize (main)
+stackSize-- (popy)
+stackSize++ (push)
+maxStackSize (push)
+ystack (push)
+xstack (main)
+ystack (main)
+xstack (push)
+pixels (setPix)
+newYStack (push)
+value (popy)
+x (push)
+y (setPix)
+c (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+x (setPix)
+i (fill)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+height (fill)
+width (fill)
+x2-- (fill)
+inScanLine (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+*newYStack (push)
+*newXStack (push)
+x (fill)
+x (getPix)
+returnVal (popx)
+
+y (getPix)
+stackSize (main)
+targetColor (main)
+stackSize (fill)
+stackSize++ (push)
+maxStackSize (main)
+maxStackSize (push)
+stackSize-- (popy)
+xstack (main)
+xstack (push)
+ystack (main)
+pixels (setPix)
+ystack (push)
+value (popy)
+newYStack (push)
+x (push)
+c (setPix)
+y (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+width (fill)
+height (fill)
+inScanLine (fill)
+x2-- (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+x (fill)
+returnVal (popx)
+*newYStack (push)
+*newXStack (push)
+y (getPix)
+x (getPix)
+
+targetColor (main)
+stackSize (main)
+stackSize (fill)
+stackSize++ (push)
+maxStackSize (main)
+stackSize-- (popy)
+maxStackSize (push)
+ystack (main)
+xstack (main)
+xstack (push)
+ystack (push)
+pixels (setPix)
+value (popy)
+newYStack (push)
+x (push)
+c (setPix)
+y (setPix)
+newXStack (push)
+x1++ (fill)
+y (fillLine)
+x1 (fillLine)
+returnVal (getPix)
+i (fill)
+x (setPix)
+x (fillLine)
+y (fill)
+newColor (fill)
+width (fill)
+color (fill)
+height (fill)
+x2-- (fill)
+inScanLine (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Config path: /home/himeshi/approx/Enerj/imagej/config.txt
+Source: /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c
+Output: /home/himeshi/approx/Enerj/imagej/klee-out-0/
+input error repeat = 10
+
+Selected path #:8
+
+Input variables
+================================
+pixels
+targetColor
+xstack
+ystack
+
+Input with error
+================================
+pixels
+xstack
+ystack
+targetColor
+
+Input values
+================================
+targetColor = 2.000000
+xstack[0] = 0.000000
+xstack[1] = 0.000000
+xstack[2] = 0.000000
+xstack[3] = 0.000000
+xstack[4] = 0.000000
+ystack[0] = 0.000000
+ystack[1] = 0.000000
+ystack[2] = 0.000000
+ystack[3] = 0.000000
+ystack[4] = 0.000000
+pixels[0] = 0.000000
+pixels[1] = 0.000000
+pixels[2] = 1.000000
+pixels[3] = 0.000000
+pixels[4] = 0.000000
+pixels[5] = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+pixels (input)
+xstack (input)
+ystack (input)
+targetColor (input)
+newYStack (push)
+returnVal (getPix)
+newXStack (push)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+x2 (fillLine)
+*newYStack (push)
+*newXStack (push)
+x (fill)
+x (getPix)
+returnVal (popx)
+y (getPix)
+targetColor (main)
+
+stackSize-- (popy)
+stackSize (fill)
+stackSize (main)
+maxStackSize (push)
+maxStackSize (main)
+stackSize++ (push)
+xstack (main)
+xstack (push)
+ystack (main)
+ystack (push)
+value (popy)
+pixels (setPix)
+newYStack (push)
+x (push)
+y (setPix)
+c (setPix)
+newXStack (push)
+y (fillLine)
+x1++ (fill)
+x1 (fillLine)
+returnVal (getPix)
+x (setPix)
+i (fill)
+x (fillLine)
+y (fill)
+newColor (fill)
+color (fill)
+height (fill)
+width (fill)
+x2-- (fill)
+inScanLine (fill)
+y (push)
+
+Approximability of input variables
+================================
+pixels : 100.000000%
+xstack : 100.000000%
+ystack : 100.000000%
+targetColor : 100.000000%
+Time taken: imagej 5224 milliseconds
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+s (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+twoN (main)
+
+N (FFT_transform)
+N (main)
+i (FFT_transform_internal)
+data (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+n (FFT_transform_internal)
+logn (FFT_transform_internal)
+bit (FFT_transform_internal)
+data (FFT_transform_internal)
+direction (FFT_transform_internal)
+dual (FFT_transform_internal)
+a (FFT_transform_internal)
+b (FFT_transform_internal)
+k (int_log2)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_imag (FFT_bitreverse)
+tmp_real (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+
+twoN (main)
+N (main)
+N (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+logn (FFT_transform_internal)
+i (FFT_transform_internal)
+data (FFT_transform)
+dual (FFT_transform_internal)
+n (FFT_transform_internal)
+data (FFT_transform_internal)
+bit (FFT_transform_internal)
+direction (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_imag (FFT_bitreverse)
+tmp_real (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+twoN (main)
+N (main)
+N (FFT_transform)
+
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+data (FFT_transform_internal)
+n (FFT_transform_internal)
+dual (FFT_transform_internal)
+direction (FFT_transform_internal)
+bit (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+n (FFT_bitreverse)
+data (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+s (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+twoN (main)
+
+N (main)
+N (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+direction (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+bit (FFT_transform_internal)
+data (FFT_transform_internal)
+n (FFT_transform_internal)
+dual (FFT_transform_internal)
+a (FFT_transform_internal)
+b (FFT_transform_internal)
+k (int_log2)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+s (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+
+N (FFT_transform)
+twoN (main)
+N (main)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+N (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+data (FFT_transform_internal)
+dual (FFT_transform_internal)
+n (FFT_transform_internal)
+bit (FFT_transform_internal)
+direction (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+data (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+N (FFT_transform)
+
+twoN (main)
+N (main)
+N (FFT_transform_internal)
+data (FFT_transform)
+data (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+n (FFT_transform_internal)
+direction (FFT_transform_internal)
+logn (FFT_transform_internal)
+dual (FFT_transform_internal)
+bit (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+twoN (main)
+
+N (main)
+N (FFT_transform)
+j (FFT_transform_internal)
+N (FFT_transform_internal)
+i (FFT_transform_internal)
+data (FFT_transform_internal)
+n (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+direction (FFT_transform_internal)
+bit (FFT_transform_internal)
+dual (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+s (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+twoN (main)
+
+N (main)
+N (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+logn (FFT_transform_internal)
+data (FFT_transform)
+n (FFT_transform_internal)
+data (FFT_transform_internal)
+dual (FFT_transform_internal)
+direction (FFT_transform_internal)
+bit (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+n (int_log2)
+N (FFT_bitreverse)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+s (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+
+twoN (main)
+N (main)
+N (FFT_transform)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+N (FFT_transform_internal)
+data (FFT_transform)
+data (FFT_transform_internal)
+logn (FFT_transform_internal)
+dual (FFT_transform_internal)
+direction (FFT_transform_internal)
+n (FFT_transform_internal)
+bit (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+data (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+n (int_log2)
+N (FFT_bitreverse)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Config path: /home/himeshi/approx/Enerj/fft/config.txt
+Source: /home/himeshi/approx/Enerj/fft/fft-symbolic.c
+Output: /home/himeshi/approx/Enerj/fft/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+PI
+
+Input with error
+================================
+x
+PI
+
+Input values
+================================
+PI = 3.140000
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+PI (input)
+s2 (FFT_transform_internal)
+wd_imag (FFT_transform_internal)
+wd_real (FFT_transform_internal)
+s (FFT_transform_internal)
+w_imag (FFT_transform_internal)
+tmp_imag (FFT_transform_internal)
+t (FFT_transform_internal)
+data (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+tmp_real (FFT_bitreverse)
+tmp_imag (FFT_bitreverse)
+theta (FFT_transform_internal)
+z1_real (FFT_transform_internal)
+data (FFT_bitreverse)
+data (FFT_inverse)
+w_real (FFT_transform_internal)
+tmp_real (FFT_transform_internal)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+wd_imag (FFT_transform_internal)
+z1_imag (FFT_transform_internal)
+
+N (main)
+twoN (main)
+N (FFT_transform)
+N (FFT_transform_internal)
+j (FFT_transform_internal)
+i (FFT_transform_internal)
+n (FFT_transform_internal)
+data (FFT_transform)
+logn (FFT_transform_internal)
+data (FFT_transform_internal)
+direction (FFT_transform_internal)
+bit (FFT_transform_internal)
+dual (FFT_transform_internal)
+a (FFT_transform_internal)
+k (int_log2)
+b (FFT_transform_internal)
+j (FFT_bitreverse)
+ii (FFT_bitreverse)
+jj (FFT_bitreverse)
+data (FFT_bitreverse)
+nm1 (FFT_bitreverse)
+n (FFT_bitreverse)
+N (FFT_inverse)
+i (FFT_inverse)
+log (int_log2)
+N (FFT_bitreverse)
+n (int_log2)
+i (FFT_bitreverse)
+k (FFT_bitreverse)
+data (FFT_inverse)
+n (FFT_inverse)
+norm (FFT_inverse)
+
+Approximability of input variables
+================================
+x : 100.000000%
+PI : 100.000000%
+Time taken: fft 4593 milliseconds
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+j (LU_factor)
+A (Array2D_double_copy)
+N (main)
+cycles (main)
+i (main)
+pivot (LU_factor)
+
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+ii (LU_factor)
+k (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+minMN (LU_factor)
+i (LU_factor)
+M (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+A (Array2D_double_copy)
+j (LU_factor)
+N (main)
+cycles (main)
+pivot (LU_factor)
+i (main)
+
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+minMN (LU_factor)
+*Aj (LU_factor)
+i (LU_factor)
+M (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+j (LU_factor)
+N (main)
+A (Array2D_double_copy)
+cycles (main)
+pivot (LU_factor)
+i (main)
+
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+minMN (LU_factor)
+M (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+ (abs)
+x (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+j (LU_factor)
+N (Array2D_double_copy)
+N (main)
+A (Array2D_double_copy)
+cycles (main)
+pivot (LU_factor)
+i (main)
+B (Array2D_double_copy)
+
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+minMN (LU_factor)
+*Aj (LU_factor)
+M (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+N (Array2D_double_copy)
+A (LU_factor)
+A (Array2D_double_copy)
+j (LU_factor)
+cycles (main)
+N (main)
+pivot (LU_factor)
+i (main)
+
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+ii (LU_factor)
+k (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+M (LU_factor)
+minMN (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+N (Array2D_double_copy)
+A (LU_factor)
+N (main)
+j (LU_factor)
+cycles (main)
+A (Array2D_double_copy)
+
+pivot (LU_factor)
+i (main)
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+ii (LU_factor)
+k (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+M (LU_factor)
+minMN (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+N (main)
+j (LU_factor)
+A (Array2D_double_copy)
+cycles (main)
+i (main)
+pivot (LU_factor)
+
+B (Array2D_double_copy)
+remainder (Array2D_double_copy)
+jp (LU_factor)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+M (LU_factor)
+minMN (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+j (LU_factor)
+A (Array2D_double_copy)
+N (main)
+cycles (main)
+pivot (LU_factor)
+
+i (main)
+B (Array2D_double_copy)
+jp (LU_factor)
+i (Array2D_double_copy)
+remainder (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+minMN (LU_factor)
+M (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+M (Array2D_double_copy)
+A (LU_factor)
+N (Array2D_double_copy)
+j (LU_factor)
+A (Array2D_double_copy)
+N (main)
+cycles (main)
+pivot (LU_factor)
+i (main)
+
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+minMN (LU_factor)
+i (LU_factor)
+M (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Config path: /home/himeshi/approx/Enerj/lu/config.txt
+Source: /home/himeshi/approx/Enerj/lu-old/lu-symbolic.c
+Output: /home/himeshi/approx/Enerj/lu/
+input error repeat = 10
+
+Selected path #:23
+
+Input variables
+================================
+A
+
+Input with error
+================================
+A
+
+Input values
+================================
+A[0] = 0.335260
+A[1] = 0.697247
+A[2] = 0.971849
+A[3] = 0.938469
+A[4] = 0.398714
+A[5] = 0.035665
+A[6] = 0.632819
+A[7] = 0.552501
+A[8] = 0.516656
+A[9] = 0.732883
+A[10] = 0.215104
+A[11] = 0.199715
+A[12] = 0.607476
+A[13] = 0.164032
+A[14] = 0.527088
+A[15] = 0.658019
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+A (input)
+Aii (LU_factor)
+t (LU_factor)
+x (abs)
+ (abs)
+Bi (Array2D_double_copy)
+A[jp] (LU_factor)
+ab (LU_factor)
+tA (LU_factor)
+A (LU_factor)
+AiiJ (LU_factor)
+recp (LU_factor)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (LU_factor)
+N (Array2D_double_copy)
+M (Array2D_double_copy)
+A (LU_factor)
+N (main)
+j (LU_factor)
+A (Array2D_double_copy)
+cycles (main)
+pivot (LU_factor)
+
+i (main)
+B (Array2D_double_copy)
+jp (LU_factor)
+remainder (Array2D_double_copy)
+i (Array2D_double_copy)
+j (Array2D_double_copy)
+*Bi (Array2D_double_copy)
+*Ai (Array2D_double_copy)
+k (LU_factor)
+ii (LU_factor)
+*Aii (LU_factor)
+*Aj (LU_factor)
+minMN (LU_factor)
+M (LU_factor)
+i (LU_factor)
+jj (LU_factor)
+
+Approximability of input variables
+================================
+A : 100.000000%
+Time taken: lu 3028 milliseconds
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+lz (init)
+z (texture1)
+args4 (init)
+ye (init)
+lx (init)
+ix (init)
+args3 (init)
+lly (init)
+ly (init)
+xd (init)
+y (texture1)
+iy (init)
+l (init)
+zd (init)
+yd (init)
+r (texture1)
+b (texture1)
+col (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+numIterations++ (init)
+texture (init)
+args1 (main)
+light (init)
+args1 (init)
+w (init)
+k (init)
+h (init)
+args2 (main)
+args2 (init)
+index (init)
+x (init)
+y (init)
+h1 (init)
+w1 (init)
+t (init)
+bl (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+lz (init)
+z (texture1)
+args4 (init)
+ye (init)
+lx (init)
+ix (init)
+lly (init)
+args3 (init)
+ly (init)
+iy (init)
+yd (init)
+zd (init)
+xd (init)
+l (init)
+y (texture1)
+r (texture1)
+col (texture1)
+b (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+light (init)
+texture (init)
+args1 (init)
+k (init)
+args1 (main)
+numIterations++ (init)
+w (init)
+h (init)
+args2 (init)
+args2 (main)
+index (init)
+x (init)
+y (init)
+pixels (init)
+bl (init)
+t (init)
+w1 (init)
+h1 (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+z (texture1)
+lz (init)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+lly (init)
+args3 (init)
+ly (init)
+xd (init)
+zd (init)
+l (init)
+iy (init)
+y (texture1)
+yd (init)
+r (texture1)
+col (texture1)
+b (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (main)
+w (init)
+h (init)
+texture (init)
+light (init)
+args1 (init)
+k (init)
+numIterations++ (init)
+args2 (main)
+y (init)
+args2 (init)
+index (init)
+x (init)
+w1 (init)
+t (init)
+bl (init)
+h1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+lz (init)
+z (texture1)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+args3 (init)
+lly (init)
+ly (init)
+yd (init)
+l (init)
+y (texture1)
+xd (init)
+iy (init)
+zd (init)
+col (texture1)
+b (texture1)
+r (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (main)
+h (init)
+texture (init)
+args1 (init)
+w (init)
+light (init)
+numIterations++ (init)
+x (init)
+k (init)
+y (init)
+args2 (main)
+args2 (init)
+index (init)
+bl (init)
+pixels (init)
+t (init)
+w1 (init)
+h1 (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+z (texture1)
+iz (init)
+lz (init)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+lly (init)
+args3 (init)
+ly (init)
+iy (init)
+xd (init)
+y (texture1)
+zd (init)
+yd (init)
+l (init)
+r (texture1)
+col (texture1)
+b (texture1)
+pixels (init)
+lcoff (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+texture (init)
+h (init)
+args1 (main)
+w (init)
+args1 (init)
+numIterations++ (init)
+light (init)
+k (init)
+args2 (main)
+args2 (init)
+index (init)
+x (init)
+y (init)
+pixels (init)
+bl (init)
+t (init)
+w1 (init)
+h1 (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+lz (init)
+iz (init)
+z (texture1)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+args3 (init)
+lly (init)
+ly (init)
+iy (init)
+yd (init)
+xd (init)
+zd (init)
+y (texture1)
+l (init)
+b (texture1)
+r (texture1)
+col (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (init)
+args1 (main)
+numIterations++ (init)
+w (init)
+light (init)
+h (init)
+k (init)
+texture (init)
+args2 (init)
+args2 (main)
+index (init)
+x (init)
+y (init)
+bl (init)
+h1 (init)
+t (init)
+w1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+lz (init)
+iz (init)
+z (texture1)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+lly (init)
+args3 (init)
+ly (init)
+l (init)
+y (texture1)
+yd (init)
+iy (init)
+zd (init)
+xd (init)
+b (texture1)
+r (texture1)
+col (texture1)
+pixels (init)
+lcoff (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (init)
+w (init)
+args1 (main)
+numIterations++ (init)
+h (init)
+texture (init)
+k (init)
+light (init)
+args2 (main)
+args2 (init)
+index (init)
+x (init)
+h1 (init)
+y (init)
+bl (init)
+t (init)
+w1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+lz (init)
+z (texture1)
+args4 (init)
+ye (init)
+ix (init)
+lx (init)
+args3 (init)
+lly (init)
+ly (init)
+l (init)
+zd (init)
+yd (init)
+y (texture1)
+xd (init)
+iy (init)
+r (texture1)
+col (texture1)
+b (texture1)
+lcoff (init)
+pixels (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (main)
+texture (init)
+light (init)
+numIterations++ (init)
+args1 (init)
+w (init)
+h (init)
+k (init)
+args2 (main)
+args2 (init)
+index (init)
+x (init)
+y (init)
+t (init)
+bl (init)
+w1 (init)
+h1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+lz (init)
+iz (init)
+z (texture1)
+args4 (init)
+ye (init)
+lx (init)
+ix (init)
+args3 (init)
+lly (init)
+ly (init)
+xd (init)
+yd (init)
+l (init)
+zd (init)
+y (texture1)
+iy (init)
+r (texture1)
+col (texture1)
+b (texture1)
+pixels (init)
+lcoff (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+args1 (init)
+args1 (main)
+texture (init)
+w (init)
+numIterations++ (init)
+light (init)
+h (init)
+k (init)
+args2 (main)
+args2 (init)
+x (init)
+index (init)
+y (init)
+t (init)
+bl (init)
+h1 (init)
+w1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Config path: /home/himeshi/approx/Enerj/raytracer/config.txt
+Source: /home/himeshi/approx/Enerj/raytracer/raytracer-symbolic2.c
+Output: /home/himeshi/approx/Enerj/raytracer/klee-out-0/
+input error repeat = 10
+
+Selected path #:7
+
+Input variables
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input with error
+================================
+arg3
+arg4
+nx
+ny
+nz
+xe
+ze
+
+Input values
+================================
+arg3 = 30.000000
+arg4 = -2.000000
+nx = 0.000000
+ny = 1.000000
+nz = 0.000000
+xe = 0.000001
+ze = 0.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+arg3 (input)
+arg4 (input)
+nx (input)
+ny (input)
+nz (input)
+xe (input)
+ze (input)
+v (texture1)
+x (texture1)
+iz (init)
+z (texture1)
+lz (init)
+ye (init)
+args4 (init)
+ix (init)
+lx (init)
+lly (init)
+args3 (init)
+ly (init)
+iy (init)
+zd (init)
+xd (init)
+y (texture1)
+l (init)
+yd (init)
+col (texture1)
+b (texture1)
+r (texture1)
+pixels (init)
+lcoff (init)
+sng (init)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+numIterations++ (init)
+args1 (init)
+args1 (main)
+w (init)
+h (init)
+texture (init)
+k (init)
+light (init)
+args2 (main)
+args2 (init)
+index (init)
+y (init)
+x (init)
+t (init)
+bl (init)
+w1 (init)
+h1 (init)
+pixels (init)
+
+Approximability of input variables
+================================
+arg3 : 100.000000%
+arg4 : 49.387755%
+nx : 100.000000%
+ny : 100.000000%
+nz : 100.000000%
+xe : 100.000000%
+ze : 100.000000%
+Time taken: raytracer 8397 milliseconds
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+N (SOR_execute)
+cycles (main)
+N (main)
+num_iterations (SOR_execute)
+G (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+i (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+N (main)
+num_iterations (SOR_execute)
+cycles (main)
+N (SOR_execute)
+G (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+j (SOR_execute)
+i (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+Gip1 (SOR_execute)
+G (SOR_execute)
+omega_over_four (SOR_execute)
+omega (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+cycles (main)
+N (main)
+N (SOR_execute)
+G (SOR_execute)
+num_iterations (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+i (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+N (main)
+cycles (main)
+G (SOR_execute)
+num_iterations (SOR_execute)
+N (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+i (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+G (SOR_execute)
+Gim1 (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+cycles (main)
+M (SOR_execute)
+N (main)
+N (SOR_execute)
+G (SOR_execute)
+num_iterations (SOR_execute)
+Nm1 (SOR_execute)
+i (SOR_execute)
+Mm1 (SOR_execute)
+p (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+omega_over_four (SOR_execute)
+omega (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+N (main)
+N (SOR_execute)
+M (SOR_execute)
+cycles (main)
+G (SOR_execute)
+num_iterations (SOR_execute)
+Nm1 (SOR_execute)
+i (SOR_execute)
+Mm1 (SOR_execute)
+p (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+Gim1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+cycles (main)
+N (main)
+N (SOR_execute)
+G (SOR_execute)
+num_iterations (SOR_execute)
+i (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+G (SOR_execute)
+Gim1 (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+N (SOR_execute)
+cycles (main)
+num_iterations (SOR_execute)
+N (main)
+G (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+i (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+Gip1 (SOR_execute)
+G (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+cycles (main)
+M (SOR_execute)
+N (SOR_execute)
+N (main)
+num_iterations (SOR_execute)
+G (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+i (SOR_execute)
+p (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sor/config.txt
+Source: /home/himeshi/approx/Enerj/sor/sor-symbolic.c
+Output: /home/himeshi/approx/Enerj/sor/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+G
+omega
+
+Input with error
+================================
+G
+omega
+
+Input values
+================================
+omega = 1.250000
+G[0] = 0.335260
+G[1] = 0.697247
+G[2] = 0.971849
+G[3] = 0.938469
+G[4] = 0.398714
+G[5] = 0.035665
+G[6] = 0.632819
+G[7] = 0.552501
+G[8] = 0.516656
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+G (input)
+omega (input)
+one_minus_omega (SOR_execute)
+Gi (SOR_execute)
+Gim1 (SOR_execute)
+G (SOR_execute)
+Gip1 (SOR_execute)
+omega (SOR_execute)
+omega_over_four (SOR_execute)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+M (SOR_execute)
+N (main)
+cycles (main)
+G (SOR_execute)
+N (SOR_execute)
+num_iterations (SOR_execute)
+Mm1 (SOR_execute)
+Nm1 (SOR_execute)
+p (SOR_execute)
+i (SOR_execute)
+j (SOR_execute)
+
+Approximability of input variables
+================================
+G : 100.000000%
+omega : 100.000000%
+Time taken: sor 2647 milliseconds
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+i (main)
+col (main)
+M (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+i (main)
+col (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+i (main)
+col (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+i (main)
+step (main)
+col (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+rowr (main)
+cycles (main)
+i (main)
+step (main)
+col (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+col (main)
+i (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+col (main)
+i (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+step (main)
+rowr (main)
+i (main)
+col (main)
+y (SparseCompRow_matmult)
+M (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+N (main)
+nz (main)
+nr (main)
+anz (main)
+r (main)
+rowr (main)
+cycles (main)
+step (main)
+i (main)
+col (main)
+M (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Config path: /home/himeshi/approx/Enerj/sparsematmult/config.txt
+Source: /home/himeshi/approx/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/approx/Enerj/sparsematmult/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+row (main)
+
+nz (main)
+N (main)
+nr (main)
+anz (main)
+r (main)
+cycles (main)
+rowr (main)
+step (main)
+i (main)
+col (main)
+M (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+col (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+reps (SparseCompRow_matmult)
+r (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+
+Approximability of input variables
+================================
+x : 100.000000%
+val : 100.000000%
+Time taken: sparsematmult 2470 milliseconds
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+cycles (main)
+result (main)
+Num_samples (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+Num_samples (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+count (MonteCarlo_integrate)
+Num_samples (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+Num_samples (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+Num_samples (MonteCarlo_integrate)
+result (main)
+cycles (main)
+count (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+Num_samples (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+Num_samples (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+Num_samples (MonteCarlo_integrate)
+cycles (main)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+result (main)
+cycles (main)
+Num_samples (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+under_curve++ (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Config path: /home/himeshi/approx/Enerj/montecarlo/config.txt
+Source: /home/himeshi/approx/Enerj/montecarlo/montecarlo-symbolic.c
+Output: /home/himeshi/approx/Enerj/montecarlo/klee-out-0/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+x
+y
+
+Input with error
+================================
+x
+y
+
+Input values
+================================
+x = 0.291537
+y = 0.395666
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+y (input)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+Num_samples (MonteCarlo_integrate)
+result (main)
+cycles (main)
+under_curve++ (MonteCarlo_integrate)
+count (MonteCarlo_integrate)
+
+Approximability of input variables
+================================
+x : 100.000000%
+y : 100.000000%
+Time taken: montecarlo 2002 milliseconds

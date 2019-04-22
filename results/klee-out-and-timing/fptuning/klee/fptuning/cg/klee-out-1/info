@@ -1,0 +1,21 @@
+/home/himeshi/approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --scaling --math-calls cg-symbolic.bc
+PID: 142470
+Started: 2018-09-07 19:40:56
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-09-07 19:40:56
+Elapsed: 00:00:00
+KLEE: done: explored paths = 1
+KLEE: done: avg. constructs per query = 35
+KLEE: done: total queries = 4
+KLEE: done: valid queries = 1
+KLEE: done: invalid queries = 3
+KLEE: done: query cex = 4
+
+KLEE: done: total instructions = 2823
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

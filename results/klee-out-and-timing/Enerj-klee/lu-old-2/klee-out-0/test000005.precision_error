@@ -1,0 +1,8 @@
+Line 37 of /home/himeshi/Projects/workspace/Enerj/lu/lu-symbolic.c (main): 
+Output Error of lu : A_err
+Absolute Bound: 1.000000e+00
+
+------------------------
+Line 38 of /home/himeshi/Projects/workspace/Enerj/lu/lu-symbolic.c (main): 
+Output Error of pivot : 0
+Absolute Bound: 1.000000e+00

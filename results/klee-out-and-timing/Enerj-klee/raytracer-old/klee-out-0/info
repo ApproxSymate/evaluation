@@ -1,0 +1,21 @@
+/home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --math-calls --scaling raytracer-symbolic.bc
+PID: 30845
+Started: 2018-08-03 17:49:30
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-08-03 17:49:39
+Elapsed: 00:00:09
+KLEE: done: explored paths = 7
+KLEE: done: avg. constructs per query = 39
+KLEE: done: total queries = 66
+KLEE: done: valid queries = 56
+KLEE: done: invalid queries = 10
+KLEE: done: query cex = 66
+
+KLEE: done: total instructions = 4997
+KLEE: done: completed paths = 7
+KLEE: done: generated tests = 7

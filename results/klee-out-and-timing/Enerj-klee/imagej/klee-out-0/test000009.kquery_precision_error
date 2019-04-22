@@ -1,0 +1,2 @@
+!(pixels[0] = targetColor) && ((pixels[2] * (1 - pixels_err)) = pixels[0]) && !((pixels[4] * (1 - pixels_err)) = pixels[0]) && !((pixels[1] * (1 - pixels_err)) = pixels[0]) && ((pixels[3] * (1 - pixels_err)) = pixels[0]) && !((pixels[5] * (1 - pixels_err)) = pixels[0])
+(0 <= pixels[0]) && (0 <= pixels[1]) && (0 <= pixels[2]) && (0 <= pixels[3]) && (0 <= pixels[4]) && (0 <= pixels[5]) && !(pixels[0] = targetColor) && (pixels[2] = pixels[0]) && !(pixels[4] = pixels[0]) && !(pixels[1] = pixels[0]) && (pixels[3] = pixels[0]) && !(pixels[5] = pixels[0])

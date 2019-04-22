@@ -1,0 +1,21 @@
+/home/himeshi/Projects/Approx/klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --scaling dct-symbolic.bc
+PID: 22819
+Started: 2018-08-28 17:48:51
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-08-28 17:48:55
+Elapsed: 00:00:04
+KLEE: done: explored paths = 1
+KLEE: done: avg. constructs per query = 7
+KLEE: done: total queries = 1
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 1
+KLEE: done: query cex = 1
+
+KLEE: done: total instructions = 2840
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

@@ -1,0 +1,7 @@
+Time taken: imagej 2611 milliseconds
+Time taken: fft 728 milliseconds
+Time taken: lu 1494 milliseconds
+Time taken: raytracer 83821 milliseconds
+Time taken: sor 351 milliseconds
+Time taken: sparsematmult 647 milliseconds
+Time taken: montecarlo 594 milliseconds

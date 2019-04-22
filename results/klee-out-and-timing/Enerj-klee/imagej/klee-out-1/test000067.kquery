@@ -1,0 +1,40 @@
+array __arr32__pixels[4096] : w32 -> w8 = symbolic
+array targetColor[4] : w32 -> w8 = symbolic
+(query [(Sle 0
+              N0:(ReadLSB w32 0 __arr32__pixels))
+         (Sle 0
+              N1:(ReadLSB w32 4 __arr32__pixels))
+         (Sle 0
+              N2:(ReadLSB w32 128 __arr32__pixels))
+         (Sle 0
+              N3:(ReadLSB w32 132 __arr32__pixels))
+         (Sle 0
+              N4:(ReadLSB w32 256 __arr32__pixels))
+         (Sle 0
+              N5:(ReadLSB w32 260 __arr32__pixels))
+         (Eq false
+             (Eq N0
+                 (ReadLSB w32 0 targetColor)))
+         (Eq false (Eq N2 N0))
+         (Eq N1 N0)
+         (Eq N3 N0)
+         (Eq N5 N0)
+         (Eq false
+             (Eq (ReadLSB w32 388 __arr32__pixels)
+                 N0))
+         (Eq false (Eq N4 N0))
+         (Eq false
+             (Eq (ReadLSB w32 8 __arr32__pixels)
+                 N0))
+         (Eq false
+             (Eq (ReadLSB w32 136 __arr32__pixels)
+                 N0))
+         (Eq (ReadLSB w32 264 __arr32__pixels)
+             N0)
+         (Eq false
+             (Eq (ReadLSB w32 392 __arr32__pixels)
+                 N0))
+         (Eq false
+             (Eq (ReadLSB w32 268 __arr32__pixels)
+                 N0))]
+        false)

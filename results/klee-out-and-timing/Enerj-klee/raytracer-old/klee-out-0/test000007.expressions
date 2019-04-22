@@ -1,0 +1,162 @@
+!143 Line 29 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (main), args1, 46552416
+0
+
+!144 Line 30 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (main), args2, 46552624
+0
+
+4 Line 0 of unknown/unknown (init), args1, 47036016
+0
+
+!150 Line 55 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), nx, 47079680
+0
+
+!201 Line 106 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @numIterations, 47088880
+0
+
+!143 Line 41 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @w, 47100240
+0
+
+!144 Line 42 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @h, 47100816
+0
+
+!145 Line 43 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @texture, 47101344
+0
+
+!146 Line 44 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @light, 47101872
+0
+
+!158 Line 68 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @k, 47102448
+0
+
+!195 Line 100 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @sng, 47102928
+((0 - sqrt_4_err) / (1 - sqrt_4_err))
+
+!196 Line 101 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), @lcoff, 47103552
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) + ((0 - sqrt_4_err) / (1 - sqrt_4_err))) - (((0 - sqrt_4_err) / (1 - sqrt_4_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))))
+
+4 Line 0 of unknown/unknown (init), args3, 47131200
+arg3_err
+
+4 Line 0 of unknown/unknown (init), args2, 47131232
+0
+
+4 Line 0 of unknown/unknown (init), args4, 47131728
+arg4_err
+
+!180 Line 87 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), index, 47133168
+0
+
+!161 Line 71 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), x, 47133568
+0
+
+!159 Line 70 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), y, 47134016
+0
+
+!156 Line 65 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), xe, 47134464
+0
+
+!149 Line 53 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ye, 47134912
+arg4_err
+
+!157 Line 67 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ze, 47135280
+0
+
+!170 Line 77 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), xd, 47135728
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!171 Line 78 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), yd, 47136176
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!172 Line 79 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), zd, 47143456
+((0 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))) / (1 - (((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))))
+
+!183 Line 89 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ix, 47143904
+0
+
+!185 Line 90 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), iy, 47144400
+(((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))
+
+!186 Line 91 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), iz, 47144848
+(((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2))) / (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2)))
+
+!151 Line 56 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ny, 47145824
+0
+
+!152 Line 57 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), nz, 47146320
+0
+
+!190 Line 95 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), lx, 47146768
+0
+
+!191 Line 96 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), ly, 47147264
+(((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))
+
+!192 Line 97 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), lz, 47147664
+((0 - ((((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2))) / (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2))) * (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2)))) / (0 - (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2))))
+
+!148 Line 52 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), lly, 47148112
+arg3_err
+
+!153 Line 58 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), bl, 47148560
+0
+
+!175 Line 82 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), t, 47149008
+0
+
+!169 Line 76 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), l, 47149456
+(((0 / ((scaling / 2) * (scaling / 2))) * ((scaling / 2) * (scaling / 2))) / (1 + ((scaling / 2) * (scaling / 2))))
+
+!154 Line 62 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), w1, 47149904
+0
+
+!155 Line 63 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), h1, 47150352
+0
+
+!197 Line 102 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), 145, 47154720
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) + ((0 - sqrt_4_err) / (1 - sqrt_4_err))) - (((0 - sqrt_4_err) / (1 - sqrt_4_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))))
+
+!199 Line 104 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (init), 150, 47154720
+0
+
+!159 Line 132 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), v, 47326176
+(((round_5_err * round_5) + (round_6_err * round_6)) / (round_5 + round_6))
+
+4 Line 0 of unknown/unknown (texture1), x, 48697200
+0
+
+4 Line 0 of unknown/unknown (texture1), y, 48900992
+(((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))
+
+!159 Line 132 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), v, 49373840
+(((round_2_err * round_2) + (round_3_err * round_3)) / (round_2 + round_3))
+
+!148 Line 125 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), r, 50207216
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) + ((0 - sqrt_1_err) / (1 - sqrt_1_err))) - (((0 - sqrt_1_err) / (1 - sqrt_1_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))))))
+
+!166 Line 136 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), col, 51043680
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) + ((0 - sqrt_1_err) / (1 - sqrt_1_err))) - (((0 - sqrt_1_err) / (1 - sqrt_1_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))))))
+
+!151 Line 127 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), b, 51459040
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) + ((0 - sqrt_1_err) / (1 - sqrt_1_err))) - (((0 - sqrt_1_err) / (1 - sqrt_1_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) * (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))))))
+
+!148 Line 125 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), r, 52045120
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) + ((0 - sqrt_4_err) / (1 - sqrt_4_err))) - (((0 - sqrt_4_err) / (1 - sqrt_4_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))))
+
+!166 Line 136 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), col, 52059936
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) + ((0 - sqrt_4_err) / (1 - sqrt_4_err))) - (((0 - sqrt_4_err) / (1 - sqrt_4_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))))
+
+4 Line 0 of unknown/unknown (texture1), x, 52231360
+(((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * ((scaling * -1) / 3))) / (((-1 - arg4) / (scaling / 3)) * ((scaling * -1) / 3)))
+
+4 Line 0 of unknown/unknown (texture1), z, 52592144
+(((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2))) / (((-1 - arg4) / (scaling / 2)) * ((scaling * -1) / 2)))
+
+!151 Line 127 of /home/himeshi/Projects/workspace/Enerj/raytracer/raytracer-symbolic.c (texture1), b, 53288544
+(((((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) + ((0 - sqrt_4_err) / (1 - sqrt_4_err))) - (((0 - sqrt_4_err) / (1 - sqrt_4_err)) * (((((((arg3_err * arg3) - ((((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) / (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))) * (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) * (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2))))) / (arg3 - (arg4 + (((-1 - arg4) / (scaling / 2)) * (scaling / 2)))))))
+
+4 Line 0 of unknown/unknown (texture1), y, 54412960
+(((arg4_err * arg4) + ((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * (scaling / 3)))) / (arg4 + (((-1 - arg4) / (scaling / 3)) * (scaling / 3))))
+
+4 Line 0 of unknown/unknown (texture1), z, 54417120
+(((((0 - (arg4_err * arg4)) / (-1 - arg4)) >> 0) * (((-1 - arg4) / (scaling / 3)) * ((scaling * -1) / 3))) / (((-1 - arg4) / (scaling / 3)) * ((scaling * -1) / 3)))
+

@@ -1,0 +1,651 @@
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 118843744
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 118850040
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 118853712
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 118854024
+pixels_err
+
+4 Line 0 of unknown/unknown (fillLine), x1, 139543968
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 139547640
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 139554704
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 165794304
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 165803824
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 165804680
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 189369584
+0
+
+!152 Line 92 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), value, 189370904
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 189373616
+pixels_err
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 189376816
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 189377840
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 189378960
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 216146832
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 216156608
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 216161424
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 216161664
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 245239400
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 245244120
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 245245488
+pixels_err
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 245247320
+pixels_err
+
+4 Line 0 of unknown/unknown (setPix), x, 245247496
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 265636080
+0
+
+4 Line 0 of unknown/unknown (fillLine), x2, 265643408
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 265646640
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 289698376
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 289698840
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 386441376
+0
+
+!154 Line 84 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 434980320
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57168768
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57168824
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57168824
+0
+
+4 Line 0 of unknown/unknown (push), x, 57168824
+0
+
+!152 Line 39 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (main), @targetColor, 57168936
+0
+
+!154 Line 41 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (main), @maxStackSize, 57168952
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169000
+0
+
+!161 Line 134 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), @stackSize, 57169024
+0
+
+!153 Line 40 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (main), @stackSize, 57169024
+0
+
+!153 Line 93 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), @stackSize, 57169024
+0
+
+!152 Line 109 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (push), @stackSize, 57169024
+0
+
+!156 Line 43 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (main), @ystack, 57169032
+0
+
+!168 Line 140 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), 1, 57169048
+0
+
+!155 Line 42 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (main), @xstack, 57169056
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57169064
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169080
+0
+
+!155 Line 86 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 57169080
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169096
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57169120
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169128
+0
+
+4 Line 0 of unknown/unknown (push), y, 57169128
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57169128
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57169136
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57169144
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169152
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57169152
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169160
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169168
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57169168
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 57169176
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169176
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57169184
+0
+
+4 Line 0 of unknown/unknown (fillLine), x1, 57169192
+0
+
+4 Line 0 of unknown/unknown (fillLine), x2, 57169208
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57169208
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 57169216
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169216
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57169216
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169224
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169240
+0
+
+!195 Line 169 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), i, 57169256
+0
+
+!194 Line 168 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), inScanLine, 57169272
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169280
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169288
+0
+
+!152 Line 92 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), value, 57169288
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57169288
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169296
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169296
+0
+
+!152 Line 124 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), width, 57169304
+0
+
+!154 Line 126 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), color, 57169320
+0
+
+!179 Line 154 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), x2, 57169328
+0
+
+!176 Line 150 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), x1, 57169336
+0
+
+!156 Line 128 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), newColor, 57169352
+0
+
+4 Line 0 of unknown/unknown (fill), x, 57169360
+0
+
+!164 Line 138 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), x.addr, 57169360
+0
+
+!153 Line 125 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), height, 57169368
+0
+
+4 Line 0 of unknown/unknown (fill), y, 57169400
+0
+
+!169 Line 141 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fill), y.addr, 57169400
+0
+
+4 Line 0 of unknown/unknown (fillLine), x2, 57169416
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57169472
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57169520
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169528
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169552
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57169560
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169568
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 57169576
+0
+
+4 Line 0 of unknown/unknown (push), y, 57169592
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169600
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 57169608
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57169624
+pixels_err
+
+4 Line 0 of unknown/unknown (fillLine), x1, 57169656
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 57169688
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57169936
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57170024
+0
+
+4 Line 0 of unknown/unknown (push), x, 57170056
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57170128
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57170224
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57170248
+0
+
+!155 Line 86 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 57170280
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57170632
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57170656
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 57170824
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57170872
+0
+
+4 Line 0 of unknown/unknown (fillLine), x1, 57170904
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57170904
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57171000
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57171024
+pixels_err
+
+!152 Line 92 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), value, 57171024
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57171120
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57171232
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57171256
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57171264
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57171280
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57171304
+0
+
+!154 Line 68 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57171344
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57171344
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57171560
+pixels_err
+
+4 Line 0 of unknown/unknown (fillLine), x2, 57171568
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57171664
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57171688
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57171720
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 57171720
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 57171872
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57171960
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 57172200
+0
+
+!155 Line 86 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 57172208
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57172688
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57172776
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57172808
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 57173280
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57173288
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57173296
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57174048
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57174088
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57174168
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57174416
+pixels_err
+
+4 Line 0 of unknown/unknown (push), x, 57174584
+0
+
+4 Line 0 of unknown/unknown (push), y, 57174656
+0
+
+!152 Line 92 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), value, 57174984
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57175080
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57175224
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57175344
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57175344
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57175608
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 57175920
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57175984
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 57176008
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 57176032
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57176120
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57176424
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 57176504
+0
+
+!154 Line 68 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57176696
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57177032
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57177208
+0
+
+4 Line 0 of unknown/unknown (push), y, 57177448
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57177512
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57177624
+0
+
+!152 Line 92 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popy), value, 57177824
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 57177944
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 57178032
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 57178072
+0
+
+4 Line 0 of unknown/unknown (fillLine), x2, 57178120
+0
+
+4 Line 0 of unknown/unknown (fillLine), x1, 57178144
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 57178856
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 57179616
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 57179664
+0
+
+!155 Line 86 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 57179824
+0
+
+!154 Line 78 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (setPix), arrayidx7, 59289600
+0
+
+!164 Line 119 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (push), arrayidx, 59744256
+0
+
+!165 Line 120 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (push), arrayidx13, 59748352
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 75546632
+0
+
+4 Line 0 of unknown/unknown (push), x, 75546984
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75547000
+pixels_err
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75547640
+0
+
+4 Line 0 of unknown/unknown (fillLine), y, 75548024
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75549240
+pixels_err
+
+4 Line 0 of unknown/unknown (push), x, 75549288
+0
+
+!159 Line 104 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (fillLine), x, 75549336
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 75549568
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75549616
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 75550352
+0
+
+!154 Line 68 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75550624
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 75551208
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 75551256
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75551712
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 75552392
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 75552520
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 75553232
+0
+
+4 Line 0 of unknown/unknown (setPix), c, 75553480
+0
+
+4 Line 0 of unknown/unknown (fillLine), x1, 75554040
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 75554104
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 75556424
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 75556432
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), y, 75557232
+0
+
+4 Line 0 of unknown/unknown (fillLine), x2, 75560344
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 75561080
+0
+
+4 Line 0 of unknown/unknown (setPix), y, 97757312
+0
+
+!155 Line 86 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (popx), returnVal, 97759240
+0
+
+4 Line 0 of unknown/unknown (getPix), y, 97759312
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 97761480
+0
+
+4 Line 0 of unknown/unknown (getPix), x, 97763136
+0
+
+4 Line 0 of unknown/unknown (setPix), x, 97763448
+0
+
+!155 Line 70 of /home/himeshi/approx/Enerj/imagej/imagej-symbolic.c (getPix), returnVal, 97764472
+pixels_err
+
+4 Line 0 of unknown/unknown (getPix), x, 97764744
+0
+
+4 Line 0 of unknown/unknown (push), y, 97766240
+0
+

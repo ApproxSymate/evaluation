@@ -1,0 +1,2 @@
+(pixels[0] = targetColor)
+(0 <= pixels[0]) && (0 <= pixels[1]) && (0 <= pixels[32]) && (0 <= pixels[33]) && (0 <= pixels[64]) && (0 <= pixels[65]) && (pixels[0] = targetColor)

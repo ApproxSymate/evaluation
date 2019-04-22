@@ -1,0 +1,4 @@
+minU2 = 1e+30
+maxU2 = -1e+30
+minRho = 1e+30
+maxRho = -1e+30

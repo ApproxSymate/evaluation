@@ -1,0 +1,118 @@
+Source: /home/himeshi/Projects/workspace/Enerj/sparsematmult/sparsematmult-symbolic.c
+Output: /home/himeshi/Projects/workspace/Enerj/sparsematmult/klee-out-0/
+
+Selected path #:1
+
+Input variables
+================================
+x
+val
+
+Input with error
+================================
+x
+val
+
+Input values
+================================
+x[0] = 0.335260
+x[1] = 0.697247
+x[2] = 0.971849
+x[3] = 0.938469
+x[4] = 0.398714
+x[5] = 0.035665
+x[6] = 0.632819
+x[7] = 0.552501
+x[8] = 0.516656
+x[9] = 0.732883
+val[0] = 0.215104
+val[1] = 0.199715
+val[2] = 0.607476
+val[3] = 0.164032
+val[4] = 0.527088
+val[5] = 0.658019
+val[6] = 0.773146
+val[7] = 0.272216
+val[8] = 0.466785
+val[9] = 0.555239
+val[10] = 0.719550
+val[11] = 0.374432
+val[12] = 0.236552
+val[13] = 0.833966
+val[14] = 0.002738
+val[15] = 0.202894
+val[16] = 0.641548
+val[17] = 0.021448
+val[18] = 0.634251
+val[19] = 0.395262
+val[20] = 0.038862
+val[21] = 0.114460
+val[22] = 0.363430
+val[23] = 0.861105
+val[24] = 0.123046
+val[25] = 0.572077
+val[26] = 0.559221
+val[27] = 0.643880
+val[28] = 0.486674
+val[29] = 0.886494
+val[30] = 0.738111
+val[31] = 0.556482
+val[32] = 0.440986
+val[33] = 0.845125
+val[34] = 0.865046
+val[35] = 0.103860
+val[36] = 0.161220
+val[37] = 0.402124
+val[38] = 0.730665
+val[39] = 0.501617
+val[40] = 0.242755
+val[41] = 0.038174
+val[42] = 0.830047
+val[43] = 0.171444
+val[44] = 0.857737
+val[45] = 0.756081
+val[46] = 0.151680
+val[47] = 0.091936
+val[48] = 0.614962
+val[49] = 0.416751
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+x (input)
+val (input)
+y (SparseCompRow_matmult)
+val (SparseCompRow_matmult)
+x (SparseCompRow_matmult)
+sum (SparseCompRow_matmult)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+
+r (SparseCompRow_matmult)
+row (SparseCompRow_matmult)
+rowR (SparseCompRow_matmult)
+step (main)
+col (SparseCompRow_matmult)
+anz (main)
+M (SparseCompRow_matmult)
+rowRp1 (SparseCompRow_matmult)
+nr (main)
+rowr (main)
+r (main)
+nz (main)
+reps (SparseCompRow_matmult)
+NUM_ITERATIONS (SparseCompRow_matmult)
+i (SparseCompRow_matmult)
+y (SparseCompRow_matmult)
+cycles (main)
+N (main)
+i (main)
+row (main)
+col (main)
+
+Approximability of input variables
+================================
+x : 100%
+val : 100%
