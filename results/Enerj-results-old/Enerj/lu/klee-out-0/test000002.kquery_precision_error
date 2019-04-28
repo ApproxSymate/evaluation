@@ -1,2 +1,0 @@
-!(0 = scaling) && ((fabs_1 * (1 - fabs_1_err)) < (fabs_2 * (1 - fabs_2_err))) && (0 = (A[2] * (1 - A_err)))
-!(0 = scaling) && (fabs_1 < fabs_2) && (0 = A[2])

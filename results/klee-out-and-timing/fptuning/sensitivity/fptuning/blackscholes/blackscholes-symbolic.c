@@ -263,15 +263,15 @@ int main(int argc, char **argv) {
 	klee_make_symbolic(&data_DGrefval, sizeof(int), "data_DGrefval");
 	data_OptionType = 'C';
 
-	klee_track_error(&inv_sqrt_2xPI, "invsqrt2xPI_err");
-	klee_track_error(&data_s, "datas_err");
-	klee_track_error(&data_strike, "datastrike_err");
-	klee_track_error(&data_r, "datar_err");
-	klee_track_error(&data_divq, "datadivq_err");
-	klee_track_error(&data_v, "datav_err");
-	klee_track_error(&data_t, "datat_err");
-	klee_track_error(&data_divs, "datadivs_err");
-	klee_track_error(&data_DGrefval, "dataDGrefval_err");
+	klee_track_error(&inv_sqrt_2xPI, "inv_sqrt_2xPI_err");
+	klee_track_error(&data_s, "data_s_err");
+	klee_track_error(&data_strike, "data_strike_err");
+	klee_track_error(&data_r, "data_r_err");
+	klee_track_error(&data_divq, "data_divq_err");
+	klee_track_error(&data_v, "data_v_err");
+	klee_track_error(&data_t, "data_t_err");
+	klee_track_error(&data_divs, "data_divs_err");
+	klee_track_error(&data_DGrefval, "data_DGrefval_err");
 
 #define PAD 256
 #define LINESIZE 64

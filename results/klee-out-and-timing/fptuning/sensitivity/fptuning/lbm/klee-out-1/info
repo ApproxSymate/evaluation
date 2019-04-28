@@ -1,0 +1,21 @@
+../../klee/klee/Release+Asserts/bin/klee --write-kqueries --precision --scaling --math-calls lbm-symbolic.bc
+PID: 131166
+Started: 2018-09-04 19:41:55
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-09-04 19:57:08
+Elapsed: 00:15:13
+KLEE: done: explored paths = 324
+KLEE: done: avg. constructs per query = 96
+KLEE: done: total queries = 21
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 21
+KLEE: done: query cex = 21
+
+KLEE: done: total instructions = 286287
+KLEE: done: completed paths = 324
+KLEE: done: generated tests = 324

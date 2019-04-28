@@ -1,0 +1,591 @@
+Source: /home/himeshi/Projects/workspace/fptuning/lbm/symbolic/lbm-symbolic.c
+Output: /home/himeshi/Projects/Approx/results/cgo/fptuning/lbm/klee-out-1/
+
+Selected path #:307
+
+Input variables
+================================
+temp1
+srcGrid
+minU2
+maxU2
+minRho
+maxRho
+
+Input with error
+================================
+srcGrid
+minU2
+maxU2
+minRho
+maxRho
+minU2 = 1000000000000000019884624838656.000000
+maxU2 = -1000000000000000019884624838656.000000
+minRho = 1000000000000000019884624838656.000000
+maxRho = -1000000000000000019884624838656.000000
+temp1 = 0.000000
+srcGrid[0] = 1.000000
+srcGrid[1] = 1.000000
+srcGrid[2] = 1.000000
+srcGrid[3] = 1.000000
+srcGrid[4] = 1.000000
+srcGrid[5] = 1.000000
+srcGrid[6] = 1.000000
+srcGrid[7] = 1.000000
+srcGrid[8] = 1.000000
+srcGrid[9] = 1.000000
+srcGrid[10] = 1.000000
+srcGrid[11] = 1.000000
+srcGrid[12] = 1.000000
+srcGrid[13] = 1.000000
+srcGrid[14] = 1.000000
+srcGrid[15] = 1.000000
+srcGrid[16] = 1.000000
+srcGrid[17] = 1.000000
+srcGrid[18] = 1.000000
+srcGrid[19] = 1.000000
+srcGrid[20] = 1.000000
+srcGrid[21] = 1.000000
+srcGrid[22] = 1.000000
+srcGrid[23] = 1.000000
+srcGrid[24] = 1.000000
+srcGrid[25] = 1.000000
+srcGrid[26] = 1.000000
+srcGrid[27] = 1.000000
+srcGrid[28] = 1.000000
+srcGrid[29] = 1.000000
+srcGrid[30] = 1.000000
+srcGrid[31] = 1.000000
+srcGrid[32] = 1.000000
+srcGrid[33] = 1.000000
+srcGrid[34] = 1.000000
+srcGrid[35] = 1.000000
+srcGrid[36] = 1.000000
+srcGrid[37] = 1.000000
+srcGrid[38] = 1.000000
+srcGrid[39] = 1.000000
+srcGrid[40] = 1.000000
+srcGrid[41] = 1.000000
+srcGrid[42] = 1.000000
+srcGrid[43] = 1.000000
+srcGrid[44] = 1.000000
+srcGrid[45] = 1.000000
+srcGrid[46] = 1.000000
+srcGrid[47] = 1.000000
+srcGrid[48] = 1.000000
+srcGrid[49] = 1.000000
+srcGrid[50] = 1.000000
+srcGrid[51] = 1.000000
+srcGrid[52] = 1.000000
+srcGrid[53] = 1.000000
+srcGrid[54] = 1.000000
+srcGrid[55] = 1.000000
+srcGrid[56] = 1.000000
+srcGrid[57] = 1.000000
+srcGrid[58] = 1.000000
+srcGrid[59] = 1.000000
+srcGrid[60] = 1.000000
+srcGrid[61] = 1.000000
+srcGrid[62] = 1.000000
+srcGrid[63] = 1.000000
+srcGrid[64] = 1.000000
+srcGrid[65] = 1.000000
+srcGrid[66] = 1.000000
+srcGrid[67] = 1.000000
+srcGrid[68] = 1.000000
+srcGrid[69] = 1.000000
+srcGrid[70] = 1.000000
+srcGrid[71] = 1.000000
+srcGrid[72] = 1.000000
+srcGrid[73] = 1.000000
+srcGrid[74] = 1.000000
+srcGrid[75] = 1.000000
+srcGrid[76] = 1.000000
+srcGrid[77] = 1.000000
+srcGrid[78] = 1.000000
+srcGrid[79] = 1.000000
+srcGrid[80] = 1.000000
+srcGrid[81] = 1.000000
+srcGrid[82] = 1.000000
+srcGrid[83] = 1.000000
+srcGrid[84] = 1.000000
+srcGrid[85] = 1.000000
+srcGrid[86] = 1.000000
+srcGrid[87] = 1.000000
+srcGrid[88] = 1.000000
+srcGrid[89] = 1.000000
+srcGrid[90] = 1.000000
+srcGrid[91] = 1.000000
+srcGrid[92] = 1.000000
+srcGrid[93] = 1.000000
+srcGrid[94] = 1.000000
+srcGrid[95] = 1.000000
+srcGrid[96] = 1.000000
+srcGrid[97] = 1.000000
+srcGrid[98] = 1.000000
+srcGrid[99] = 1.000000
+srcGrid[100] = 1.000000
+srcGrid[101] = 1.000000
+srcGrid[102] = 1.000000
+srcGrid[103] = 1.000000
+srcGrid[104] = 1.000000
+srcGrid[105] = 1.000000
+srcGrid[106] = 1.000000
+srcGrid[107] = 1.000000
+srcGrid[108] = 1.000000
+srcGrid[109] = 1.000000
+srcGrid[110] = 1.000000
+srcGrid[111] = 1.000000
+srcGrid[112] = 1.000000
+srcGrid[113] = 1.000000
+srcGrid[114] = 1.000000
+srcGrid[115] = 1.000000
+srcGrid[116] = 1.000000
+srcGrid[117] = 1.000000
+srcGrid[118] = 1.000000
+srcGrid[119] = 1.000000
+srcGrid[120] = 1.000000
+srcGrid[121] = 1.000000
+srcGrid[122] = 1.000000
+srcGrid[123] = 1.000000
+srcGrid[124] = 1.000000
+srcGrid[125] = 1.000000
+srcGrid[126] = 1.000000
+srcGrid[127] = 1.000000
+srcGrid[128] = 1.000000
+srcGrid[129] = 1.000000
+srcGrid[130] = 1.000000
+srcGrid[131] = 1.000000
+srcGrid[132] = 1.000000
+srcGrid[133] = 1.000000
+srcGrid[134] = 1.000000
+srcGrid[135] = 1.000000
+srcGrid[136] = 1.000000
+srcGrid[137] = 1.000000
+srcGrid[138] = 1.000000
+srcGrid[139] = 1.000000
+srcGrid[140] = 1.000000
+srcGrid[141] = 1.000000
+srcGrid[142] = 1.000000
+srcGrid[143] = 1.000000
+srcGrid[144] = 1.000000
+srcGrid[145] = 1.000000
+srcGrid[146] = 1.000000
+srcGrid[147] = 1.000000
+srcGrid[148] = 1.000000
+srcGrid[149] = 1.000000
+srcGrid[150] = 1.000000
+srcGrid[151] = 1.000000
+srcGrid[152] = 1.000000
+srcGrid[153] = 1.000000
+srcGrid[154] = 1.000000
+srcGrid[155] = 1.000000
+srcGrid[156] = 1.000000
+srcGrid[157] = 1.000000
+srcGrid[158] = 1.000000
+srcGrid[159] = 1.000000
+srcGrid[160] = 1.000000
+srcGrid[161] = 1.000000
+srcGrid[162] = 1.000000
+srcGrid[163] = 1.000000
+srcGrid[164] = 1.000000
+srcGrid[165] = 1.000000
+srcGrid[166] = 1.000000
+srcGrid[167] = 1.000000
+srcGrid[168] = 1.000000
+srcGrid[169] = 1.000000
+srcGrid[170] = 1.000000
+srcGrid[171] = 1.000000
+srcGrid[172] = 1.000000
+srcGrid[173] = 1.000000
+srcGrid[174] = 1.000000
+srcGrid[175] = 1.000000
+srcGrid[176] = 1.000000
+srcGrid[177] = 1.000000
+srcGrid[178] = 1.000000
+srcGrid[179] = 2.000000
+srcGrid[180] = 1.000000
+srcGrid[181] = 1.000000
+srcGrid[182] = 1.000000
+srcGrid[183] = 1.000000
+srcGrid[184] = 1.000000
+srcGrid[185] = 1.000000
+srcGrid[186] = 1.000000
+srcGrid[187] = 1.000000
+srcGrid[188] = 1.000000
+srcGrid[189] = 1.000000
+srcGrid[190] = 1.000000
+srcGrid[191] = 1.000000
+srcGrid[192] = 1.000000
+srcGrid[193] = 1.000000
+srcGrid[194] = 1.000000
+srcGrid[195] = 1.000000
+srcGrid[196] = 1.000000
+srcGrid[197] = 1.000000
+srcGrid[198] = 1.000000
+srcGrid[199] = 2.000000
+srcGrid[200] = 1.000000
+srcGrid[201] = 1.000000
+srcGrid[202] = 1.000000
+srcGrid[203] = 1.000000
+srcGrid[204] = 1.000000
+srcGrid[205] = 1.000000
+srcGrid[206] = 1.000000
+srcGrid[207] = 1.000000
+srcGrid[208] = 1.000000
+srcGrid[209] = 1.000000
+srcGrid[210] = 1.000000
+srcGrid[211] = 1.000000
+srcGrid[212] = 1.000000
+srcGrid[213] = 1.000000
+srcGrid[214] = 1.000000
+srcGrid[215] = 1.000000
+srcGrid[216] = 1.000000
+srcGrid[217] = 1.000000
+srcGrid[218] = 1.000000
+srcGrid[219] = 2.000000
+srcGrid[220] = 1.000000
+srcGrid[221] = 1.000000
+srcGrid[222] = 1.000000
+srcGrid[223] = 1.000000
+srcGrid[224] = 1.000000
+srcGrid[225] = 1.000000
+srcGrid[226] = 1.000000
+srcGrid[227] = 1.000000
+srcGrid[228] = 1.000000
+srcGrid[229] = 1.000000
+srcGrid[230] = 1.000000
+srcGrid[231] = 1.000000
+srcGrid[232] = 1.000000
+srcGrid[233] = 1.000000
+srcGrid[234] = 1.000000
+srcGrid[235] = 1.000000
+srcGrid[236] = 1.000000
+srcGrid[237] = 1.000000
+srcGrid[238] = 1.000000
+srcGrid[239] = 2.000000
+srcGrid[240] = 1.000000
+srcGrid[241] = 1.000000
+srcGrid[242] = 1.000000
+srcGrid[243] = 1.000000
+srcGrid[244] = 1.000000
+srcGrid[245] = 1.000000
+srcGrid[246] = 1.000000
+srcGrid[247] = 1.000000
+srcGrid[248] = 1.000000
+srcGrid[249] = 1.000000
+srcGrid[250] = 1.000000
+srcGrid[251] = 1.000000
+srcGrid[252] = 1.000000
+srcGrid[253] = 1.000000
+srcGrid[254] = 1.000000
+srcGrid[255] = 1.000000
+srcGrid[256] = 1.000000
+srcGrid[257] = 1.000000
+srcGrid[258] = 1.000000
+srcGrid[259] = 1.000000
+srcGrid[260] = 1.000000
+srcGrid[261] = 1.000000
+srcGrid[262] = 1.000000
+srcGrid[263] = 1.000000
+srcGrid[264] = 1.000000
+srcGrid[265] = 1.000000
+srcGrid[266] = 1.000000
+srcGrid[267] = 1.000000
+srcGrid[268] = 1.000000
+srcGrid[269] = 1.000000
+srcGrid[270] = 1.000000
+srcGrid[271] = 1.000000
+srcGrid[272] = 1.000000
+srcGrid[273] = 1.000000
+srcGrid[274] = 1.000000
+srcGrid[275] = 1.000000
+srcGrid[276] = 1.000000
+srcGrid[277] = 1.000000
+srcGrid[278] = 1.000000
+srcGrid[279] = 1.000000
+srcGrid[280] = 1.000000
+srcGrid[281] = 1.000000
+srcGrid[282] = 1.000000
+srcGrid[283] = 1.000000
+srcGrid[284] = 1.000000
+srcGrid[285] = 1.000000
+srcGrid[286] = 1.000000
+srcGrid[287] = 1.000000
+srcGrid[288] = 1.000000
+srcGrid[289] = 1.000000
+srcGrid[290] = 1.000000
+srcGrid[291] = 1.000000
+srcGrid[292] = 1.000000
+srcGrid[293] = 1.000000
+srcGrid[294] = 1.000000
+srcGrid[295] = 1.000000
+srcGrid[296] = 1.000000
+srcGrid[297] = 1.000000
+srcGrid[298] = 1.000000
+srcGrid[299] = 1.000000
+srcGrid[300] = 1.000000
+srcGrid[301] = 1.000000
+srcGrid[302] = 1.000000
+srcGrid[303] = 1.000000
+srcGrid[304] = 1.000000
+srcGrid[305] = 1.000000
+srcGrid[306] = 1.000000
+srcGrid[307] = 1.000000
+srcGrid[308] = 1.000000
+srcGrid[309] = 1.000000
+srcGrid[310] = 1.000000
+srcGrid[311] = 1.000000
+srcGrid[312] = 1.000000
+srcGrid[313] = 1.000000
+srcGrid[314] = 1.000000
+srcGrid[315] = 1.000000
+srcGrid[316] = 1.000000
+srcGrid[317] = 1.000000
+srcGrid[318] = 1.000000
+srcGrid[319] = 1.000000
+srcGrid[320] = 1.000000
+srcGrid[321] = 1.000000
+srcGrid[322] = 1.000000
+srcGrid[323] = 1.000000
+srcGrid[324] = 1.000000
+srcGrid[325] = 1.000000
+srcGrid[326] = 1.000000
+srcGrid[327] = 1.000000
+srcGrid[328] = 1.000000
+srcGrid[329] = 1.000000
+srcGrid[330] = 1.000000
+srcGrid[331] = 1.000000
+srcGrid[332] = 1.000000
+srcGrid[333] = 1.000000
+srcGrid[334] = 1.000000
+srcGrid[335] = 1.000000
+srcGrid[336] = 1.000000
+srcGrid[337] = 1.000000
+srcGrid[338] = 1.000000
+srcGrid[339] = 1.000000
+srcGrid[340] = 1.000000
+srcGrid[341] = 1.000000
+srcGrid[342] = 1.000000
+srcGrid[343] = 1.000000
+srcGrid[344] = 1.000000
+srcGrid[345] = 1.000000
+srcGrid[346] = 1.000000
+srcGrid[347] = 1.000000
+srcGrid[348] = 1.000000
+srcGrid[349] = 1.000000
+srcGrid[350] = 1.000000
+srcGrid[351] = 1.000000
+srcGrid[352] = 1.000000
+srcGrid[353] = 1.000000
+srcGrid[354] = 1.000000
+srcGrid[355] = 1.000000
+srcGrid[356] = 1.000000
+srcGrid[357] = 1.000000
+srcGrid[358] = 1.000000
+srcGrid[359] = 1.000000
+srcGrid[360] = 1.000000
+srcGrid[361] = 1.000000
+srcGrid[362] = 1.000000
+srcGrid[363] = 1.000000
+srcGrid[364] = 1.000000
+srcGrid[365] = 1.000000
+srcGrid[366] = 1.000000
+srcGrid[367] = 1.000000
+srcGrid[368] = 1.000000
+srcGrid[369] = 1.000000
+srcGrid[370] = 1.000000
+srcGrid[371] = 1.000000
+srcGrid[372] = 1.000000
+srcGrid[373] = 1.000000
+srcGrid[374] = 1.000000
+srcGrid[375] = 1.000000
+srcGrid[376] = 1.000000
+srcGrid[377] = 1.000000
+srcGrid[378] = 1.000000
+srcGrid[379] = 1.000000
+srcGrid[380] = 1.000000
+srcGrid[381] = 1.000000
+srcGrid[382] = 1.000000
+srcGrid[383] = 1.000000
+srcGrid[384] = 1.000000
+srcGrid[385] = 1.000000
+srcGrid[386] = 1.000000
+srcGrid[387] = 1.000000
+srcGrid[388] = 1.000000
+srcGrid[389] = 1.000000
+srcGrid[390] = 1.000000
+srcGrid[391] = 1.000000
+srcGrid[392] = 1.000000
+srcGrid[393] = 1.000000
+srcGrid[394] = 1.000000
+srcGrid[395] = 1.000000
+srcGrid[396] = 1.000000
+srcGrid[397] = 1.000000
+srcGrid[398] = 1.000000
+srcGrid[399] = 1.000000
+
+Input values satisfies path condition without error...
+
+438 (LBM_handleInOutFlow)
+440 (LBM_handleInOutFlow)
+441 (LBM_handleInOutFlow)
+442 (LBM_handleInOutFlow)
+443 (LBM_handleInOutFlow)
+444 (LBM_handleInOutFlow)
+445 (LBM_handleInOutFlow)
+447 (LBM_handleInOutFlow)
+449 (LBM_handleInOutFlow)
+451 (LBM_handleInOutFlow)
+453 (LBM_handleInOutFlow)
+455 (LBM_handleInOutFlow)
+457 (LBM_handleInOutFlow)
+459 (LBM_handleInOutFlow)
+461 (LBM_handleInOutFlow)
+463 (LBM_handleInOutFlow)
+465 (LBM_handleInOutFlow)
+467 (LBM_handleInOutFlow)
+469 (LBM_handleInOutFlow)
+436 (LBM_handleInOutFlow)
+428 (LBM_handleInOutFlow)
+433 (LBM_handleInOutFlow)
+432 (LBM_handleInOutFlow)
+434 (LBM_handleInOutFlow)
+371 (LBM_handleInOutFlow)
+372 (LBM_handleInOutFlow)
+373 (LBM_handleInOutFlow)
+426 (LBM_handleInOutFlow)
+427 (LBM_handleInOutFlow)
+686 (LBM_performStreamCollide)
+
+Approximable variables (in increasing order of sensitivity)
+================================
+srcGrid (input)
+minU2 (input)
+maxU2 (input)
+minRho (input)
+maxRho (input)
+297 (LBM_handleInOutFlow) SE) (LBM_handleInOutFlow)
+307 (LBM_handleInOutFlow) SB) (LBM_handleInOutFlow)
+291 (LBM_handleInOutFlow) B) (LBM_handleInOutFlow)
+289 (LBM_handleInOutFlow) W) (LBM_handleInOutFlow)
+299 (LBM_handleInOutFlow) SW) (LBM_handleInOutFlow)
+320 (LBM_handleInOutFlow) rho1 (LBM_handleInOutFlow)
+375 (LBM_handleInOutFlow) rho2 (LBM_handleInOutFlow)
+301 (LBM_handleInOutFlow) NT) (LBM_handleInOutFlow)
+313 (LBM_handleInOutFlow) WT) (LBM_handleInOutFlow)
+309 (LBM_handleInOutFlow) ET) (LBM_handleInOutFlow)
+288 (LBM_handleInOutFlow) E) (LBM_handleInOutFlow)
+311 (LBM_handleInOutFlow) EB) (LBM_handleInOutFlow)
+287 (LBM_handleInOutFlow) S) (LBM_handleInOutFlow)
+290 (LBM_handleInOutFlow) T) (LBM_handleInOutFlow)
+295 (LBM_handleInOutFlow) NW) (LBM_handleInOutFlow)
+315 (LBM_handleInOutFlow) WB) (LBM_handleInOutFlow)
+305 (LBM_handleInOutFlow) ST) (LBM_handleInOutFlow)
+284 (LBM_handleInOutFlow) C) (LBM_handleInOutFlow)
+286 (LBM_handleInOutFlow) N) (LBM_handleInOutFlow)
+293 (LBM_handleInOutFlow) NE) (LBM_handleInOutFlow)
+303 (LBM_handleInOutFlow) NB) (LBM_handleInOutFlow)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+temp1 (input)
+461 (LBM_handleInOutFlow) SB) (LBM_handleInOutFlow)
+514 (LBM_allocateDstGrid) size (LBM_allocateDstGrid)
+194 (main) param.nTimeSteps (main)
+319 (LBM_handleInOutFlow) 0, (LBM_handleInOutFlow)
+430 (LBM_handleInOutFlow) rho (LBM_handleInOutFlow)
+426 (LBM_handleInOutFlow) ux2 (LBM_handleInOutFlow)
+447 (LBM_handleInOutFlow) NE) (LBM_handleInOutFlow)
+758 (LBM_swapGrids) *grid2 (LBM_swapGrids)
+445 (LBM_handleInOutFlow) B) (LBM_handleInOutFlow)
+509 (LBM_allocateSrcGrid)  (LBM_allocateSrcGrid)
+463 (LBM_handleInOutFlow) ET) (LBM_handleInOutFlow)
+516 (LBM_allocateDstGrid) *ptr (LBM_allocateDstGrid)
+433 (LBM_handleInOutFlow) uy (LBM_handleInOutFlow)
+757 (LBM_swapGrids) *grid1 (LBM_swapGrids)
+param (MAIN_finalize)
+710 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+699 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+706 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+195 (main) param.simType (main)
+715 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+593 (LBM_showGridStatistics) nObstacleCells++ (LBM_showGridStatistics)
+635 (LBM_performStreamCollide) 0, (LBM_performStreamCollide)
+455 (LBM_handleInOutFlow) NT) (LBM_handleInOutFlow)
+grid1 (LBM_swapGrids)
+756 (LBM_swapGrids) aux (LBM_swapGrids)
+444 (LBM_handleInOutFlow) T) (LBM_handleInOutFlow)
+560 (LBM_showGridStatistics) nObstacleCells (LBM_showGridStatistics)
+438 (LBM_handleInOutFlow) C) (LBM_handleInOutFlow)
+590 (LBM_showGridStatistics) mass (LBM_showGridStatistics)
+276 (LBM_handleInOutFlow) px (LBM_handleInOutFlow)
+434 (LBM_handleInOutFlow) uz (LBM_handleInOutFlow)
+440 (LBM_handleInOutFlow) N) (LBM_handleInOutFlow)
+702 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+277 (LBM_handleInOutFlow) py (LBM_handleInOutFlow)
+694 (LBM_performStreamCollide) uy (LBM_performStreamCollide)
+427 (LBM_handleInOutFlow) uy2 (LBM_handleInOutFlow)
+451 (LBM_handleInOutFlow) SE) (LBM_handleInOutFlow)
+624 (LBM_freeGrid) margin (LBM_freeGrid)
+443 (LBM_handleInOutFlow) W) (LBM_handleInOutFlow)
+373 (LBM_handleInOutFlow) uz1 (LBM_handleInOutFlow)
+708 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+503 (LBM_allocateSrcGrid) size (LBM_allocateSrcGrid)
+745 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+579 (LBM_showGridStatistics) rho (LBM_showGridStatistics)
+371 (LBM_handleInOutFlow) ux1 (LBM_handleInOutFlow)
+704 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+513 (LBM_allocateDstGrid) margin (LBM_allocateDstGrid)
+736 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+748 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+442 (LBM_handleInOutFlow) E) (LBM_handleInOutFlow)
+742 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+718 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+ptr (LBM_allocateSrcGrid)
+724 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+588 (LBM_showGridStatistics) maxRho (LBM_showGridStatistics)
+465 (LBM_handleInOutFlow) EB) (LBM_handleInOutFlow)
+693 (LBM_performStreamCollide) ux (LBM_performStreamCollide)
+733 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+698 (LBM_performStreamCollide) u2 (LBM_performStreamCollide)
+441 (LBM_handleInOutFlow) S) (LBM_handleInOutFlow)
+202 (main) t (main)
+453 (LBM_handleInOutFlow) SW) (LBM_handleInOutFlow)
+578 (LBM_showGridStatistics) 0, (LBM_showGridStatistics)
+721 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+dstGrid (LBM_performStreamCollide)
+727 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+srcGrid (LBM_performStreamCollide)
+ptr (LBM_freeGrid)
+505 (LBM_allocateSrcGrid) *ptr (LBM_allocateSrcGrid)
+grid (LBM_showGridStatistics)
+712 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+627 (LBM_freeGrid) *ptr (LBM_freeGrid)
+457 (LBM_handleInOutFlow) NB) (LBM_handleInOutFlow)
+502 (LBM_allocateSrcGrid) margin (LBM_allocateSrcGrid)
+436 (LBM_handleInOutFlow) u2 (LBM_handleInOutFlow)
+686 (LBM_performStreamCollide) rho (LBM_performStreamCollide)
+695 (LBM_performStreamCollide) uz (LBM_performStreamCollide)
+432 (LBM_handleInOutFlow) ux (LBM_handleInOutFlow)
+ptr (LBM_allocateDstGrid)
+518 (LBM_allocateDstGrid)  (LBM_allocateDstGrid)
+449 (LBM_handleInOutFlow) NW) (LBM_handleInOutFlow)
+469 (LBM_handleInOutFlow) WB) (LBM_handleInOutFlow)
+739 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+srcGrid (LBM_handleInOutFlow)
+459 (LBM_handleInOutFlow) ST) (LBM_handleInOutFlow)
+586 (LBM_showGridStatistics) minRho (LBM_showGridStatistics)
+467 (LBM_handleInOutFlow) WT) (LBM_handleInOutFlow)
+grid2 (LBM_swapGrids)
+730 (LBM_performStreamCollide) ) (LBM_performStreamCollide)
+428 (LBM_handleInOutFlow) uz2 (LBM_handleInOutFlow)
+372 (LBM_handleInOutFlow) uy1 (LBM_handleInOutFlow)
+
+Approximability of input variables
+================================
+srcGrid : 100%
+minU2 : 100%
+maxU2 : 100%
+minRho : 100%
+maxRho : 100%

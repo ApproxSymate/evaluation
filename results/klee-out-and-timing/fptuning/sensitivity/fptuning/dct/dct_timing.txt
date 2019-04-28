@@ -1,0 +1,433 @@
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/dct/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/dct/dct-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/dct/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input with error
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input values
+================================
+temp1 = 0.707107
+temp2 = 0.382683
+temp3 = 0.541196
+temp4 = 1.306563
+data[0] = 139.000000
+data[1] = 144.000000
+data[2] = 149.000000
+data[3] = 153.000000
+data[4] = 155.000000
+data[5] = 155.000000
+data[6] = 155.000000
+data[7] = 155.000000
+data[8] = 144.000000
+data[9] = 151.000000
+data[10] = 153.000000
+data[11] = 156.000000
+data[12] = 159.000000
+data[13] = 156.000000
+data[14] = 156.000000
+data[15] = 156.000000
+data[16] = 150.000000
+data[17] = 155.000000
+data[18] = 160.000000
+data[19] = 163.000000
+data[20] = 158.000000
+data[21] = 156.000000
+data[22] = 156.000000
+data[23] = 156.000000
+data[24] = 159.000000
+data[25] = 161.000000
+data[26] = 162.000000
+data[27] = 160.000000
+data[28] = 160.000000
+data[29] = 159.000000
+data[30] = 159.000000
+data[31] = 159.000000
+data[32] = 159.000000
+data[33] = 160.000000
+data[34] = 161.000000
+data[35] = 162.000000
+data[36] = 162.000000
+data[37] = 155.000000
+data[38] = 155.000000
+data[39] = 155.000000
+data[40] = 161.000000
+data[41] = 161.000000
+data[42] = 161.000000
+data[43] = 161.000000
+data[44] = 160.000000
+data[45] = 157.000000
+data[46] = 157.000000
+data[47] = 157.000000
+data[48] = 162.000000
+data[49] = 162.000000
+data[50] = 161.000000
+data[51] = 163.000000
+data[52] = 162.000000
+data[53] = 157.000000
+data[54] = 157.000000
+data[55] = 157.000000
+data[56] = 162.000000
+data[57] = 162.000000
+data[58] = 161.000000
+data[59] = 161.000000
+data[60] = 163.000000
+data[61] = 158.000000
+data[62] = 158.000000
+data[63] = 158.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+data (input)
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+dataptr (jpeg_fdct_float)
+z2 (jpeg_fdct_float)
+data (jpeg_fdct_float)
+z13 (jpeg_fdct_float)
+z1 (jpeg_fdct_float)
+z5 (jpeg_fdct_float)
+z3 (jpeg_fdct_float)
+tmp6 (jpeg_fdct_float)
+tmp1 (jpeg_fdct_float)
+workspace_temp (main)
+workspace (main)
+z11 (jpeg_fdct_float)
+tmp11 (jpeg_fdct_float)
+z4 (jpeg_fdct_float)
+tmp12 (jpeg_fdct_float)
+tmp5 (jpeg_fdct_float)
+tmp13 (jpeg_fdct_float)
+tmp10 (jpeg_fdct_float)
+tmp7 (jpeg_fdct_float)
+data_temp (jpeg_fdct_float)
+data_temp (main)
+tmp2 (jpeg_fdct_float)
+tmp0 (jpeg_fdct_float)
+tmp4 (jpeg_fdct_float)
+tmp3 (jpeg_fdct_float)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+j (main)
+i (main)
+runs (main)
+dataptr++ (jpeg_fdct_float)
+ctr (jpeg_fdct_float)
+
+Approximability of input variables
+================================
+data : 100.000000%
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/dct/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/dct/dct-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/dct/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input with error
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input values
+================================
+temp1 = 0.707107
+temp2 = 0.382683
+temp3 = 0.541196
+temp4 = 1.306563
+data[0] = 139.000000
+data[1] = 144.000000
+data[2] = 149.000000
+data[3] = 153.000000
+data[4] = 155.000000
+data[5] = 155.000000
+data[6] = 155.000000
+data[7] = 155.000000
+data[8] = 144.000000
+data[9] = 151.000000
+data[10] = 153.000000
+data[11] = 156.000000
+data[12] = 159.000000
+data[13] = 156.000000
+data[14] = 156.000000
+data[15] = 156.000000
+data[16] = 150.000000
+data[17] = 155.000000
+data[18] = 160.000000
+data[19] = 163.000000
+data[20] = 158.000000
+data[21] = 156.000000
+data[22] = 156.000000
+data[23] = 156.000000
+data[24] = 159.000000
+data[25] = 161.000000
+data[26] = 162.000000
+data[27] = 160.000000
+data[28] = 160.000000
+data[29] = 159.000000
+data[30] = 159.000000
+data[31] = 159.000000
+data[32] = 159.000000
+data[33] = 160.000000
+data[34] = 161.000000
+data[35] = 162.000000
+data[36] = 162.000000
+data[37] = 155.000000
+data[38] = 155.000000
+data[39] = 155.000000
+data[40] = 161.000000
+data[41] = 161.000000
+data[42] = 161.000000
+data[43] = 161.000000
+data[44] = 160.000000
+data[45] = 157.000000
+data[46] = 157.000000
+data[47] = 157.000000
+data[48] = 162.000000
+data[49] = 162.000000
+data[50] = 161.000000
+data[51] = 163.000000
+data[52] = 162.000000
+data[53] = 157.000000
+data[54] = 157.000000
+data[55] = 157.000000
+data[56] = 162.000000
+data[57] = 162.000000
+data[58] = 161.000000
+data[59] = 161.000000
+data[60] = 163.000000
+data[61] = 158.000000
+data[62] = 158.000000
+data[63] = 158.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+data (input)
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+dataptr (jpeg_fdct_float)
+z2 (jpeg_fdct_float)
+data (jpeg_fdct_float)
+z13 (jpeg_fdct_float)
+z1 (jpeg_fdct_float)
+z5 (jpeg_fdct_float)
+z3 (jpeg_fdct_float)
+tmp6 (jpeg_fdct_float)
+tmp1 (jpeg_fdct_float)
+workspace (main)
+workspace_temp (main)
+z11 (jpeg_fdct_float)
+tmp11 (jpeg_fdct_float)
+z4 (jpeg_fdct_float)
+tmp12 (jpeg_fdct_float)
+tmp5 (jpeg_fdct_float)
+tmp13 (jpeg_fdct_float)
+tmp10 (jpeg_fdct_float)
+tmp7 (jpeg_fdct_float)
+data_temp (jpeg_fdct_float)
+data_temp (main)
+tmp2 (jpeg_fdct_float)
+tmp0 (jpeg_fdct_float)
+tmp4 (jpeg_fdct_float)
+tmp3 (jpeg_fdct_float)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+i (main)
+j (main)
+runs (main)
+dataptr++ (jpeg_fdct_float)
+ctr (jpeg_fdct_float)
+
+Approximability of input variables
+================================
+data : 100.000000%
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/dct/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/dct/dct-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/dct/klee-out-0/
+input error repeat = 10
+
+Selected path #:1
+
+Input variables
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input with error
+================================
+data
+temp1
+temp2
+temp3
+temp4
+
+Input values
+================================
+temp1 = 0.707107
+temp2 = 0.382683
+temp3 = 0.541196
+temp4 = 1.306563
+data[0] = 139.000000
+data[1] = 144.000000
+data[2] = 149.000000
+data[3] = 153.000000
+data[4] = 155.000000
+data[5] = 155.000000
+data[6] = 155.000000
+data[7] = 155.000000
+data[8] = 144.000000
+data[9] = 151.000000
+data[10] = 153.000000
+data[11] = 156.000000
+data[12] = 159.000000
+data[13] = 156.000000
+data[14] = 156.000000
+data[15] = 156.000000
+data[16] = 150.000000
+data[17] = 155.000000
+data[18] = 160.000000
+data[19] = 163.000000
+data[20] = 158.000000
+data[21] = 156.000000
+data[22] = 156.000000
+data[23] = 156.000000
+data[24] = 159.000000
+data[25] = 161.000000
+data[26] = 162.000000
+data[27] = 160.000000
+data[28] = 160.000000
+data[29] = 159.000000
+data[30] = 159.000000
+data[31] = 159.000000
+data[32] = 159.000000
+data[33] = 160.000000
+data[34] = 161.000000
+data[35] = 162.000000
+data[36] = 162.000000
+data[37] = 155.000000
+data[38] = 155.000000
+data[39] = 155.000000
+data[40] = 161.000000
+data[41] = 161.000000
+data[42] = 161.000000
+data[43] = 161.000000
+data[44] = 160.000000
+data[45] = 157.000000
+data[46] = 157.000000
+data[47] = 157.000000
+data[48] = 162.000000
+data[49] = 162.000000
+data[50] = 161.000000
+data[51] = 163.000000
+data[52] = 162.000000
+data[53] = 157.000000
+data[54] = 157.000000
+data[55] = 157.000000
+data[56] = 162.000000
+data[57] = 162.000000
+data[58] = 161.000000
+data[59] = 161.000000
+data[60] = 163.000000
+data[61] = 158.000000
+data[62] = 158.000000
+data[63] = 158.000000
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+data (input)
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+dataptr (jpeg_fdct_float)
+z2 (jpeg_fdct_float)
+data (jpeg_fdct_float)
+z13 (jpeg_fdct_float)
+z1 (jpeg_fdct_float)
+z5 (jpeg_fdct_float)
+z3 (jpeg_fdct_float)
+tmp6 (jpeg_fdct_float)
+tmp1 (jpeg_fdct_float)
+workspace_temp (main)
+workspace (main)
+z11 (jpeg_fdct_float)
+tmp11 (jpeg_fdct_float)
+z4 (jpeg_fdct_float)
+tmp12 (jpeg_fdct_float)
+tmp5 (jpeg_fdct_float)
+tmp13 (jpeg_fdct_float)
+tmp10 (jpeg_fdct_float)
+tmp7 (jpeg_fdct_float)
+data_temp (jpeg_fdct_float)
+data_temp (main)
+tmp2 (jpeg_fdct_float)
+tmp0 (jpeg_fdct_float)
+tmp4 (jpeg_fdct_float)
+tmp3 (jpeg_fdct_float)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+i (main)
+j (main)
+runs (main)
+dataptr++ (jpeg_fdct_float)
+ctr (jpeg_fdct_float)
+
+Approximability of input variables
+================================
+data : 100.000000%
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+Time taken: dct 25092 milliseconds

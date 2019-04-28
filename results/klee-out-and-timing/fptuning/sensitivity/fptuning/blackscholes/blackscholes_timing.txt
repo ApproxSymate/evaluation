@@ -1,0 +1,502 @@
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/blackscholes-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/klee-out-1/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input with error
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input values
+================================
+temp1 = 0.231642
+temp2 = 0.319382
+temp3 = -0.356564
+temp4 = 1.781478
+temp5 = -1.821256
+temp6 = 1.330274
+inv_sqrt_2xPI = 0.398942
+data_s = 10.000000
+data_strike = 1.000000
+data_r = -0.625000
+data_divq = 0.000000
+data_v = -0.500000
+data_t = 1.000000
+data_divs = 0.000000
+data_DGrefval = 4.759423
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+temp5 (input)
+temp6 (input)
+inv_sqrt_2xPI (input)
+data_s (input)
+data_strike (input)
+data_r (input)
+data_divq (input)
+data_v (input)
+data_t (input)
+data_divs (input)
+data_DGrefval (input)
+d2 (BlkSchlsEqEuroNoDiv)
+xInput (CNDF)
+xD2 (BlkSchlsEqEuroNoDiv)
+InputX (CNDF)
+xD1 (BlkSchlsEqEuroNoDiv)
+d1 (BlkSchlsEqEuroNoDiv)
+xLogTerm (BlkSchlsEqEuroNoDiv)
+logValues (BlkSchlsEqEuroNoDiv)
+strike (BlkSchlsEqEuroNoDiv)
+strike (main)
+xStrikePrice (BlkSchlsEqEuroNoDiv)
+sptprice (main)
+time (BlkSchlsEqEuroNoDiv)
+xTime (BlkSchlsEqEuroNoDiv)
+xPowerTerm (BlkSchlsEqEuroNoDiv)
+xDen (BlkSchlsEqEuroNoDiv)
+sptprice (BlkSchlsEqEuroNoDiv)
+xRiskFreeRate (BlkSchlsEqEuroNoDiv)
+xVolatility (BlkSchlsEqEuroNoDiv)
+rate (main)
+xSqrtTime (BlkSchlsEqEuroNoDiv)
+rate (BlkSchlsEqEuroNoDiv)
+otime (main)
+volatility (main)
+xStockPrice (BlkSchlsEqEuroNoDiv)
+volatility (BlkSchlsEqEuroNoDiv)
+xLocal (CNDF)
+xK2 (CNDF)
+xK2_2 (CNDF)
+xLocal_1 (CNDF)
+xK2_3 (CNDF)
+xLocal_2 (CNDF)
+xK2_4 (CNDF)
+xLocal_3 (CNDF)
+xK2_5 (CNDF)
+prices (bs_thread)
+OptionPrice (BlkSchlsEqEuroNoDiv)
+price (bs_thread)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+NofXd1 (BlkSchlsEqEuroNoDiv)
+OutputX (CNDF)
+expValues (CNDF)
+xNPrimeofX (CNDF)
+NofXd2 (BlkSchlsEqEuroNoDiv)
+FutureValueX (BlkSchlsEqEuroNoDiv)
+nThreads (main)
+numOptions (main)
+sptprice (main)
+strike (main)
+otime (main)
+volatility (main)
+rate (main)
+otype (main)
+i (main)
+data_OptionType (main)
+j (bs_thread)
+buffer2 (main)
+tid_ptr (bs_thread)
+buffer (main)
+start (bs_thread)
+timet (BlkSchlsEqEuroNoDiv)
+tid (bs_thread)
+sign (CNDF)
+tid (main)
+end (bs_thread)
+otype (BlkSchlsEqEuroNoDiv)
+i (bs_thread)
+
+Approximability of input variables
+================================
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+temp5 : 100.000000%
+temp6 : 100.000000%
+inv_sqrt_2xPI : 100.000000%
+data_s : 0.000000%
+data_strike : 57.142857%
+data_r : 28.571429%
+data_divq : 28.571429%
+data_v : 28.571429%
+data_t : 28.571429%
+data_divs : 28.571429%
+data_DGrefval : 28.571429%
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/blackscholes-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/klee-out-1/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input with error
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input values
+================================
+temp1 = 0.231642
+temp2 = 0.319382
+temp3 = -0.356564
+temp4 = 1.781478
+temp5 = -1.821256
+temp6 = 1.330274
+inv_sqrt_2xPI = 0.398942
+data_s = 10.000000
+data_strike = 1.000000
+data_r = -0.625000
+data_divq = 0.000000
+data_v = -0.500000
+data_t = 1.000000
+data_divs = 0.000000
+data_DGrefval = 4.759423
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+temp5 (input)
+temp6 (input)
+inv_sqrt_2xPI (input)
+data_s (input)
+data_strike (input)
+data_r (input)
+data_divq (input)
+data_v (input)
+data_t (input)
+data_divs (input)
+data_DGrefval (input)
+xD2 (BlkSchlsEqEuroNoDiv)
+xInput (CNDF)
+InputX (CNDF)
+d2 (BlkSchlsEqEuroNoDiv)
+xD1 (BlkSchlsEqEuroNoDiv)
+d1 (BlkSchlsEqEuroNoDiv)
+logValues (BlkSchlsEqEuroNoDiv)
+xLogTerm (BlkSchlsEqEuroNoDiv)
+strike (BlkSchlsEqEuroNoDiv)
+xStrikePrice (BlkSchlsEqEuroNoDiv)
+strike (main)
+sptprice (BlkSchlsEqEuroNoDiv)
+volatility (main)
+time (BlkSchlsEqEuroNoDiv)
+xRiskFreeRate (BlkSchlsEqEuroNoDiv)
+rate (BlkSchlsEqEuroNoDiv)
+xVolatility (BlkSchlsEqEuroNoDiv)
+sptprice (main)
+xTime (BlkSchlsEqEuroNoDiv)
+xDen (BlkSchlsEqEuroNoDiv)
+volatility (BlkSchlsEqEuroNoDiv)
+xStockPrice (BlkSchlsEqEuroNoDiv)
+xSqrtTime (BlkSchlsEqEuroNoDiv)
+rate (main)
+otime (main)
+xPowerTerm (BlkSchlsEqEuroNoDiv)
+xLocal (CNDF)
+xK2 (CNDF)
+xK2_2 (CNDF)
+xLocal_1 (CNDF)
+xK2_3 (CNDF)
+xLocal_2 (CNDF)
+xK2_4 (CNDF)
+xLocal_3 (CNDF)
+xK2_5 (CNDF)
+price (bs_thread)
+prices (bs_thread)
+OptionPrice (BlkSchlsEqEuroNoDiv)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+NofXd1 (BlkSchlsEqEuroNoDiv)
+OutputX (CNDF)
+expValues (CNDF)
+xNPrimeofX (CNDF)
+NofXd2 (BlkSchlsEqEuroNoDiv)
+FutureValueX (BlkSchlsEqEuroNoDiv)
+strike (main)
+nThreads (main)
+numOptions (main)
+sptprice (main)
+volatility (main)
+otype (main)
+otime (main)
+data_OptionType (main)
+rate (main)
+buffer2 (main)
+tid (main)
+buffer (main)
+otype (BlkSchlsEqEuroNoDiv)
+j (bs_thread)
+i (main)
+tid_ptr (bs_thread)
+start (bs_thread)
+timet (BlkSchlsEqEuroNoDiv)
+tid (bs_thread)
+sign (CNDF)
+i (bs_thread)
+end (bs_thread)
+
+Approximability of input variables
+================================
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+temp5 : 100.000000%
+temp6 : 100.000000%
+inv_sqrt_2xPI : 100.000000%
+data_s : 0.000000%
+data_strike : 57.142857%
+data_r : 28.571429%
+data_divq : 28.571429%
+data_v : 28.571429%
+data_t : 28.571429%
+data_divs : 28.571429%
+data_DGrefval : 28.571429%
+Config path: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/config.txt
+Source: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/blackscholes-symbolic.c
+Output: /home/himeshi/approxsymate-results/lctes/fptuning/blackscholes/klee-out-1/
+input error repeat = 10
+
+Selected path #:2
+
+Input variables
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input with error
+================================
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+inv_sqrt_2xPI
+data_s
+data_strike
+data_r
+data_divq
+data_v
+data_t
+data_divs
+data_DGrefval
+
+Input values
+================================
+temp1 = 0.231642
+temp2 = 0.319382
+temp3 = -0.356564
+temp4 = 1.781478
+temp5 = -1.821256
+temp6 = 1.330274
+inv_sqrt_2xPI = 0.398942
+data_s = 10.000000
+data_strike = 1.000000
+data_r = -0.625000
+data_divq = 0.000000
+data_v = -0.500000
+data_t = 1.000000
+data_divs = 0.000000
+data_DGrefval = 4.759423
+
+Input values satisfies path condition without error...
+
+Approximable variables (in increasing order of sensitivity)
+================================
+temp1 (input)
+temp2 (input)
+temp3 (input)
+temp4 (input)
+temp5 (input)
+temp6 (input)
+inv_sqrt_2xPI (input)
+data_s (input)
+data_strike (input)
+data_r (input)
+data_divq (input)
+data_v (input)
+data_t (input)
+data_divs (input)
+data_DGrefval (input)
+d2 (BlkSchlsEqEuroNoDiv)
+xInput (CNDF)
+InputX (CNDF)
+xD2 (BlkSchlsEqEuroNoDiv)
+d1 (BlkSchlsEqEuroNoDiv)
+xD1 (BlkSchlsEqEuroNoDiv)
+xLogTerm (BlkSchlsEqEuroNoDiv)
+logValues (BlkSchlsEqEuroNoDiv)
+strike (BlkSchlsEqEuroNoDiv)
+strike (main)
+xStrikePrice (BlkSchlsEqEuroNoDiv)
+sptprice (BlkSchlsEqEuroNoDiv)
+sptprice (main)
+rate (main)
+xStockPrice (BlkSchlsEqEuroNoDiv)
+xVolatility (BlkSchlsEqEuroNoDiv)
+xPowerTerm (BlkSchlsEqEuroNoDiv)
+volatility (BlkSchlsEqEuroNoDiv)
+volatility (main)
+xDen (BlkSchlsEqEuroNoDiv)
+rate (BlkSchlsEqEuroNoDiv)
+xRiskFreeRate (BlkSchlsEqEuroNoDiv)
+time (BlkSchlsEqEuroNoDiv)
+xSqrtTime (BlkSchlsEqEuroNoDiv)
+otime (main)
+xTime (BlkSchlsEqEuroNoDiv)
+xLocal (CNDF)
+xK2 (CNDF)
+xK2_2 (CNDF)
+xLocal_1 (CNDF)
+xK2_3 (CNDF)
+xLocal_2 (CNDF)
+xK2_4 (CNDF)
+xLocal_3 (CNDF)
+xK2_5 (CNDF)
+OptionPrice (BlkSchlsEqEuroNoDiv)
+price (bs_thread)
+prices (bs_thread)
+
+Non-approximable variables (in increasing order of sensitivity)
+================================
+NofXd1 (BlkSchlsEqEuroNoDiv)
+OutputX (CNDF)
+expValues (CNDF)
+xNPrimeofX (CNDF)
+NofXd2 (BlkSchlsEqEuroNoDiv)
+FutureValueX (BlkSchlsEqEuroNoDiv)
+numOptions (main)
+nThreads (main)
+sptprice (main)
+rate (main)
+otime (main)
+volatility (main)
+strike (main)
+otype (main)
+data_OptionType (main)
+buffer2 (main)
+i (main)
+buffer (main)
+otype (BlkSchlsEqEuroNoDiv)
+i (bs_thread)
+j (bs_thread)
+end (bs_thread)
+tid (bs_thread)
+tid (main)
+start (bs_thread)
+timet (BlkSchlsEqEuroNoDiv)
+tid_ptr (bs_thread)
+sign (CNDF)
+
+Approximability of input variables
+================================
+temp1 : 100.000000%
+temp2 : 100.000000%
+temp3 : 100.000000%
+temp4 : 100.000000%
+temp5 : 100.000000%
+temp6 : 100.000000%
+inv_sqrt_2xPI : 100.000000%
+data_s : 0.000000%
+data_strike : 57.142857%
+data_r : 28.571429%
+data_divq : 28.571429%
+data_v : 28.571429%
+data_t : 28.571429%
+data_divs : 28.571429%
+data_DGrefval : 28.571429%
+Time taken: blackscholes 58340 milliseconds
